@@ -1,0 +1,1463 @@
+Action(SiteID=Germany|Country=DE|Currency=EUR|Version=585|CC=UTF-8);ItemID;Title;SiteID;Currency;StartPrice;BuyItNowPrice;Quantity;Relationship;RelationshipDetails;CustomLabel
+Revise;120724800937;"ATS Notstromautomatik Netzfreischalter ATS Einheit Notstrom Generatoren 100kW";Germany;EUR;1008,00;;0;;;GEN232
+Revise;110687952951;"Gasregler Druckregler 2,5 Bar CFH DR112 DVGW geprüft Schlauchbruchsicherung";Germany;EUR;30,80;;98;;;HEATER053
+Revise;131035400121;"Gasregler Druckregler 1-4 Bar CFH DR115 DVGW geprüft stufenlos mit Manometer";Germany;EUR;32,80;;73;;;HEATER088
+Revise;121711338217;"Umlenkrolle 3.2/12t to 3200/12000 kg Seilwinde Seilzug Snatch Block Kloben";Germany;EUR;106,80;;48;;;HUB188
+Revise;121711342901;"Drahtseil 5mm, 10m mit Lasthaken passend zu Seilwinde 500kg (2t Bruchlast)";Germany;EUR;18,90;;70;;;HUB183
+Revise;131562624927;"Drahtseil 5mm, 20m mit Lasthaken passend zu Seilwinde 500kg (2t Bruchlast)";Germany;EUR;25,90;;48;;;HUB184
+Revise;111725069384;"Drahtseil 6mm, 10m mit Lasthaken passend zu Seilwinde 500-1200kg (3t Bruchlast)";Germany;EUR;19,90;;192;;;HUB185
+Revise;130960541045;"0.4L Vakuum Öl Vakuumpume Pumpe Kompressor Spezialöl Kompressoröl Kompressoren";Germany;EUR;15,90;;144;;;ZSPPACK0055
+Revise;131437331303;"Zylinderkopfdichtung zu 90ccm Benzinmotor zB Rotek,Lifan,Kama,Kipor,Lancin,Honda";Germany;EUR;10,00;;9;;;ZSPMOT00656
+Revise;131128672655;"Werkstattpresse 30t Hydraulikpresse pneumatisch Lagerpresse Pneumatik Presse";Germany;EUR;599,00;;48;;;WKZ023
+Revise;121285044110;"Werkstattpresse 50t Hydraulikpresse pneumatisch Lagerpresse Pneumatik Presse";Germany;EUR;999,00;;8;;;WKZ024
+Revise;131128680217;"Hydraulikpumpe Werkstattpressen 20 30 50 70 Tonnen 700bar, 1300ccm pneumatisch";Germany;EUR;139,00;;20;;;ZSPWKZ000048
+Revise;131128687212;"Prismenauflage Pressblock zu 20T Werkstattpresse Hydraulikpresse Dornpresse";Germany;EUR;32,00;;6;;;ZSPWKZ000012
+Revise;132034340884;"ATS Notstromautomatik Netzfreischalter ATS Einheit Notstrom Generatoren bis 30kW";Germany;EUR;678,00;;2;;;GEN231
+Revise;132126137493;"GFK Platte HGW 2372.1 FR4 EP GC 202 EPGC 1020x670mm Plattenstärke 0,2 mm";Germany;EUR;25,90;;49;;;EPGC202-0.2X1020X670
+Revise;112334829349;"GFK Platte HGW 2372.1 FR4 EP GC 202 EPGC 1020x670mm Plattenstärke 0,3 mm";Germany;EUR;26,90;;48;;;EPGC202-0.3X1020X670
+Revise;121421574267;"Segmenttypensatz mit Codierrad passend zu FS-CONT Continuouse Sealer erhaben";Germany;EUR;43,90;;99;;;ZSPPACK0078
+Revise;121421581953;"Segmenttypensatz Ziffern 0-9 passend zu FS-CONT Continuouse Sealer erhaben";Germany;EUR;29,90;;100;;;ZSPPACK0082
+Revise;121421584953;"Segmenttypensatz Buchstaben A-Z passend zu FS-CONT Continuouse Sealer erhaben";Germany;EUR;33,90;;100;;;ZSPPACK0083
+Revise;111446965521;"Motorabdeckung zu Vakuumpumpe VP-20 Rotek und kompatible Elektromotoren";Germany;EUR;19,90;;198;;;ZSPPACK0079
+Revise;111446969591;"Gewindenippel Ölanschluß zu Vakuumpumpe VP-20 Rotek Winkelnippel für 5mm Leitung";Germany;EUR;19,90;;49;;;ZSPPACK0080
+Revise;111446975779;"Schlauchstutzen Vakuumanschluß zu Vakuumpumpe VP-20 Rotek 1/2 Zoll Gewinde";Germany;EUR;19,90;;49;;;ZSPPACK0081
+Revise;121285328775;"Batterie Trennrelais 12V 200A 100A Relais KFZ PKW BOOT CAMPING WOHNMOBIL";Germany;EUR;19,90;;588;;;ZSPGEN00288
+Revise;111290199372;"Voltmeter Panelmeter 110V 100V AC 72x72mm Spannung Wechselspannung Generator";Germany;EUR;24,80;;7;;;ZSPGEN00189
+Revise;121711968632;"Kopfdichtung Stösselstangentunnel Ventiltunnel oval Kunststoff zu Yanmar L40/48";Germany;EUR;9,90;;40;;;ZSPMOT00102
+Revise;122270351456;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1020x670 mm, Plattenstärke Dicke 2 mm";Germany;EUR;64,90;;18;;;EPGC202-02X1020X670
+Revise;112237757093;"GFK Platte HGW 2372.1 (FR4) 1000x500 mm, Stärke 15 mm";Germany;EUR;244,90;;1;;;GFK006
+Revise;111204554388;"Pumpenrad Impeller zu Tauchpumpe WPE-TCM-1.5kW Rotek mit Schneidzahn";Germany;EUR;28,90;;99;;;ZSPPUM00193
+Revise;111204556289;"Pumpenrad Impeller zu Tauchpumpe WPE-TCH-1.5kW Rotek mit Schneidzahn";Germany;EUR;28,90;;99;;;ZSPPUM00112
+Revise;131036297781;"Pumpenrad Impeller zu Tauchpumpe WPE-TCM-7.5kW Rotek mit Schneidzahn";Germany;EUR;40,90;;100;;;ZSPPUM00152
+Revise;131467894111;"Zylinderkopfdichtung Y/TD/YD480 Dieselmotor z.Bsp. Rotek ED4W4R,Yangdong";Germany;EUR;29,90;;11;;;ZSPMOT00492
+Revise;131036299936;"Schneidplatte Cutter zu Tauchpumpe WPE-TCM-1.5kW Rotek mit Schneidzahn";Germany;EUR;34,90;;99;;;ZSPPUM00192
+Revise;122597100139;"Schleifring Schleifringe Bürsten Drehkontakt Kohlen für Generator STC 5/8/(12)";Germany;EUR;29,90;;48;;;ZSPGEN00254
+Revise;122597100991;"Stromerzeuger ohne Motor YHG-50 400V 50kW 60 kVA 3-phasig Synchron Generator AVR";Germany;EUR;2049,00;;2;;;GEN220
+Revise;112480019628;"Stromerzeuger YHG-30-PMG 400V 30kW 3-phasig Synchron Generator SAE3/11.5 AVR";Germany;EUR;1769,00;;2;;;GEN219
+Revise;112480024400;"Stromerzeuger ohne Motor STC-8 400V 8kW 3-phasig Synchron Generator STC 8 kW AVR";Germany;EUR;549,00;;5;;;GEN116
+Revise;132259750698;"Stromerzeuger ohne Motor STC-5 400V 5kW 3-phasig Synchron Generator STC 5 kW AVR";Germany;EUR;529,00;;10;;;GEN115
+Revise;121605715238;"Kühler Wasserkühler universal f. Rotek 12kW Generatoren bzw. Dieselmotor YD480D";Germany;EUR;278,90;;8;;;ZSPGEN00239
+Revise;131681737461;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1020x670 mm Plattenstärke Dicke 1.5mm";Germany;EUR;59,90;;19;;;EPGC202-1.5X1020X670
+Revise;122957234710;"Lebensmittelechte Pumpe 6.5l/min 0,85 bar 24V Wasserkühlung Dauerbetrieb Solar";Germany;EUR;23,90;;644;;;PUM373
+Revise;121845651843;"Schweißdraht Edelstahl Schutzgas MIG E316L 0,8mm 5kg V2A V4A 1.4430";Germany;EUR;91,90;;96;;;SCHWEISS028
+Revise;121579312266;"Zylinderkopfdichtung 160ccm Benzinmotor z.B. Rotek,Lifan,Kama,Kipor,Lancin,Honda";Germany;EUR;12,00;;28;;;ZSPMOT00428
+Revise;111606651316;"Zylinderkopfdichtung 200ccm Blech Benzinmotor z.B. Rotek,Lifan,Kama,Kipor,Honda";Germany;EUR;12,00;;8;;;ZSPMOT00427
+Revise;121579327393;"Zylinderkopfdichtung 240ccm Benzinmotor z.B. Rotek,Lifan,Kama,Kipor,lancin,Honda";Germany;EUR;12,00;;5;;;ZSPMOT00431
+Revise;131438318735;"Zylinderkopfdichtung 270ccm Benzinmotor f Rotek,Lifan,Kama,Kipor,Lancin,Honda GX";Germany;EUR;12,00;;64;;;ZSPMOT00430
+Revise;131438321654;"Zylinderkopfdichtung 390ccm Benzinmotor f Rotek,Lifan,Kama,Kipor,Lancin,Honda GX";Germany;EUR;12,00;;41;;;ZSPMOT00432
+Revise;111606689293;"Zylinderkopfdichtung 614ccm 2-Zylinder Benzinmotor zB Rotek,Kama,Kipor,Honda GX";Germany;EUR;12,00;;6;;;ZSPMOT00823
+Revise;131438337879;"Zylinderkopfdichtung 210ccm Dieselmotor zB Rotek,Kama,Kipor,Yanmar L40, F210";Germany;EUR;11,00;;61;;;ZSPMOT00375
+Revise;121579386680;"Zylinderkopfdichtung 300ccm Dieselmotor zB Rotek,Kama,Kipor,Yanmar L60, F/FA178";Germany;EUR;11,00;;35;;;ZSPMOT00548
+Revise;111606727325;"Zylinderkopfdichtung 954ccm 2-Zylinder Dieselmotor z.Bsp. Rotek,Kipor,Lombardini";Germany;EUR;14,90;;24;;;ZSPMOT00828
+Revise;111341232556;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 3200kg 3,2 to ohne Seil";Germany;EUR;166,90;;124;;;ZSPHUB00224
+Revise;120793505614;"Kettenflaschenzug Kettenzug Flaschenzug Hebezug Seilzug Handkran 10000kg 10t to";Germany;EUR;499,90;;9;;;HUB059
+Revise;121331565220;"Stahlseil 16mm 60m Seilzug Greifzug Seilwinde Forstseilwinde Winde 3200kg 3,2t";Germany;EUR;338,00;;14;;;ZSPHUB00221
+Revise;121992408534;"Regelkondensator 14uF 450V AC Motorkondensator Anlaufkondensator Spannungsregler";Germany;EUR;16,80;;185;;;ZSPGEN00137
+Revise;131820801987;"Voltmeter Panelmeter 380/400V 500V AC 96x96mm Spannung Wechselspannung Generator";Germany;EUR;24,80;;90;;;ZSPGEN00324
+Revise;131820813871;"Schalttafel Leuchte Signalleuchte Signallampe LED 230V Gelb 29mm Schaltschrank";Germany;EUR;1,00;;4;;;ZSPGEN00281
+Revise;121992425186;"Schalttafel Leuchte Signalleuchte Signallampe LED 230V Blau 29mm Schaltschrank";Germany;EUR;1,90;;243;;;ZSPGEN00283
+Revise;121992428944;"Schalttafel Leuchte Signalleuchte Signallampe LED 400V Rot 29mm Schaltschrank";Germany;EUR;1,90;;97;;;ZSPGEN00127
+Revise;121992434107;"Solid State SSR Halbleiterrelais Relais 90A 75-480VAC Ansteuerung 5-24 VDC";Germany;EUR;20,50;;51;;;ZSPGEN00302
+Revise;111422925948;"Ölsensor Controller Zündunterbrecher Ölstand Ölmangelsicherung Rotek,Honda,Kipor";Germany;EUR;13,90;;75;;;ZSPMOT00442
+Revise;132326451137;"Heizkanone Ölheizgerät Diesel Heizgerät Dieselheizer Ölheizer 20kW Thermostat";Germany;EUR;258,90;;73;;;HEATER081
+Revise;132326453257;"Heizkanone Ölheizgerät Diesel Heizgerät Dieselheizer Bauheizer 30kW Thermostat";Germany;EUR;298,90;;196;;;HEATER068
+Revise;122701587124;"Heizkanone Ölheizgerät Diesel Heizgerät Dieselheizer Bauheizer Hallenheizer 50kW";Germany;EUR;358,90;;78;;;HEATER080
+Revise;122701594505;"Heizkanone Heizgerät Bauheizer Ölheizer Dieselheizer Bautrockner Kamin 30kW";Germany;EUR;749,90;;38;;;HEATER083
+Revise;132326466613;"Heizkanone Ölheizgerät Diesel Heizgerät Kaminanschluß Indirekt 50kW Thermostat";Germany;EUR;889,90;;32;;;HEATER084
+Revise;122271451310;"Schweisstrafo Vakuumsealer Vakuumierer Folienschweisser Styroporschneider 400V";Germany;EUR;129,90;;2;;;ZSPPACK0108
+Revise;112100026397;"100 Stk. (1 Packung) Kabelbinder 370mm x 7.6mm, Farbe Schwarz, UV Beständig 55kg";Germany;EUR;7,90;;990;;;KBIND096
+Revise;131912347985;"100 Stk. (1 Packung) Kabelbinder 370mm x 7.6mm, Farbe Natur, 55kg";Germany;EUR;7,90;;1000;;;KBIND097
+Revise;111631800150;"Stellring Spannmutter Spannring zu Hydraulikzylinder 20T M75x2.0mm";Germany;EUR;14,90;;4;;;ZSPWKZ000037
+Revise;111631801176;"Lastmutter Lastaufnahme Spannmutter Spannring zu Hydraulikzylinder 20T M75x2.0mm";Germany;EUR;17,90;;5;;;ZSPWKZ000038
+Revise;111752302927;"Spannungsregler AVR zu 3 Phasige 400V STC Generatoren, 5-50kW, 400V, 50Hz";Germany;EUR;29,90;;28;;;ZSPGEN00018
+Revise;111631803056;"Lastmutter Lastaufnahme Spannmutter Spannring zu Hydraulikzylinder 30T M92x2.0mm";Germany;EUR;18,90;;9;;;ZSPWKZ000040
+Revise;131469000084;"Stellring Spannmutter Spannring zu Hydraulikzylinder 20T M92x2.0mm";Germany;EUR;15,90;;9;;;ZSPWKZ000039
+Revise;121423188007;"Absteller Abstellmotor Solenoid Stopmagnet Magnetventil 12V ETS Stellmotor";Germany;EUR;24,90;;211;;;ZSPGEN00157
+Revise;122497849646;"Seilwinde Forstwinde Winde 500kg Nennlast mit 10m Drahtseil D5mm 7x19 inkl.Haken";Germany;EUR;45,90;;69;;;SET#HUB177+HUB183
+Revise;131282566923;"Absteller Abstellmotor Solenoid Stopmagnet Magnetventil 12V ETR Stellmotor";Germany;EUR;24,90;;103;;;ZSPGEN00176
+Revise;121423195138;"Absteller Abstellmotor Solenoid Stopmagnet Magnetventil 24V ETR Stellmotor";Germany;EUR;24,90;;44;;;ZSPGEN00177
+Revise;132192899195;"Seilwinde Forstwinde Winde 500kg Nennlast mit 10m Drahtseil D6mm 7x19 inkl.Haken";Germany;EUR;47,90;;95;;;SET#HUB177+HUB185
+Revise;122497868119;"Seilwinde Forstwinde Winde 800kg Nennlast mit 10m Drahtseil D5mm 7x19 inkl.Haken";Germany;EUR;67,90;;70;;;SET#HUB178+HUB183
+Revise;122497871117;"Seilwinde Forstwinde Winde 800kg Nennlast mit 20m Drahtseil D5mm 7x19 inkl.Haken";Germany;EUR;73,90;;49;;;SET#HUB178+HUB184
+Revise;121846411359;"Silent Stromerzeuger 14kVA Stromaggregat 230/400V 3Phase Notstromaggregat Diesel";Germany;EUR;3639,00;;15;;;GEN211
+Revise;132192905990;"Seilwinde Forstwinde Winde 800kg Nennlast mit 10m Drahtseil D6mm 7x19 inkl.Haken";Germany;EUR;68,90;;93;;;SET#HUB178+HUB185
+Revise;121846412332;"Stromerzeuger 14kVA Stromaggregat 230/400V 3Ph Notstromaggregat Generator Diesel";Germany;EUR;2999,00;;10;;;GEN209
+Revise;132192907793;"Seilwinde Forstwinde Winde 800kg Nennlast mit 18m Drahtseil D6mm 7x19 inkl.Haken";Germany;EUR;74,90;;50;;;SET#HUB178+HUB186
+Revise;111856113679;"Silent Stromerzeuger 12kVA Stromaggregat 230/400V 3Phase Notstromaggregat Benzin";Germany;EUR;2799,00;;8;;;GEN207
+Revise;122497882050;"Seilwinde Forstwinde Winde 1200kg Nennlast mit 18m Drahtseil D6mm 7x19 mit Haken";Germany;EUR;82,90;;50;;;SET#HUB179+HUB186
+Revise;132192911954;"Seilwinde Forstwinde Winde 1200kg Nennlast mit 10m Drahtseil D6mm 7x19 mit Haken";Germany;EUR;76,90;;95;;;SET#HUB179+HUB185
+Revise;122497885516;"Seilwinde Forstwinde Winde 1000kg Nennlast mit 20m Drahtseil D5mm 7x19 mit Haken";Germany;EUR;80,90;;49;;;SET#HUB179+HUB184
+Revise;122497886627;"Seilwinde Forstwinde Winde 1000kg Nennlast mit 10m Drahtseil D5mm 7x19 mit Haken";Germany;EUR;74,90;;70;;;SET#HUB179+HUB183
+Revise;122702167587;"5 Stk. Scherstift zu 800kg 0,8to Greifzug Forstseilwinde Seilwinde Seilzug Winde";Germany;EUR;19,90;;117;;;SET#ZSPHUB00020#X005
+Revise;112561354538;"5 Stk. Scherstift für Seilzug Greifzug Seilwinde Winde 1600kg 1,6/3200kg 3,2t to";Germany;EUR;19,90;;185;;;SET#ZSPHUB00021#X005
+Revise;132326817717;"Griffstange Hebel Handhebel für Seilzug Greifzug Winde 1600kg 1,6 3200kg 3,2t to";Germany;EUR;38,90;;18;;;ZSPHUB00016
+Revise;121077668479;"Schweißdraht SG2 Schutzgas MIG SG-2 Ti 0,8mm 15kg speziell f. KFZ verrostet Zink";Germany;EUR;118,90;;181;;;SCHWEISS074
+Revise;112685494082;"Temperaturregler Temperaturregelung Regler 0-400°C Temperaturanzeige digital ""E""";Germany;EUR;35,00;;9;;;ZSPPACK0085
+Revise;112685495953;"Thermosensor Temperatursensor Thermokoppler Einschraubsensor Type ""E"" M6 Coupler";Germany;EUR;14,00;;27;;;ZSPPACK0063
+Revise;131282731046;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NC 110°C/85°C";Germany;EUR;8,80;;77;;;HEATER103
+Revise;131282732888;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NC 90°C/75°C";Germany;EUR;8,80;;303;;;HEATER106
+Revise;121423377355;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NC 100°C/75°C";Germany;EUR;8,80;;93;;;HEATER107
+Revise;131439452852;"Zylinderkopfdichtung ZS1105 Dieselmotor z.Bsp. Rotek,Changfa, Changchai";Germany;EUR;21,00;;35;;;ZSPMOT00486
+Revise;121423379380;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NC 120°C/90°C";Germany;EUR;8,80;;84;;;HEATER108
+Revise;121580490846;"Zylinderkopfdichtung L28PEM Dieselmotor z.Bsp. Rotek,Changfa, Changchai";Germany;EUR;21,00;;2;;;ZSPMOT00566
+Revise;121580494070;"Zylinderkopfdichtung K2100D Dieselmotor z.Bsp. Rotek,Huafengdongli,Changfa,Huafa";Germany;EUR;21,00;;2;;;ZSPMOT00485
+Revise;131282749049;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NC 130°C/100°C";Germany;EUR;8,80;;76;;;HEATER109
+Revise;131439467615;"Zylinderkopfdichtung K495D Dieselmotor z.Bsp. Rotek,Huafengdongli,Changfa,Huafa";Germany;EUR;21,00;;42;;;ZSPMOT00728
+Revise;121423394525;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NC 140°C/110°C";Germany;EUR;8,80;;82;;;HEATER110
+Revise;131282754713;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NO 60°C/45°C";Germany;EUR;1,50;;18;;;HEATER111
+Revise;121423400835;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NO 70°C/55°C";Germany;EUR;8,80;;93;;;HEATER112
+Revise;121423402715;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NO 80°C/65°C";Germany;EUR;8,80;;93;;;HEATER113
+Revise;111448712513;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NO 90°C/75°C";Germany;EUR;8,80;;98;;;HEATER114
+Revise;111448714753;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301/302 NO 100°C/75°C";Germany;EUR;8,80;;93;;;HEATER115
+Revise;121580507465;"Zylinderkopfdichtung K4100/4102 Dieselmotor z.Bsp. Rotek,Huafengdongli,Changfa";Germany;EUR;21,00;;56;;;ZSPMOT00484
+Revise;131439480330;"Zylinderkopfdichtung R4105ZD1 Dieselmotor z.Bsp. Rotek,Huafengdongli,Ricardo";Germany;EUR;22,00;;15;;;ZSPMOT00480
+Revise;121423413886;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NC 90°C/75°C VERT";Germany;EUR;8,80;;99;;;HEATER116
+Revise;121580514872;"Zylinderkopfdichtung Y/YD/TD/YSAD380 Dieselmotor z.Bsp. Rotek ED4W3R,Yangdong";Germany;EUR;21,00;;11;;;ZSPMOT00491
+Revise;121423416407;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NC 100°C/75°C VERT";Germany;EUR;8,80;;94;;;HEATER117
+Revise;111448726754;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NC 110°C/85°C VERT";Germany;EUR;8,80;;90;;;HEATER118
+Revise;121423419912;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NC 120°C/90°C VERT";Germany;EUR;8,80;;87;;;HEATER104
+Revise;131229748788;"Vakuumsealer Vakuumierer Magnetventil Doppelventil Ventilblock 24V VC-400 Ersatz";Germany;EUR;79,90;;11;;;ZSPPACK0065
+Revise;121423421780;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NC 130C/100°C VERT";Germany;EUR;8,80;;85;;;HEATER119
+Revise;111448732694;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NC 140C/110°C VERT";Germany;EUR;8,80;;71;;;HEATER120
+Revise;131229754073;"Silikon Andruckstreifen mit Halter 400mm Schweißbalken Vakuumverpackungsmaschine";Germany;EUR;29,90;;45;;;ZSPPACK0066
+Revise;131282781652;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NO 60°C/45°C VERT";Germany;EUR;8,80;;84;;;HEATER121
+Revise;131229756797;"Silikon Andruckstreifen mit Halter 600mm Schweißbalken Vakuumverpackungsmaschine";Germany;EUR;32,90;;49;;;ZSPPACK0067
+Revise;121423429270;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NO 70°C/55°C VERT";Germany;EUR;8,80;;96;;;HEATER122
+Revise;111607712445;"Zylinderkopfdichtung Y/TD/YD385 Dieselmotor z.Bsp. Rotek ED4W3R,Yangdong";Germany;EUR;21,00;;7;;;ZSPMOT00568
+Revise;131282784704;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NO 80°C/65°C VERT";Germany;EUR;8,80;;89;;;HEATER123
+Revise;131282786551;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NO 90°C/75°C VERT";Germany;EUR;8,80;;91;;;HEATER124
+Revise;121580544309;"Zylinderkopfdichtung Y/YD/TD/YSAD480 Dieselmotor z.Bsp. Rotek ED4W4R,Yangdong";Germany;EUR;24,00;;0;;;ZSPMOT00493
+Revise;121423437394;"Thermoschalter Klixon Thermosicherung Bimetallschalter KSD301 NO 100°C/75°C VERT";Germany;EUR;8,80;;90;;;HEATER125
+Revise;111396610508;"Schweißbalken komplett 600mmx10mm für Vakuumverpackungsmaschine Folienschweisser";Germany;EUR;59,90;;7;;;ZSPPACK0069
+Revise;131282792713;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 90°C/75°C";Germany;EUR;8,80;;90;;;HEATER126
+Revise;131282794834;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 100°C/75°C";Germany;EUR;8,80;;86;;;HEATER127
+Revise;131282796576;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 110°C/85°C";Germany;EUR;8,80;;92;;;HEATER128
+Revise;121423447879;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 120°C/90°C";Germany;EUR;8,80;;95;;;HEATER129
+Revise;121423453887;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NO 60°C/45°C";Germany;EUR;8,80;;91;;;HEATER132
+Revise;131282805360;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NO 70°C/55°C";Germany;EUR;8,80;;95;;;HEATER133
+Revise;121375719196;"Folienhalter Beutelhalter zu Vakuumverpackungsmaschine Folienschweisser 600mm";Germany;EUR;20,90;;47;;;ZSPPACK0071
+Revise;131282806976;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NO 80°C/65°C";Germany;EUR;8,80;;99;;;HEATER134
+Revise;121423460647;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NO 90°C/75°C";Germany;EUR;8,80;;93;;;HEATER135
+Revise;131282810569;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NO 100°C/75°C";Germany;EUR;8,80;;92;;;HEATER136
+Revise;131229803507;"Deckel Abdeckung zu Vakuumierer Vakuumkammer Degassing 600mm Vakuumsealer Vakuum";Germany;EUR;199,90;;29;;;ZSPPACK0072
+Revise;121375764269;"Stabförderkette zu Schrumpftunnel B250 Rollförderkette Reparaturkit Kettenglied";Germany;EUR;15,90;;100;;;ZSPPACK0074
+Revise;131229822345;"Stabförderkette zu Schrumpftunnel B300 Rollförderkette Reparaturkit Kettenglied";Germany;EUR;15,90;;100;;;ZSPPACK0075
+Revise;131229824203;"Stabförderkette zu Schrumpftunnel B400 Rollförderkette Reparaturkit Kettenglied";Germany;EUR;16,90;;99;;;ZSPPACK0076
+Revise;111396697391;"Stabförderkette zu Schrumpftunnel B650 Rollförderkette Reparaturkit Kettenglied";Germany;EUR;17,90;;99;;;ZSPPACK0077
+Revise;121872426184;"Zündtrafo Zündtransformator 1x15kV 33%ED kompatibel zu Danfoss EBI 052F0030";Germany;EUR;24,90;;55;;;HEATER101
+Revise;112686585356;"Schweißelektrode Edelstahl 1.4430 (E316L, V4A, VA4) Stabelektrode 2,0mmx300 1kg";Germany;EUR;29,90;;98;;;SCHWEISS049
+Revise;132432058551;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 2.0mmx300 4.0 kg";Germany;EUR;86,90;;100;;;SCHWEISS018
+Revise;132432059188;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 2.5mmx300 1.0 kg";Germany;EUR;27,90;;98;;;SCHWEISS050
+Revise;132432059539;"Schweißelektrode Edelstahl 1.4430 (E316L, V4A, VA4) Stabelektrode 2,5mmx300 4kg";Germany;EUR;80,90;;97;;;SCHWEISS019
+Revise;120311918797;"Sicherungsautomat Motorschutzschalter 3pol 8A 400V NEU";Germany;EUR;38,90;;28;;;ZSPGEN00026
+Revise;110689448769;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1065x650 mm, Plattenstärke 8,0 mm";Germany;EUR;193,90;;2;;;GFK011
+Revise;120726306476;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1300x1065 mm, Plattenstärke 5,0 mm";Germany;EUR;254,90;;3;;;GFK023
+Revise;131180989415;"6x18mm Stahlkette Zugkette Lastkette Hebekette Forstkette Kette G80 Meterware";Germany;EUR;8,90;;190;;;ZSPHUB00226
+Revise;110860255618;"Industrie Impuls Folienschweißgerät Balkenschweißgerät Balken PVCSealer 600x10mm";Germany;EUR;338,90;;14;;;PACK020
+Revise;131180992891;"8x24mm Stahlkette Zugkette Lastkette Hebekette Forstkette Kette G80 Meterware";Germany;EUR;9,90;;95;;;ZSPHUB00190
+Revise;120311946350;"Luftreifen auf Stahlfelge 260x80mm 160kg Tragkraft NEU";Germany;EUR;78,00;;6;;;ZSPHUB00008
+Revise;110294686750;"Luftreifen auf Stahlfelge 400x100mm 215kg Tragkraft NEU";Germany;EUR;129,00;;6;;;ZSPHUB00009
+Revise;110294687234;"Hydraulikeinheit 150mm Hub für Hubwagen Type RT NEU OVP";Germany;EUR;184,00;;2;;;ZSPHUB00010
+Revise;111292460056;"300/5A Stromwandler 300/150/100/75/50/25A auf 5A für Amperemeter 300A:5A";Germany;EUR;16,90;;84;;;ZSPGEN00310
+Revise;110294689857;"Sicherungssplint für Sicherungsbolzen Werkstattkran";Germany;EUR;7,00;;50;;;ZSPHUB00014
+Revise;121332821367;"4/6/8/10mm Stahlkette Zugkette Lastkette Hebekette Forstkette Kette G80 p. Meter";Germany;EUR;;;;;"Dimension=4x12mm verzinkt;6x18mm brünniert;8x24mm brünniert;10x30mm brünniert;4.8x25mm Haspelkette verzinkt;4.8x25mm Kettenschloß;5.0x23.7mm Haspelkette verzinkt;5.0x23.7mm Kettenschloss";VAR#STAHLKETTE001
+;;;;;4,90;;114;Variation;"Dimension=4.8x25mm Haspelkette verzinkt";ZSPHUB00230
+;;;;;3,90;;40;Variation;"Dimension=4.8x25mm Kettenschloß";ZSPHUB00231
+;;;;;7,90;;248;Variation;"Dimension=4x12mm verzinkt";ZSPHUB00193
+;;;;;8,90;;79;Variation;"Dimension=6x18mm brünniert";ZSPHUB00226
+;;;;;9,90;;70;Variation;"Dimension=8x24mm brünniert";ZSPHUB00190
+;;;;;10,90;;89;Variation;"Dimension=10x30mm brünniert";ZSPHUB00227
+;;;;;4,90;;41;Variation;"Dimension=5.0x23.7mm Haspelkette verzinkt";ZSPHUB00243
+;;;;;3,90;;69;Variation;"Dimension=5.0x23.7mm Kettenschloss";ZSPHUB00244
+Revise;132432284162;"Industrie Impuls Folienschweißgerät Balkenschweißgerät Trennschweisser Hot Knife";Germany;EUR;358,90;;2;;;PACK099
+Revise;112686948748;"Industrie Impuls Folienschweißgerät Balkenschweißgerät Trennschweisser + Naht";Germany;EUR;398,90;;2;;;PACK100
+Revise;111975884968;"GFK Platte HGW 2372.1 FR4 EP GC 202 EPGC 1020x670mm Plattenstärke 0,4 mm";Germany;EUR;29,90;;46;;;EPGC202-0.4X1020X670
+Revise;110305888388;"Sicherung Schmelzsicherung 20A gross inkl. Halter NEU";Germany;EUR;9,90;;5;;;SET#ZSPGEN00121+ZSPGEN00123
+Revise;120326314736;"Sicherung Schmelzsicherung 32A gross inkl. Halter NEU";Germany;EUR;9,90;;4;;;SET#ZSPGEN00122+ZSPGEN00123
+Revise;122357009153;"Tauchpumpe Schmutzwasserpumpe Schneidwerk Cutter Baupumpe Teichpumpe Pumpe";Germany;EUR;1299,90;;0;;;PUM206
+Revise;130923828042;"Einbaunetzteil LED Netzadapter Netzteil Trafo Driver 110/230V auf 12V DC 5A 60W";Germany;EUR;17,90;;9;;;ZSPGEN00267
+Revise;111091207982;"Einbaunetzteil LED Netzadapter Netzteil Trafo 110/230V auf 24V DC 4.5A 100W";Germany;EUR;23,90;;10;;;ZSPGEN00268
+Revise;111342913559;"Lasthaken Kranhaken Anschlaghaken Forsthaken 30mm 250kg 4mm Kette G80 Sicherung";Germany;EUR;18,90;;9;;;ZSPHUB00194
+Revise;111342921332;"Lasthaken Kranhaken Anschlaghaken Forsthaken 35mm 1500kg 8mm Kette G80 Sicherung";Germany;EUR;21,90;;14;;;ZSPHUB00191
+Revise;131181156983;"Kettensicherung für 4mm Stahlkette Zugkette Lastkette Hebekette Forstkette Kette";Germany;EUR;14,80;;496;;;ZSPHUB00196
+Revise;131181166968;"Kettensicherung für 6/8/10mm Stahlkette Zugkette Lastkette Hebekette Kette Ring";Germany;EUR;14,80;;499;;;ZSPHUB00192
+Revise;122313556121;"Zündkerze Zündelektode 15/30/50kW Gasheizkanone Gasheizer Gasbrenner Gaskanone";Germany;EUR;19,90;;23;;;ZSPHEATER068
+Revise;122313564404;"Zündkerze Zündelektrode 20/30/50kW Ölheizkanone Ölheizer Ölbrenner Heizkanone";Germany;EUR;19,90;;0;;;ZSPHEATER071
+Revise;112687420557;"Schweisstrafo Vakuumsealer Vakuumierer Folienschweisser Styroporschneider 600VA";Germany;EUR;149,90;;3;;;ZSPPACK0159
+Revise;132066976714;"mittleres Zahnrad zu Bandantrieb PM-FS-CONT Folienschweissmaschine Rotek DBF900";Germany;EUR;24,90;;10;;;ZSPPACK0125
+Revise;132066979125;"Schneckenrad zu Winkelgetriebe PM-FS-CONT Folienschweissmaschine Rotek DBF900";Germany;EUR;24,90;;10;;;ZSPPACK0126
+Revise;132432585496;"Gewindenippel Ölanschluß zu Vakuumpumpe VP-20 Rotek Winkelnippel 4mm Leitung";Germany;EUR;19,90;;22;;;ZSPPACK0175
+Revise;112687440806;"Gewindenippel Ölanschluß zu Vakuumpumpe VP-20 Rotek Winkelnippel 6mm Leitung";Germany;EUR;19,90;;9;;;ZSPPACK0160
+Revise;122313582123;"Klemmblock Trafoklemme Klemmleiste 3 polig 45A M4 mit Abdeckleiste";Germany;EUR;14,90;;7;;;ZSPPACK0136
+Revise;132066986342;"Klemmblock Trafoklemme Klemmleiste 4 polig 25A M4 mit Abdeckleiste";Germany;EUR;14,90;;8;;;ZSPPACK0135
+Revise;132432594334;"Kunststoffmutter Deckelarretierung zu Vakuumierer VC-400-T ab V1605 Rotek";Germany;EUR;19,90;;34;;;ZSPPACK0161
+Revise;122857575329;"Drilldraht Twist Wire Beuteverschluss Twisting Tie Zwirbeldraht 1000m Rolle Gold";Germany;EUR;39,90;;10;;;ZSPPACK0162
+Revise;112687486040;"Deckel Assembly Ersatzteil zu Rotek VP-20 XP-20 Vakuumpumpe Sparepart Lid Assy";Germany;EUR;34,90;;8;;;ZSPPACK0163
+Revise;112687492518;"Ölabscheider Ausgangsfilter Oil Mist Filter zu Vakuumpumpe VP-65 Rotek";Germany;EUR;79,90;;5;;;ZSPPACK0164
+Revise;132432620708;"Ölfilter Umlauffilter Filter zu Vakuumpumpe VP-65 Rotek";Germany;EUR;73,90;;10;;;ZSPPACK0165
+Revise;112687513764;"Gasballast Filter Metallfilter zu Vakuumpumpe VP-65 Rotek";Germany;EUR;21,90;;5;;;ZSPPACK0166
+Revise;132432630825;"Silikonschlauch grau zu Schrumpftunnel BS-xx di=10mm, da=13mm grau, pro Meter";Germany;EUR;3,50;;186;;;ZSPPACK0150
+Revise;112687531310;"Front Panel Sticker Frontplatte zu Rotek Vakuumierer Panel VC-400/600/6002";Germany;EUR;19,90;;50;;;ZSPPACK0167
+Revise;112687548857;"Deckel Scharnierset zu VC-400-T Rotek Vakuumierer V1606";Germany;EUR;24,90;;19;;;ZSPPACK0168
+Revise;131659739651;"GFK Platte HGW 2372.1 FR4 EP GC 202 EPGC 1020x670mm Plattenstärke 20,0 mm";Germany;EUR;344,90;;50;;;EPGC202-20X1020X670
+Revise;121287843414;"Solid State SSR Halbleiterrelais Relais 40A 75-480VAC Ansteuerung 5-24 VDC";Germany;EUR;14,59;;0;;;ZSPGEN00300
+Revise;111292792604;"Solid State SSR Halbleiterrelais Relais 40A 75-480VAC Ansteuerung 100-240 VAC";Germany;EUR;14,59;;30;;;ZSPGEN00301
+Revise;131131821931;"Solid State SSR Halbleiterrelais Relais 90A 75-480VAC Ansteuerung 100-240 VAC";Germany;EUR;20,50;;39;;;ZSPGEN00303
+Revise;122230447882;"6V 8Ah Bleiakku Modellbau Bleibatterie Battery Bateria Aku wie 5Ah 6Ah 7Ah";Germany;EUR;15,00;;79;;;BAT042
+Revise;110689859898;"Spannungsregler AVR Universal Generatoren 3A Erregung";Germany;EUR;49,90;;104;;;ZSPGEN00067
+Revise;111398130468;"Benzinmotor 4-Takt 13 PS Kartmotor Benzin Motor 10 kW Standmotor OHV 4T NEU";Germany;EUR;294,90;;20;;;MOT117
+Revise;131231301071;"Dieselmotor 6,7PS Diesel Motor 5kW Kleindiesel Elektrostart Lichtmaschine L60L70";Germany;EUR;519,90;;21;;;MOT129
+Revise;121376982255;"Dieselmotor 11PS Diesel Motor 7,8kW Generator EStart konisch Konus L75 L90 L100";Germany;EUR;619,90;;8;;;MOT134
+Revise;121769801025;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1065x650 mm, Plattenstärke 0,6 mm";Germany;EUR;56,90;;6;;;GFK035
+Revise;120312300987;"Unterdrucksystem Rückschlagventil Autojoker Generator";Germany;EUR;15,00;;34;;;ZSPMOT00353
+Revise;110306193201;"Wassertemperaturanzeige 40-120°C 12V inkl. Sensor NEU";Germany;EUR;69,90;;5;;;SET#ZSPMOT00535+ZSPMOT00419
+Revise;111069363774;"LiMa Laderegler Lichtmaschinenregler 12V Gleichstrom JFT149 Erregung 12 Volt NEU";Germany;EUR;14,90;;41;;;ZSPGEN00037
+Revise;110306198175;"Wassertemperaturanzeige 40-120°C 24V inkl. Sensor NEU";Germany;EUR;69,90;;4;;;SET#ZSPMOT00536+ZSPMOT00419
+Revise;120326747852;"Öltemperaturanzeige 40-120°C 12V inkl. Sensor NEU";Germany;EUR;44,90;;4;;;SET#ZSPMOT00537+ZSPMOT00551
+Revise;110306201445;"Öltemperaturanzeige 40-120°C 24V inkl. Sensor NEU";Germany;EUR;44,90;;8;;;SET#ZSPMOT00538+ZSPMOT00551
+Revise;110689899642;"300A Amperemeter für Stromwandler 80x80 300/5A Strom 300A/5A Ampere Meter";Germany;EUR;19,90;;17;;;ZSPGEN00111
+Revise;110689911609;"300A Amperemeter für Stromwandler 72x72 300/5A Strom 300A/5A Ampere Meter";Germany;EUR;19,90;;11;;;ZSPGEN00149
+Revise;110306208605;"Öldruckanzeige 0-8 Bar 24V Einbau inkl. Sensor NEU";Germany;EUR;69,90;;9;;;ZSPMOT00360
+Revise;120726741869;"Generator STARTER Anlaufmodul bei geringer Remanenzspannung GAVR AVR Regler";Germany;EUR;119,00;;13;;;ZSPGEN00171
+Revise;120726742606;"Thermostat 0-40°C 16A 400V f. 5kW Heizlüfter NEU";Germany;EUR;34,90;;69;;;HEATER009
+Revise;131085021979;"Stufenschalter Hauptschalter 3kW 230V Heizlüfter 3Stufig 5polig Nockenschalter";Germany;EUR;14,80;;0;;;HEATER018
+Revise;120326765454;"Öldruckanzeige 0-8 Bar 12V Einbau inkl. Sensor NEU";Germany;EUR;69,90;;7;;;SET#ZSPMOT00539+ZSPMOT00418
+Revise;132098115540;"Vakuumsealer Vakuumierer Ersatzteil T-Stück mit Nippel VC-400-T ab Version1605";Germany;EUR;14,90;;20;;;ZSPPACK0146
+Revise;110295000912;"Wasserkühler für Huafengdongli R4105ZD1 mit 4330 ccm";Germany;EUR;519,90;;1;;;ZSPMOT00479
+Revise;110689919172;"Thermostat 0-40°C 8A 230V f. 3 kW Heizlüfter NEU Thermoschalter";Germany;EUR;14,80;;9;;;HEATER011
+Revise;110689921963;"Stufenschalter zu 5-9kW 400V Heizlüfter NEU";Germany;EUR;19,90;;7;;;HEATER019
+Revise;120312339769;"Dieselfilterelement Einsatz Huafengdongli K4100 3610ccm";Germany;EUR;28,90;;9;;;ZSPMOT00483
+Revise;110689924986;"Zündunterbrecher Schalter Aus GSE950 STE850 ESE900 NEU";Germany;EUR;16,90;;14;;;ZSPMOT00057
+Revise;120312342620;"Kolbenringsatz 115mm 2,5/3/5 mm Changfa ZS1115";Germany;EUR;28,80;;1;;;ZSPMOT00490
+Revise;121228974312;"1 Paar Gabelverlängerung Stapler f. 100mm Gabel 1.52m Staplergabel Verlängerung";Germany;EUR;238,00;;92;;;HUB071
+Revise;121228975624;"1 Paar Gabelverlängerung Stapler f. 125mm Gabel 1.83m Staplergabel Verlängerung";Germany;EUR;278,00;;97;;;HUB072
+Revise;110689928164;"Tankanzeige 12V unbeleuchtet, Einbauinstrument, NEU";Germany;EUR;35,90;;18;;;ZSPMOT00554
+Revise;120726756961;"Tankanzeige 24V unbeleuchtet, Einbauinstrument, NEU";Germany;EUR;29,90;;18;;;ZSPMOT00555
+Revise;111657221663;"Stahlseil 8,3mm 40m Seilzug Greifzug Seilwinde Forstseilwinde Winde 800kg 0,8t";Germany;EUR;66,90;;80;;;ZSPHUB00201
+Revise;120312345582;"Dichtung Wasserpumpe f. YD380/480 Motor NEU";Germany;EUR;7,90;;0;;;ZSPMOT00502
+Revise;110689929686;"Impeller Pumpenrad D=144mm für Tauchpumpe 1.5kW NEU";Germany;EUR;59,90;;1;;;ZSPPUM00162
+Revise;111657225869;"Stahlseil 11mm 40m Seilzug Greifzug Seilwinde Forstseilwinde Winde 1600kg 1,6t";Germany;EUR;107,90;;74;;;ZSPHUB00202
+Revise;110689930964;"Impeller Pumpenrad D=160mm für Tauchpumpe 7,5kW NEU";Germany;EUR;119,00;;2;;;ZSPPUM00166
+Revise;111657226649;"Stahlseil 11mm 60m Seilzug Greifzug Seilwinde Forstseilwinde Winde 1600kg 1,6t";Germany;EUR;132,90;;45;;;ZSPHUB00220
+Revise;123072976966;"ATS Notstromautomatik Controller Y-701 Steuerung für Notstromumschalter";Germany;EUR;154,90;;7;;;ZSPGEN00383
+Revise;110809218657;"Hochdruckreiniger Kärcher Rotierende Rohrreinigungsdüse";Germany;EUR;51,00;;981;;;PUM112
+Revise;120726769708;"Storz Blindkupplung Schlauch Abschluss A 4 Zoll NEU";Germany;EUR;50,00;;50;;;PUM027
+Revise;120312358347;"Ventildeckeldichtung für YD380 Motor NEU";Germany;EUR;14,90;;2;;;ZSPMOT00504
+Revise;120726770998;"Storz Blindkupplung Schlauch Abschluss B 3 Zoll NEU";Germany;EUR;28,00;;50;;;PUM032
+Revise;110689939875;"Storz Blindkupplung Schlauch Abschluss C 2 Zoll NEU";Germany;EUR;26,00;;50;;;PUM033
+Revise;110689940229;"Storz Festkupplung Schlauch A 4 Zoll Aussengewinde AG";Germany;EUR;51,00;;50;;;PUM034
+Revise;120726772903;"Storz Festkupplung Schlauch A 4 Zoll Innengewinde IG";Germany;EUR;51,00;;50;;;PUM035
+Revise;110689941173;"Storz Festkupplung Schlauch B 3 Zoll Aussengewinde AG";Germany;EUR;34,00;;48;;;PUM036
+Revise;120312361523;"Wellendichtring 2"" Siliziumcarbid High Pressure";Germany;EUR;25,90;;39;;;ZSPPUM00005
+Revise;110295021806;"Impeller Pumpenrad 4"" D=135mm NEU OVP";Germany;EUR;20,00;;9;;;ZSPPUM00013
+Revise;120312362399;"Rückschlagventil Rückschlagklappe 3 Zoll NEU OVP";Germany;EUR;11,00;;5;;;ZSPPUM00053
+Revise;120312362890;"Schlauchbefestigung Schlauchtülle 4"" NEU OVP";Germany;EUR;11,00;;16;;;ZSPPUM00063
+Revise;110295022925;"Schlauchbefestigung Überwurfmutter 4"" NEU OVP";Germany;EUR;11,00;;18;;;ZSPPUM00064
+Revise;120312364088;"Pumpe Verschlusskappe Verschlussstopfen 23mm 4"" NEU";Germany;EUR;6,00;;30;;;ZSPPUM00065
+Revise;131760391962;"Luftfilter zu Rotek Dieselmotoren und Generatoren D=152mm, L=230(240)mm NEU";Germany;EUR;21,90;;7;;;ZSPGEN00277
+Revise;131760403784;"Einspritzpumpe für Yangdong Y480, 1500/1800 U/min, Type: BH4Q80R8-750 4QD427";Germany;EUR;284,90;;2;;;ZSPMOT00903
+Revise;112410385574;"Chemie Pumpe Aquarium max. 5,0l/min max. 0,54 bar 12V Wasserkühlung Lebensmittel";Germany;EUR;23,90;;488;;;PUM287
+Revise;110295027747;"Impeller Pumpenrad 3"" D=120mm NEU OVP";Germany;EUR;25,00;;24;;;ZSPPUM00097
+Revise;112410386614;"Chemie Pumpe Aquarium max. 7,0l/min max. 0,2 bar 12V Wasserkühlung Lebensmittel";Germany;EUR;23,90;;440;;;PUM374
+Revise;112410387338;"Chemie Pumpe Aquarium max. 7,2l/min max. 0,31 bar 12V Wasserkühlung Lebensmittel";Germany;EUR;23,90;;444;;;PUM292
+Revise;132195080035;"Chemie Pumpe Aquarium max. 5,0l/min max. 0,75 bar 24V Wasserkühlung Lebensmittel";Germany;EUR;23,90;;421;;;PUM372
+Revise;110295029565;"Schlauchbefestigung Schlauchtülle 3"" NEU OVP";Germany;EUR;8,00;;6;;;ZSPPUM00099
+Revise;111945422407;"Einspritzpumpe für Yangdong Y490, 1500/1800 U/min, Type: BH4Q85R8-750 4QD431";Germany;EUR;284,90;;3;;;ZSPMOT00676
+Revise;131884703238;"Schalttafel Leuchte Signalleuchte Signallampe LED 24V Weiss 29mm Schaltschrank";Germany;EUR;1,90;;185;;;ZSPGEN00336
+Revise;131884709704;"Solid State SSR Halbleiterrelais Relais 25A 75-480VAC Ansteuerung 5-24V DC";Germany;EUR;9,55;;30;;;ZSPGEN00298
+Revise;131085093687;"Thermostat 0-40°C 5kW 9kW Heizlüfter 16A 400V Thermoschalter WK-R36 70°C Cutoff";Germany;EUR;14,80;;52;;;ZSPHEATER00053
+Revise;110689956457;"Storz Festkupplung Schlauch B 3 Zoll Innengewinde IG";Germany;EUR;34,00;;43;;;PUM037
+Revise;110689957076;"Storz Festkupplung Schlauch C 2 Zoll Aussengewinde AG";Germany;EUR;26,00;;45;;;PUM038
+Revise;110689957802;"Storz Festkupplung Schlauch C 2 Zoll Innengewinde IG";Germany;EUR;24,00;;47;;;PUM039
+Revise;110689958640;"Kugelhahn C 2 Zoll Innengewinde IG Hahn Absperrung";Germany;EUR;52,00;;47;;;PUM040
+Revise;120726794394;"Kugelhahn A 4 Zoll Innengewinde IG Hahn Absperrung";Germany;EUR;229,00;;49;;;PUM042
+Revise;110689963140;"Storz Übergang C 3Z auf 2x B 2Z Sammel Gabel Stück";Germany;EUR;85,00;;47;;;PUM044
+Revise;122358266783;"Spannungsregler AVR Generatoren 2.7A-6A PMG Erregung wie MX341 Stamford, BHKW";Germany;EUR;124,80;;8;;;ZSPGEN00200
+Revise;120726801719;"Saugkorb 4 Zoll 4Z A mit Rückschlagventil IG";Germany;EUR;119,00;;8;;;PUM045
+Revise;122358278772;"Relais 400V AC Spulenspannung 2x25A Schließer zu Heizlüftern Bauheizer";Germany;EUR;27,90;;153;;;ZSPHEATER042
+Revise;122551426242;"Schweißelektrode Mo309 Schwarz/Weiss Stabelektrode 2.5mmx300 2.5kg Elektroden";Germany;EUR;57,90;;100;;;SCHWEISS172
+Revise;131085138312;"Steuerplatine LINGYU 2013-4-28 zu Ölheizern direkt BDO20/30/50kW Heizkanonen";Germany;EUR;35,80;;98;;;HEATER100
+Revise;111317806119;"Öldruckanzeige 12V 0-1 MPa (entspricht 0-10 bar) für 55mm Frontpanel";Germany;EUR;19,90;;23;;;ZSPMOT00846
+Revise;111010099820;"Industrie Folienschweißgerät Balkenschweißgerät Balken Folienschweißer PFS-500";Germany;EUR;99,90;;21;;;PACK070
+Revise;111010103005;"Vakuumpumpe Unterdruckpumpe Vakuum Pumpe Evakuierungspumpe 900W 20cbm 2mBar";Germany;EUR;299,90;;41;;;PACK022
+Revise;123019231195;"Einspritzpumpe, passend zu 2-Zylinder V-Motor Diesel 832/840/860/870ccm BF2M75D";Germany;EUR;119,90;;1;;;ZSPMOT00795
+Revise;111250103238;"Vakuumsealer Vakuumierer Ersatzteil Deckelscharniere Scharnier Scharniersatz";Germany;EUR;19,00;;15;;;ZSPPACK0060
+Revise;130984028358;"15mm Teflon Teflonband Glasgewebeband f. Schweißbalken und Folienschweißgeräte";Germany;EUR;19,90;;66;;;ZSPPACK0029
+Revise;130984048693;"Benzinmotor 4-Takt 9 PS Kartmotor Benzin Motor 6,6 kW Standmotor OHV 4T NEU";Germany;EUR;244,90;;21;;;MOT115
+Revise;111160839832;"Benzinmotor 420ccm 13PS Kleinmotor Vergaser Elektrostart zylindrische Welle 25mm";Germany;EUR;321,90;;31;;;MOT119
+Revise;131524266718;"Seilwinde Forstwinde Winde 800kg Nennlast ohne Seil und Haken, bis zu 45m Seil";Germany;EUR;56,90;;119;;;HUB178
+Revise;130984054865;"Benzinmotor 420ccm 13PS Kleinmotor Hand- und Elektrostart konische Welle 26x77mm";Germany;EUR;321,90;;7;;;MOT121
+Revise;130984120137;"Motorpumpe 60m³/h Wasserpumpe 25m Kreiselpumpe 2,5 bar Pumpe 3Z Benzinpumpe";Germany;EUR;199,00;;43;;;PUM352
+Revise;110861226572;"Heizelement für Folienschweisser 400mm mit Dauerbeheizung 115V 185 Watt";Germany;EUR;21,80;;9;;;ZSPPACK0032
+Revise;111293338338;"Motorsteuergerät Fernstart ATS ECU-RTG3 Steuereinheit BHKW Generator f. Motor";Germany;EUR;249,00;;20;;;ZSPGEN00296
+Revise;122358667600;"elektronischer Drehzahlregler ESD5550E wie GAC für Dieselmotoren Generatoren";Germany;EUR;169,90;;2;;;ZSPGEN00371
+Revise;123075190603;"Kettenzug Ratschenzug Hebezug Hebelzug Flaschenzug 0,75t 0,75to 750kg 1,5m Kette";Germany;EUR;55,90;;142;;;HUB104
+Revise;132580462639;"1,5t 1,5to 1500kg Hebelzug Kettenzug Ratschenzug Hebezug Flaschenzug  1,5m Kette";Germany;EUR;72,90;;93;;;HUB106
+Revise;120727104264;"Schlauchschelle Breitbandschelle f. 2Z bis 59mm Schelle";Germany;EUR;2,90;;49;;;PUM065
+Revise;110690248415;"Schlauchschelle Breitbandschelle f. 2Z bis 63mm Schelle";Germany;EUR;2,90;;38;;;PUM066
+Revise;112935515750;"500kg 0,5t Laufkatze Rollfahrwerk Handfahrwerk Kran Katze Handlaufwerk 50-220mm";Germany;EUR;41,90;;229;;;HUB159
+Revise;120727105196;"Schlauchschelle Breitbandschelle f.3Z bis 91mm Schelle";Germany;EUR;3,90;;28;;;PUM068
+Revise;120727105539;"Schlauchschelle Schelle f.1Z bis 32mm Schelle";Germany;EUR;1,20;;63;;;PUM072
+Revise;110690249877;"Storz Schlauchkupplung Schlauch A 4 Zoll geschmiedet";Germany;EUR;36,00;;49;;;PUM073
+Revise;110690250199;"Storz Schlauchkupplung Schlauch A 4 Zoll gedreht";Germany;EUR;59,00;;50;;;PUM074
+Revise;110690250524;"Storz Schlauchkupplung Schlauch B 3 Zoll geschmiedet";Germany;EUR;26,00;;43;;;PUM075
+Revise;120727106792;"Storz Schlauchkupplung Schlauch B 3 Zoll gedreht";Germany;EUR;36,00;;39;;;PUM076
+Revise;110690251131;"Storz Schlauchkupplung Schlauch C 2 Zoll geschmiedet";Germany;EUR;21,00;;42;;;PUM077
+Revise;110690251500;"Storz Schlauchkupplung Schlauch C 2 Zoll gedreht";Germany;EUR;29,00;;40;;;PUM078
+Revise;120727108221;"Schlauchstutzen 4Z Tülle mit Aussengewinde für Saugkorb";Germany;EUR;47,00;;50;;;PUM079
+Revise;110690252464;"Schlauchstutzen 3Z Tülle mit Aussengewinde für Saugkorb";Germany;EUR;30,00;;42;;;PUM080
+Revise;110690252866;"Schlauchstutzen 2Z Tülle mit Aussengewinde für Saugkorb";Germany;EUR;21,00;;32;;;PUM081
+Revise;120727109146;"Storz Schlüssel für 2,3,4 Zoll A,B,C Storzschlüssel";Germany;EUR;35,00;;49;;;PUM082
+Revise;120727109531;"Storz Strahlrohr Spritze 3Z 3 Zoll B mit Festkupplung";Germany;EUR;118,00;;48;;;PUM085
+Revise;110690258478;"Storz Strahlrohr Spritze 2Z 2 Zoll C mit Festkupplung";Germany;EUR;94,00;;50;;;PUM086
+Revise;120727110127;"Storz Übergang Reduzierung 3 auf 4 Zoll, B auf A";Germany;EUR;78,00;;49;;;PUM087
+Revise;120727110453;"Storz Übergang Reduzierung 2 auf 3 Zoll, C auf B";Germany;EUR;44,00;;46;;;PUM088
+Revise;112935587690;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 1600kg 1,6 to ohne Seil";Germany;EUR;103,90;;286;;;ZSPHUB00223
+Revise;110690260201;"Storz Übergang Reduzierung Knaggenabst. 81-89 mm";Germany;EUR;75,00;;50;;;PUM170
+Revise;132580502875;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 1600kg 1,6 t to 20m Seil";Germany;EUR;137,90;;221;;;SET#ZSPHUB00223+ZSPHUB00023
+Revise;111399038561;"Motorvorwärmung Motorvorheizung zu Kühlmittelschlauch Durchmesser 28mm 400W 230V";Germany;EUR;299,00;;1;;;MOT082
+Revise;120727112357;"Schlauchschelle Breitbandschelle f.6Z bis 174mm Schelle";Germany;EUR;4,90;;49;;;PUM172
+Revise;123075231960;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 1600kg 1,6 t to 40m Seil";Germany;EUR;179,90;;74;;;SET#ZSPHUB00223+ZSPHUB00202
+Revise;120727112788;"Saugkorb 1 Zoll 1Z f. Rückschlagventil m. Innengewinde";Germany;EUR;5,90;;6;;;PUM191
+Revise;112935592640;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 1600kg 1,6 t to 60m Seil";Germany;EUR;208,90;;45;;;SET#ZSPHUB00223+ZSPHUB00220
+Revise;120727113329;"Storz Festkupplung Schlauch 2,5 Zoll Innengewinde B IG";Germany;EUR;34,00;;48;;;PUM198
+Revise;110690261821;"Storz Festkupplung Schlauch 2,5 Zoll Innengewinde C IG";Germany;EUR;34,00;;48;;;PUM199
+Revise;112935596617;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 3200kg 3,2 t to 40m Seil";Germany;EUR;374,90;;46;;;SET#ZSPHUB00224+ZSPHUB00203
+Revise;110690262642;"Storz Festkupplung B 3 Zoll drehbar Innengewinde IG";Germany;EUR;74,00;;2;;;PUM238
+Revise;120727114772;"Storz Festkupplung Schlauch C 1,5 Zoll Innengewinde IG";Germany;EUR;34,00;;1;;;PUM264
+Revise;110690263509;"Festkupplung GEKA 1,5"" 1,5 Zoll Aussengewinde";Germany;EUR;5,90;;45;;;PUM265
+Revise;123075260986;"Stahlseil 16mm 40m Seilzug Greifzug Seilwinde Forstseilwinde Winde 3200kg 3,2t";Germany;EUR;234,90;;47;;;ZSPHUB00203
+Revise;112935615793;"Umlenkrolle 1.6/6t 1600/6000kg Seilwinde Seilzug Snatch Block Kloben 6-13mm Seil";Germany;EUR;48,80;;190;;;HUB187
+Revise;132580522832;"Umlenkrolle 4/2t 4000/2000kg Seilwinde Seilzug Snatch Block Kloben Seil Offroad";Germany;EUR;22,30;;192;;;HUB189
+Revise;123075265732;"Umlenkrolle 5/10t to 5000/10000 kg Seilwinde Seilzug Snatch Block Kloben Offroad";Germany;EUR;32,80;;162;;;HUB190
+Revise;120727117948;"Festkupplung GEKA 1,5"" 1,5 Zoll Innengewinde";Germany;EUR;5,90;;45;;;PUM266
+Revise;120727119409;"Schlauch Schelle bis 90mm für 3Z Schneckengewinde";Germany;EUR;1,50;;87;;;ZSPNT00017
+Revise;121475189325;"Silent Stromerzeuger 10kW Stromaggregat 230V Notstromaggregat Generator Benzin";Germany;EUR;2799,00;;5;;;GEN206
+Revise;131336831374;"Stromerzeuger 11kW/14kVA Stromaggregat 230V Notstromaggregat Generator Diesel";Germany;EUR;2999,00;;7;;;GEN208
+Revise;111501453788;"Silent Stromerzeuger 11kW/14kVA Stromaggregat 230V Notstromaggregat Diesel NEU";Germany;EUR;3639,00;;8;;;GEN210
+Revise;121664116756;"Seilwinde Forstwinde Winde 800kg Nennlast mit 5m Seil und Haken, bis zu 45m Seil";Germany;EUR;62,90;;5;;;HUB181
+Revise;122860552374;"Feder Öffnungsfeder Spannfeder Deckel Öffner Ersatzteil Vakuumsealer Vakuumierer";Germany;EUR;43,90;;20;;;ZSPPACK0169
+Revise;132434492528;"Feder Öffnungsfeder Spannfeder Ersatzteil Vakuumsealer Vakuumierer VC-400-T";Germany;EUR;32,90;;20;;;ZSPPACK0172
+Revise;122191530958;"Tauchpumpe Schmutzwasserpumpe Schneidwerk Cutter Baupumpe Teichpumpe Pumpe";Germany;EUR;499,90;;25;;;PUM164
+Revise;131976907109;"Tauchpumpe Schmutzwasserpumpe Schneidwerk Baupumpe Teichpumpe Pumpe m. Saugkorb";Germany;EUR;529,90;;25;;;PUM334
+Revise;112690463030;"Schneidvorrichtung Folienklinge Folienmesser zu Rotek Folienschweissmaschinen";Germany;EUR;16,90;;19;;;ZSPPACK0171
+Revise;122191541109;"Baupumpe Tauchpumpe Schmutzwasserpumpe Schneidwerk Teichpumpe Pumpe m. Saugkorb";Germany;EUR;629,90;;5;;;PUM345
+Revise;122191601158;"Tauchpumpe Schmutzwasserpumpe Schneidwerk Cutter Baupumpe Teichpumpe Pumpe";Germany;EUR;639,90;;20;;;PUM165
+Revise;122191604401;"Schmutzwasserpumpe Tauchpumpe Schneidwerk Baupumpe Teichpumpe Pumpe m. Saugkorb";Germany;EUR;659,90;;20;;;PUM335
+Revise;111399210460;"Dieselmotor 4,3PS Diesel Motor 3,1kW Kleindiesel Traktor Bagger Handstart L40/48";Germany;EUR;339,90;;21;;;MOT126
+Revise;131735058726;"Hubwagen Palettenhubwagen LOW 1500 Extra Niedrig 51mm";Germany;EUR;449,00;;1;;;HUB031
+Revise;121903472172;"Bremse für Hubwagen Palettenhubwagen Stapler Ameise Blockierbremse";Germany;EUR;32,80;;17;;;HUB046
+Revise;111833164097;"Andruckstreifen für Schweißbalken zu Folienschweißgerät  PFS-200 PM-FS-L0200";Germany;EUR;15,90;;20;;;ZSPPACK0111
+Revise;111833165889;"Andruckstreifen für Schweißbalken zu Folienschweißgerät  PFS-300 PM-FS-L0300";Germany;EUR;16,90;;30;;;ZSPPACK0112
+Revise;131661092586;"Andruckstreifen für Schweißbalken zu Folienschweißgerät  PFS-400 PM-FS-L0400";Germany;EUR;17,90;;19;;;ZSPPACK0113
+Revise;121824150812;"Andruckstreifen für Schweißbalken zu Folienschweißgerät  PFS-500 PM-FS-L0500";Germany;EUR;18,90;;20;;;ZSPPACK0114
+Revise;111833173129;"Pneumatikzylinder 20kg miniatur Schweißbalken Lifter zu Rotek Vakuumierer VC400";Germany;EUR;28,90;;20;;;ZSPPACK0115
+Revise;111833174483;"Pneumatikzylinder 20kg miniatur Schweißbalken Lifter zu Rotek Vakuumierer VC600";Germany;EUR;28,90;;20;;;ZSPPACK0116
+Revise;121824156924;"Anschlagwinkel Ersatzteil zu Rotek Continuouse Sealer PM-FC-CONT";Germany;EUR;20,90;;20;;;ZSPPACK0118
+Revise;131311742114;"Auspuff für 2-Zylinder Rotek ED4-2V-0870 Dieselmotor Kleindiesel 870ccm";Germany;EUR;89,90;;47;;;ZSPMOT00854
+Revise;131499936946;"4,8x25mm Stahlkette Zugkette Handkette Haspelkette Kette verzinkt Antriebskette";Germany;EUR;4,90;;87;;;ZSPHUB00230
+Revise;110916085933;"Kettenflaschenzug Kettenzug Flaschenzug Hebezug Seilzug Handkran 3000kg 3t 12m !";Germany;EUR;279,90;;34;;;HUB057
+Revise;131311756916;"Einspritzleitung LINKS zu 2-Zylinder Rotek ED4-2V-0870 840 812 Dieselmotor";Germany;EUR;16,90;;49;;;ZSPMOT00851
+Revise;111476927348;"Einspritzleitung RECHTS zu 2-Zylinder Rotek ED4-2V-0870 840 812 Dieselmotor";Germany;EUR;16,90;;49;;;ZSPMOT00852
+Revise;121108306502;"Kettenzug Ratschenzug Hebezug Hebelzug Flaschenzug 6t 6to 6000kg 1,5m Kette";Germany;EUR;199,00;;28;;;HUB108
+Revise;121156296402;"Luftfilterkasten Luftfilter Benzinmotor 390/420ccm Benzingenerator GG4-1A-7300";Germany;EUR;23,90;;14;;;ZSPGEN00251
+Revise;121156298502;"25L Benzintank Kunststofftank Gerätetank mit Tankanzeige zu Rotek GG4-1A-7300";Germany;EUR;53,90;;62;;;ZSPGEN00248
+Revise;111683185642;"Elektrostarter Anlasser zu Dieselmotoren Zweizylinder 812/836/870 Kipor Rotek";Germany;EUR;124,90;;9;;;ZSPMOT00691
+Revise;121140745094;"Hydraulikzylinder 30T für Werkstattpresse Dornpresse Druckzylinder Hebezylinder";Germany;EUR;129,90;;23;;;ZSPWKZ000045
+Revise;112604386587;"Benzinmotor 420ccm 13PS Kleinmotor Vergaser Handstart konische Welle TP26 x 47mm";Germany;EUR;321,90;;9;;;MOT122
+Revise;121140758111;"Kettenflaschenzug Kettenzug Flaschenzug Hebezug Seilzug Handkran 3000kg 3t 3to";Germany;EUR;89,90;;75;;;HUB026
+Revise;121140762336;"Ankerbolzen für 3200kg Greifzug Seilzug Greifzüge Seilzüge  D=29.5 x 150mm";Germany;EUR;16,90;;10;;;ZSPHUB00019
+Revise;131946457341;"Dieselmotor 19PS zwei (2) Zylinder 14kW Kleindiesel Traktor Bagger Boot E-Start";Germany;EUR;1480,00;;0;;;MOT176
+Revise;112376294169;"Schweissdraht und GFK Abdeckband für Folienschweissgeräte 600x10 mm / 1500W STEP";Germany;EUR;24,80;;50;;;PACK029
+Revise;122453669888;"25mm breites Glasgewebeband zu Schweißbalken,Folienschweißgeräten GFK Teflonband";Germany;EUR;25,80;;109;;;ZSPPACK0023
+Revise;131311897327;"Öldruckschalter Öffner für viele Dieselmotoren NPT1/8"" Öldrucksensor Kleindiesel";Germany;EUR;19,80;;57;;;ZSPMOT00003
+Revise;121451062879;"Öldrucksensor Öldruckschalter kombiniert NPT1/8"" PPC Schalter Analog 1/8 Zoll";Germany;EUR;29,80;;80;;;ZSPMOT00524
+Revise;111115731114;"Ersatzkit Folienschweißgerät Schweißbalken PFS-300x8mm  2 x Schweissdraht Teflon";Germany;EUR;16,40;;40;;;ZSPPACK0019
+Revise;111477081967;"Öldrucksensor Öldruckschalter kombiniert NPT1/4"" PPC Schalter Analog 1/4 Zoll";Germany;EUR;24,90;;34;;;ZSPMOT00418
+Revise;110717931941;"Enlüftungsventil automatisch für Pumpen 1""";Germany;EUR;299,00;;1;;;PUM339
+Revise;131856747218;"DRAHTSEIL 6mm 19x7 3050kg Forstseil Stahlseil Forstwindenseil Kranseil p. Meter";Germany;EUR;2,90;;0;;;ZSPHUB00246
+Revise;111477091177;"10A/20mA Mini Stromwandler 10A auf 20mA für ECU-RTG3s Steuerung Strom Miniatur";Germany;EUR;12,90;;56;;;ZSPGEN00313
+Revise;111477092322;"20A/20mA Mini Stromwandler 20A auf 20mA für ECU-RTG3s Steuerung Strom Miniatur";Germany;EUR;12,90;;35;;;ZSPGEN00314
+Revise;131311948424;"30A/20mA Mini Stromwandler 30A auf 20mA für ECU-RTG3s Steuerung Strom Miniatur";Germany;EUR;12,90;;42;;;ZSPGEN00315
+Revise;131311953480;"30A/20mA Mini Stromwandler 30A auf 20mA für ECU-RTG3s Steuerung Strom Miniatur";Germany;EUR;19,90;;93;;;ZSPGEN00316
+Revise;112376346292;"Schweisstrafo Vakuumsealer Vakuumierer Folienschweisser Styroporschneider 230V";Germany;EUR;129,90;;3;;;ZSPPACK0050
+Revise;111477103965;"Temperatursensor NPT3/8"" Kühlmittelsensor 3/8 Zoll Wassertemperatur Sensor";Germany;EUR;19,90;;92;;;ZSPMOT00523
+Revise;131311992855;"Temperatursensor NPT3/8"" Kühlmittelsensor NTC 3/8 Zoll Wassertemperatur";Germany;EUR;19,90;;94;;;ZSPMOT00419
+Revise;111477112678;"Temperatursensor NPT3/8"" Kühlmittelsensor 3/8 Zoll Wassertemperatur Analog NTC";Germany;EUR;16,90;;6;;;ZSPMOT00866
+Revise;111477115796;"Temperatur messen NPT3/8"" Kühlmittel Sensor 3/8 Zoll Wassertemperatur Analog NTC";Germany;EUR;16,90;;48;;;ZSPMOT00551
+Revise;131312003644;"Temperaturfühler NTC D6 -40 bis +150 Grad Temperaturfühler Rundöse Temp messen";Germany;EUR;14,90;;0;;;ZSPMOT00862
+Revise;121451104374;"Motorsteuergerät Fernstart ATS ECU-RTG3s Steuereinheit Motor Generator Elektron.";Germany;EUR;249,00;;83;;;ZSPGEN00312
+Revise;132164306051;"45mm breites Glasgewebeband zu Schweißbalken,Folienschweißgeräten GFK Teflonband";Germany;EUR;32,50;;20;;;ZSPPACK0038
+Revise;112243052800;"PTFE Transportband PM-FS-CONT Folienschweissmaschine bis ca. BJ 2014 L=746mm";Germany;EUR;24,90;;30;;;ZSPPACK0034
+Revise;112243055694;"Zahnrad Bandantrieb Ersatzteil zu PM-FS-CONT Folienschweissmaschine Rotek DBF900";Germany;EUR;39,90;;10;;;ZSPPACK0137
+Revise;132040222085;"100m Schweissdraht 10mm Reparatur Schweissbalken Folienschweisser Ersatzteil";Germany;EUR;299,90;;10;;;ZSPPACK0138
+Revise;132040227380;"Ersatzteil Andruckstreifen zu Vakuumierer VC-600/VC-6002 Silikon Rotek";Germany;EUR;29,90;;12;;;ZSPPACK0139
+Revise;132040229964;"Ersatzteil Arretierhebel zu Vakuumierer VC-400 Serie Rotek Vakuumsealer";Germany;EUR;29,90;;19;;;ZSPPACK0141
+Revise;112243118308;"PTFE Transportband PM-FS-CONT Folienschweissmaschine ab ca BJ 2014 L=770mm";Germany;EUR;24,90;;10;;;ZSPPACK0088
+Revise;110916325822;"Ankerbolzen für 800kg Greifzug Seilzug Greifzüge Seilzüge  D=21.5 x 102mm";Germany;EUR;12,90;;13;;;ZSPHUB00017
+Revise;132069979971;"Lebensmittelechte Pumpe 11,6l/min 0,5 bar 24V Wasserkühlung Dauerbetrieb Solar";Germany;EUR;23,90;;378;;;PUM362
+Revise;110916717062;"Griffstange Hebel Handhebel für Seilzug Greifzug Seilwinde Winde 800kg 0,8 t to";Germany;EUR;26,90;;11;;;ZSPHUB00015
+Revise;121825499496;"16A LS 1P Leitungsschutzschalter Kennlinie C Sicherungsautomat Automat Sicherung";Germany;EUR;1,85;;36;;;ZSPGEN00174
+Revise;131547138292;"Elektrostarter Dieselmotor Starter QDJ1326/1626 12V 3.0kW YD380/480/K4100/K4102";Germany;EUR;169,90;;25;;;ZSPMOT00798
+Revise;111707456626;"Einspritzdüse zu Yangdong, Yanmar, Kubota Y380, Y480, Rotek ED4W3R, ED4W4R";Germany;EUR;31,90;;37;;;ZSPMOT00494
+Revise;131040972293;"Ersatzgenerator Stromerzeuger KT6-1 230V 6,0 kW 1-phasig AVR Spannungsregler";Germany;EUR;278,90;;0;;;GEN225
+Revise;121692043975;"Einspritzdüse zu Yangdong, Yanmar, Kubota Y4100, Y4102, Y4105 Rotek ED4W4R";Germany;EUR;35,90;;17;;;ZSPMOT00780
+Revise;131040973338;"Treibstoffhahn Benzinhahn Pumpen Generatoren Aussengewinde M10x1,25mm";Germany;EUR;14,80;;191;;;ZSPMOT00051
+Revise;110358985954;"Temperaturregler TC1AO 200°C f. Cr-Ni Sensoren";Germany;EUR;85,90;;4;;;ZSPPACK0008
+Revise;120386503177;"Temperaturregler TC1AO 400°C f. Cr-Ni Sensoren";Germany;EUR;85,90;;7;;;ZSPPACK0009
+Revise;120386507375;"Zeitrelais Timerrelais AH5B 3 Sekunden 230V";Germany;EUR;51,90;;4;;;ZSPPACK0011
+Revise;120386508063;"Zeitrelais Timerrelais AH5B 6 Sekunden 230V";Germany;EUR;51,90;;5;;;ZSPPACK0012
+Revise;131547194036;"4-Zyl. Dieselmotor 2.540ccm wassergekühlt Diesel Motor BHKW Generator SAE 4/7.5";Germany;EUR;2390,00;;1;;;MOT058
+Revise;121018470673;"75/5A Stromwandler 75A auf 5A für Amperemeter 75A/5A Strom messen";Germany;EUR;18,90;;8;;;ZSPGEN00182
+Revise;111184476877;"Benzinmotor 200(208)ccm 6PS Konuswelle Handstart konische Welle 19mm L:72mm";Germany;EUR;144,90;;8;;;MOT162
+Revise;110975977081;"150/5A Stromwandler 150A auf 5A für Amperemeter 150A/5A Strom messen";Germany;EUR;18,90;;45;;;ZSPGEN00120
+Revise;110307456724;"Set Einspritzleitung  für YD480 Motoren NEU";Germany;EUR;20,90;;2;;;ZSPMOT00507
+Revise;110975990023;"75A Amperemeter für Stromwandler 72x72 75/5A Strom 75A/5A Ampere Meter";Germany;EUR;19,90;;14;;;ZSPGEN00180
+Revise;110975990682;"100A Amperemeter für Stromwandler 72x72 100/5A Strom 100A/5A Ampere Meter";Germany;EUR;19,90;;4;;;ZSPGEN00181
+Revise;110307458249;"Set Einspritzleitung  für YD380 Motoren NEU";Germany;EUR;20,90;;2;;;ZSPMOT00508
+Revise;121018497714;"150A Amperemeter für Stromwandler 80x80 150/5A Strom 150A/5A Ampere Meter";Germany;EUR;19,90;;27;;;ZSPGEN00119
+Revise;110307467895;"Impeller Pumpenrad 3"" D=279,5 mm NEU OVP";Germany;EUR;139,90;;1;;;ZSPPUM00141
+Revise;111916438263;"Benzinmotor 4-Takt 13 PS Kartmotor Benzin Motor 10 kW Standmotor OHV 4T NEU";Germany;EUR;294,90;;40;;;MOT174
+Revise;110307471603;"Dichtungssatz für Industriepumpe WPI-SPPU3 NEU";Germany;EUR;46,90;;5;;;ZSPPUM00142
+Revise;121124830928;"Startbox für Benzinmotor Rotek EG4-Serie Zündschloss Zündschalter Startschloß";Germany;EUR;22,80;;155;;;ZSPMOT00662
+Revise;121124831740;"Dieselmotor 4,3PS Diesel Motor 3,1kW Kleindiesel Traktor Bagger H-Start L40 L48";Germany;EUR;339,90;;19;;;MOT124
+Revise;130926206742;"Dieselmotor 4,3PS Diesel Motor 3,1kW 19mm Welle für Traktor Bagger E-Start NEU";Germany;EUR;424,90;;16;;;MOT125
+Revise;121124835370;"Dieselmotor 11PS Diesel Motor 7,8kW Kleindiesel für Traktor Bagger L75 L90 L100";Germany;EUR;539,90;;10;;;MOT131
+Revise;111094237491;"Dieselmotor 11PS Diesel Motor 7,8kW Lichtmaschine Laderegler EStart L75 L90 L100";Germany;EUR;619,90;;32;;;MOT132
+Revise;121124838948;"Motorpumpe 30m³/h Hochdruck 45m Kreiselpumpe 4,5 bar Pumpe 2Z Benzinpumpe NEU";Germany;EUR;219,90;;27;;;PUM353
+Revise;110976018713;"60Hz Hertzmeter für 230V Frequenz messen 72x72mm Frequenzmeter Meter Einbaugerät";Germany;EUR;29,90;;18;;;ZSPGEN00185
+Revise;110976019423;"60Hz Hertzmeter für 400V Frequenz messen 72x72mm Frequenzmeter Meter Einbaugerät";Germany;EUR;29,90;;18;;;ZSPGEN00133
+Revise;121018566928;"60Hz Hertzmeter für 230V Frequenz messen 80x80mm Frequenzmeter Meter Einbaugerät";Germany;EUR;29,90;;13;;;ZSPGEN00156
+Revise;121018568924;"60Hz Hertzmeter für 110V Frequenz messen 80x80mm Frequenzmeter Meter Einbaugerät";Germany;EUR;29,90;;8;;;ZSPGEN00162
+Revise;121249384583;"32A LS 1P Leitungsschutzschalter Kennlinie C Sicherungsautomat Automat Sicherung";Germany;EUR;1,99;;6;;;ZSPGEN00175
+Revise;110976039440;"150V 110V Voltmeter Einbaugerät Frontplatte:80x80mm Spannung messen Volt Meter";Germany;EUR;19,90;;16;;;ZSPGEN00151
+Revise;112211872328;"100 Stk. (1 Packung) Kabelbinder 290mm x 4.8mm, Farbe Schwarz";Germany;EUR;5,50;;899;;;KBIND090
+Revise;122236909060;"50 Stk. (1 Packung) Kabelbinder 1002mm x 12.5mm, Farbe Natur 100cm = 1m Länge";Germany;EUR;29,00;;506;;;KBIND100
+Revise;122236927759;"100 Stk. (1 Packung) Kabelbinder 290mm x 4.8mm, Farbe Natur";Germany;EUR;5,50;;900;;;KBIND098
+Revise;112211909548;"500 Stk. (5 Packungen) Kabelbinder 290mm x 4.8mm, Farbe Natur";Germany;EUR;13,90;;899;;;SET#KBIND098#X005
+Revise;131443674736;"Zylinderkopf 418ccm Dieselmotor zB Rotek,Kama,Kipor,Yanmar L100AE, F178, F186FA";Germany;EUR;59,90;;10;;;ZSPMOT00378
+Revise;131443680592;"Zylinderkopf 418ccm Bauform2, Dieselmotor Rotek,Kama,Kipor,Yanmar L100AE, F186FA";Germany;EUR;59,90;;5;;;ZSPMOT00700
+Revise;131443705435;"Zylinderkopf 200ccm Benzinmotor zB Rotek,Kama,Lifan,Kipor,Honda, GX200";Germany;EUR;36,90;;8;;;ZSPMOT00633
+Revise;121585234330;"Zylinderkopf 270ccm Benzinmotor zB Rotek,Lifan,Kama,Kipor,Honda, GX270";Germany;EUR;59,90;;12;;;ZSPMOT00634
+Revise;121125228973;"Industrie Impuls Folienschweißgerät Balkenschweißgerät Folienschweißer PFS 300";Germany;EUR;74,90;;37;;;PACK068
+Revise;130926717050;"Industrie Folienschweißgerät Balkenschweißgerät Folienschweißer Sealer PFS-400";Germany;EUR;64,90;;41;;;PACK069
+Revise;122556693839;"Hydraulikpumpe Werkstattpressen 10,20,30,50,75,100T, 700Bar, 1600ccm pneumatisch";Germany;EUR;158,90;;30;;;ZSPWKZ000043
+Revise;112449572729;"Hydraulikzylinder 50T für Werkstattpresse Dornpresse Druckzylinder Hebezylinder";Germany;EUR;269,90;;25;;;ZSPWKZ000046
+Revise;112449576354;"Hydraulikpumpe Handpumpe Werkstattpressen 50 70 Tonnen Pneumatikmotor";Germany;EUR;39,80;;19;;;ZSPWKZ000050
+Revise;112212479257;"Schalttafel Leuchte Signalleuchte Signallampe LED 230V Weiss 29mm Schaltschrank";Germany;EUR;1,90;;184;;;ZSPGEN00282
+Revise;121692910734;"3-Zyl. Dieselmotor 1357ccm wassergekühlt Diesel Motor BHKW Generator SAE 4/7.5";Germany;EUR;1899,00;;4;;;MOT040
+Revise;121692913089;"3-Zyl. Dieselmotor 1357ccm wassergekühlt Bagger, Dumper, Pumpen, Baumaschinen";Germany;EUR;1899,00;;4;;;MOT150
+Revise;131547847681;"4-Zyl. Dieselmotor 2670ccm wassergekühlt Diesel Motor BHKW Generator SAE 4/7.5";Germany;EUR;2420,00;;4;;;MOT164
+Revise;131547854775;"4-Zyl. Dieselmotor 3857ccm wassergekühlt Bagger, Dumper, Pumpen, Baumaschinen";Germany;EUR;3190,00;;3;;;MOT151
+Revise;121019211772;"Walzenschalter für 3 Stromwandler 48x48 4-Pos. Wahlschalter Strom Amperemeter";Germany;EUR;24,90;;5;;;ZSPGEN00130
+Revise;121019212362;"Walzenschalter für 3 Stromwandler 65x65 4-Pos. Wahlschalter Strom Amperemeter";Germany;EUR;24,90;;15;;;ZSPGEN00105
+Revise;121019213344;"Walzenschalter Spannungsmesser 4-Positionen 48x48 Voltmeter Wahlschalter";Germany;EUR;24,90;;15;;;ZSPGEN00129
+Revise;131640204627;"Schrumpftunnel BS4535 Schrumpfgerät Verpackungsmaschine Schrumpfmaschin?e";Germany;EUR;999,00;;2;;;PACK088
+Revise;111809406150;"Schrumpftunnel BS5535 Schrumpfgerät Verpackungsmaschine Schrumpfmaschin?e";Germany;EUR;1749,00;;4;;;PACK089
+Revise;111030346848;"Saugkorb Innengewinde G3 Rohrgewinde Messing 3 Zoll 3Z B mit Rückschlagventil IG";Germany;EUR;59,90;;58;;;PUM047
+Revise;131368130605;"Zündspule zu Benzinmotor EG4-090 Rotek, ca 90ccm, Honda GX,Kipor,DEK,Kama etc.";Germany;EUR;19,90;;42;;;ZSPMOT00658
+Revise;112943067743;"Dieseltank Tank 3,2L zu Dieselmotor 306ccm Rotek DEK Kipor Yanmar";Germany;EUR;31,90;;8;;;ZSPMOT00807
+Revise;123081628771;"Dieseltank Tank 2,5 L zu Dieselmotor 210 ccm Rotek DEK Kipor Yanmar";Germany;EUR;22,90;;10;;;ZSPMOT00379
+Revise;112943078913;"Dieseltank Tank 3,2 L zu Dieselmotor 300 ccm Rotek DEK Kipor Yanmar";Germany;EUR;31,90;;5;;;ZSPMOT00380
+Revise;132585145798;"Dieseltank Tank 5,0 L zu Dieselmotor 400/420 ccm Rotek DEK Kipor Yanmar";Germany;EUR;35,90;;3;;;ZSPMOT00381
+Revise;121506319652;"Zündspule zu Benzinmotor EG4-270/390/420  Rotek Honda GX,Kipor,DEK,Kama udgl";Germany;EUR;19,90;;50;;;ZSPMOT00322
+Revise;112943086206;"Dieseltank Tank 85 L zu Dieselmotor Generator Rotek GD4WSS-DK";Germany;EUR;239,00;;10;;;ZSPGEN00134
+Revise;121506356996;"Zündspule für Benzinmotor EG4-0200 Rotek Honda GX160/200,Kipor,DEK,Kama, etc";Germany;EUR;19,90;;14;;;ZSPMOT00050
+Revise;112245010510;"Hauptplatine Steuerung Rotek BGO Ölheizkanonen Heizkanone 20/30/50kW mit MV";Germany;EUR;47,80;;42;;;ZSPHEATER069
+Revise;123081728982;"Profi Vakuumierer Tisch 20cbm Vakuumiergerät Vakuummaschine Vakuumgerät Vakuum";Germany;EUR;949,00;;0;;;PACK122
+Revise;111809507663;"Solid State SSR Halbleiterrelais Relais 3-phasig Drehstrom 40A 480VAC, Schütz 3P";Germany;EUR;45,00;;14;;;ZSPGEN00354
+Revise;131015044628;"Motorpumpe 72m³/h Wasserpumpe 25m Kreiselpumpe 2,5 bar Pumpe 4Z Dieselpumpe NEU";Germany;EUR;618,00;;4;;;PUM376
+Revise;131368225378;"Lichtmaschine 186F/FA Yanmar L40/L60/L70/L90/L100/AE Rotek,Kipor,DEK,Kama usw.";Germany;EUR;25,90;;66;;;ZSPMOT00138
+Revise;111537710207;"Lichtmaschine zu Benzinmotor EG4-270/390/420  Rotek Honda GX,Kipor,DEK,Kama";Germany;EUR;17,90;;10;;;ZSPMOT00845
+Revise;131135778023;"Hydraulikaggregat 600Bar 8.6l/min Hydraulikpumpe 2.2kW elektrisch 230V 25L Tank";Germany;EUR;1639,00;;7;;;WKZ021
+Revise;131828862386;"Lüftermotor Ventilatormotor 230V, 2800U/min, 80 Watt, zu Rotek Schrumpftunnel";Germany;EUR;129,90;;9;;;ZSPPACK0120
+Revise;121998312171;"Lüfter Ventilator Radiallüfter zu Schrumpftunnel, 80W, 2800U/min,D=130mm H=50mm";Germany;EUR;33,90;;0;;;ZSPPACK0121
+Revise;121998314128;"Schweissbalken 410x6mm mit Abtrennfunktion passend zu VC-400 ab Version V1605";Germany;EUR;89,90;;23;;;ZSPPACK0122
+Revise;110308216975;"Wellendichtring Wellendichtung 2,5"" Wolframcarbid BJ18";Germany;EUR;95,90;;8;;;ZSPPUM00125
+Revise;132234339636;"Spannungsregler AVR Generatoren Han Jing HJ 15K3P380 mit Boost Funktion Rotek";Germany;EUR;79,90;;21;;;ZSPGEN00351
+Revise;112450855742;"Dieselfilter C0506C Filtereinsatz Papierfilter D55mm Treibstofffilter NEU Rotek";Germany;EUR;10,00;;0;;;ZSPMOT00511
+Revise;111861339295;"Schweißdraht SG2 Schutzgas MIG SG-2 Ti 0,6mm 1kg speziell f. KFZ verrostet Zink";Germany;EUR;23,90;;82;;;SCHWEISS148
+Revise;112450888061;"Ölfilter Ölsieb Dieselmotor ED4-0219 ED4-0306 ED4-0418 Edelstahlsieb Rotek Neu";Germany;EUR;10,00;;48;;;ZSPMOT00018
+Revise;130988214871;"Werkstattpresse 10t Hydraulikpresse Lagerpresse hydraulische Presse Dornpresse";Germany;EUR;359,00;;10;;;WKZ010
+Revise;121851535370;"Schweißdraht SG2 Schutzgas MIG SG-2 Ti 0,6mm 15kg speziell f. KFZ verrostet Zink";Germany;EUR;151,90;;99;;;SCHWEISS153
+Revise;132234409419;"Kolbenringsatz ED4-0300 ED4-0306 Rotek Dieselmotor 300ccm 296ccm 306ccm";Germany;EUR;16,90;;20;;;ZSPMOT00163
+Revise;112450915114;"Kolbenringsatz ED4-2R-0954-E Rotek Dieselmotor 954ccm GD4 13000 Reihe 2-Zylinder";Germany;EUR;16,90;;16;;;ZSPMOT00922
+Revise;122558688050;"Ölmeßstab ED4-2R-0954-E Rotek Dieselmotor 954ccm GD4 13000 Ölmessstab Ölstand";Germany;EUR;16,90;;10;;;ZSPMOT00948
+Revise;111165979068;"Hydraulikzylinder 10T für Werkstattpresse Dornpresse Druckzylinder Hebezylinder";Germany;EUR;88,90;;4;;;ZSPWKZ000002
+Revise;121173931868;"Prismenauflage Pressblock zu 30T Werkstattpresse Hydraulikpresse Dornpresse";Germany;EUR;49,00;;7;;;ZSPWKZ000013
+Revise;131445461135;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1300x1065 mm, Plattenstärke 4,0 mm";Germany;EUR;214,90;;1;;;GFK020
+Revise;122411707878;"Manueller Mini Stapler mit Plattform, Tragkraft 400kg, Hubhöhe 0,8m Hochhubwagen";Germany;EUR;499,00;;0;;;HUB199
+Revise;110952118601;"12V 10Ah Blei Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku w. 7Ah 8Ah 9Ah";Germany;EUR;24,00;;205;;;BAT051
+Revise;122411711276;"Manueller Mini Stapler mit Plattform, Tragkraft 400kg, Hubhöhe 1,2m Hochhubwagen";Germany;EUR;499,00;;8;;;HUB200
+Revise;131687499765;"Schweißdraht Edelstahl Schutzgas MIG E316L 0,8mm 1kg";Germany;EUR;28,90;;91;;;SCHWEISS026
+Revise;131687503920;"Schweißdraht Edelstahl Schutzgas MIG E316L 1,0mm 1kg";Germany;EUR;28,90;;99;;;SCHWEISS027
+Revise;131687506030;"Schweißdraht Edelstahl Schutzgas MIG E316L 1,0mm 5kg";Germany;EUR;90,90;;99;;;SCHWEISS029
+Revise;112450959782;"Stösselstangenbuchse ED4-2R-0954-E Rotek Dieselmotor 954ccm Röhre Rohr Stössel";Germany;EUR;14,00;;4;;;ZSPMOT00799
+Revise;112450968861;"Treibstoffpumpe ED4-2R-0954-E Rotek Dieselmotor Dieselpumpe KM/D2404 7.10.10";Germany;EUR;54,90;;1;;;ZSPMOT00949
+Revise;122558721299;"Laderegler ED4-2R-0954-E Rotek Dieselmotor Batterieregler 7.12.06 Lichtmaschine";Germany;EUR;40,90;;17;;;ZSPMOT00803
+Revise;121586724022;"Laderegler Regulator Lichtmaschine Regler 12V zu Dieselmotor Rotek Yanmar";Germany;EUR;18,00;;181;;;ZSPMOT00920
+Revise;132234477994;"Zündspule LINKS EG4-2V-0614 Benzinmotor Zündmagnet Rotek 8.5KW L 1324 Zündung";Germany;EUR;35,00;;2;;;ZSPMOT00832
+Revise;112451006220;"Zündspule RECHTS EG4-2V-0614 Benzinmotor Zündmagnet Rotek 8.5KW R 1322 Zündung";Germany;EUR;35,00;;2;;;ZSPMOT00834
+Revise;122558757880;"Schwungrad mit Starterkranz EG4-2V-0614 Benzinmotor Rotek Schwungscheibe 09-08";Germany;EUR;79,90;;2;;;ZSPMOT00877
+Revise;122558764998;"Kipphebelsatz EG4-Serie Klavier Rotek Ventilbetätigung Benzinmotor 4-Takt";Germany;EUR;19,90;;5;;;ZSPMOT00921
+Revise;112451022552;"Zylinderkopfdichtung 210ccm Glimme Benzinmotor z.B. Rotek,Lifan,Kama,Kipor,Honda";Germany;EUR;12,00;;20;;;ZSPMOT00913
+Revise;122558772833;"Ventildeckeldichtung für Benzinmotor Rotek,Lifan,Kama,Kipor,Honda Kopfdichtung";Germany;EUR;12,00;;30;;;ZSPMOT00458
+Revise;132234540062;"Luftfilter und Luftfilterkasten für 90ccm Benzinmotor EG4-0090 Rotek 30105100000";Germany;EUR;21,90;;5;;;ZSPMOT00838
+Revise;132234545013;"Handstart Seilzugstarter Handstarteinrichtung EG4-0390 EG4-0420 GX Rotek";Germany;EUR;25,00;;88;;;ZSPMOT00912
+Revise;111613273028;"Notausschalter Not-AUS Taster Rastend Pilzschalter Notschalter Emergency Switch";Germany;EUR;4,39;;224;;;ZSPGEN00276
+Revise;120969536433;"Ersatzkit 2x Schweißdraht 2x Teflon zu Schweißbalken Folienschweißgerät PFS-500";Germany;EUR;11,50;;144;;;PACK028
+Revise;132234558827;"Glocke Mitnehmer Seilzugstarter Dieselmotor ED4-0300 ED4-0306 Rotek Schwung";Germany;EUR;9,00;;18;;;ZSPMOT00545
+Revise;131687564010;"Schweißdraht Aluminium 3.3556 (AlMg5) S200 Rolle, 0.8mm, 2kg, MIG/MAG";Germany;EUR;44,90;;98;;;SCHWEISS073
+Revise;112451057711;"Absteller Abstellmagnet Solenoid Stopmagnet Zugmagnet 12V TAU-837T";Germany;EUR;29,90;;3;;;ZSPGEN00376
+Revise;131687566035;"Schweißdraht Aluminium 3.3556 (AlMg5) S100 Rolle, 0.8mm, 0.5kg, MIG/MAG";Germany;EUR;21,90;;98;;;SCHWEISS147
+Revise;111861446676;"Schweißdraht Aluminium 3.3556 (AlMg5) S200 Rolle, 1.0mm, 2 kg, MIG/MAG";Germany;EUR;44,90;;98;;;SCHWEISS075
+Revise;121851630717;"Schweißdraht Aluminium 3.3556 (AlMg5) S200 Rolle, 1.2mm, 2 kg, MIG/MAG";Germany;EUR;42,90;;99;;;SCHWEISS003
+Revise;132438783438;"Profi Luftentfeuchter Bautrockner Entfeuchtungsgerät Entfeuchter 50 60 70 L/Tag";Germany;EUR;539,90;;0;;;KLI058
+Revise;121851637929;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuSi3 0.8mm D200 5kg";Germany;EUR;144,90;;98;;;SCHWEISS022
+Revise;132438790377;"Profi Luftentfeuchter Bautrockner Entfeuchtungsgerät Entfeuchter 90 / 120 L/Tag";Germany;EUR;869,90;;18;;;KLI059
+Revise;121851641343;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuSi3 0.8mm D100 1kg";Germany;EUR;36,90;;55;;;SCHWEISS060
+Revise;131687581026;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuSi3 1.0mm S200 5kg";Germany;EUR;144,90;;100;;;SCHWEISS023
+Revise;132012275779;"Rolle Rad Universalrad Vollgummirad D=250mm B=50mm d=20mm 250kg Tragfähigkeit";Germany;EUR;37,00;;197;;;IBROL00002
+Revise;121851646747;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuAl8 0.8mm S200 5kg";Germany;EUR;134,90;;98;;;SCHWEISS024
+Revise;131687587052;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuAl8 0.8mm D100 1kg";Germany;EUR;35,90;;3;;;SCHWEISS062
+Revise;122239205086;"Radachse Achse 20x1.5x1000mm passend zu unseren Rädern mit 20mm Bohrung";Germany;EUR;9,00;;200;;;IBROL00003
+Revise;121851652221;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuAl8 1.0mm S200 5kg";Germany;EUR;148,90;;100;;;SCHWEISS025
+Revise;131687590155;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuAl8 1.0mm D100 1kg";Germany;EUR;38,90;;95;;;SCHWEISS063
+Revise;121586873737;"Schalttafel Leuchte Signalleuchte Signallampe LED 230V Rot 29mm Schaltschrank";Germany;EUR;1,00;;300;;;ZSPGEN00125
+Revise;121586887773;"Installationsschütz Wechsler Wechselschütz 4 polig / 230/400V Spulenspannung 10A";Germany;EUR;24,00;;13;;;ZSPGEN00196
+Revise;120329351995;"Kolbenringsatz 105mm 2,9/3/5 mm Changfa ZS1105";Germany;EUR;24,90;;21;;;ZSPMOT00516
+Revise;111613384703;"24V(27.6V) DC 3A 60W Bleiakku Batterie Ladegerät Einbau 110/230VAC Stützladung";Germany;EUR;31,90;;17;;;ZSPGEN00348
+Revise;122239299868;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1020x670 mm Plattenstärke Dicke 10mm";Germany;EUR;224,90;;100;;;EPGC202-10X1020X670
+Revise;132627310023;"1000kg 1t Laufkatze Rollfahrwerk Handfahrwerk Kran Katze Handlaufwerk 50-220mm";Germany;EUR;53,90;;208;;;HUB160
+Revise;112947054918;"Lüfterrad Ventilator Metall Gasheizer HG-15-230 Da 170mm 5 Flügel Rotek";Germany;EUR;15,90;;19;;;ZSPHEATER00013
+Revise;123085405046;"Lüfterrad Ventilator Metall Gasheizer HG-30-230 Da 200mm HF-03-230 Heizlüfter";Germany;EUR;15,90;;48;;;ZSPHEATER00014
+Revise;132587918266;"Lüfterrad Ventilator Metall Gasheizer HG-50-230 Da 220mm 5 Flügel Rotek";Germany;EUR;15,90;;20;;;ZSPHEATER00015
+Revise;123085427914;"Lüfterrad Ventilator Metall Heizlüfter HF-05-400 Da 230mm 5 Flügel Rotek Fan";Germany;EUR;15,90;;31;;;ZSPHEATER00016
+Revise;132587921756;"Lüfterrad Ventilator Metall Heizlüfter HF-09-400 Da 250mm 5 Flügel Rotek Fan";Germany;EUR;15,90;;30;;;ZSPHEATER00017
+Revise;123085445527;"Lüfterrad Ventilator Metall Heizlüfter HF-15-400 Da 290mm 5 Flügel Rotek Fan";Germany;EUR;15,90;;31;;;ZSPHEATER00018
+Revise;132587928177;"Lüfterrad Ventilator Metall Heizlüfter HFR-09-400 Da 260mm 3 Flügel Rotek Fan";Germany;EUR;15,90;;0;;;ZSPHEATER00019
+Revise;132587929171;"Lüfterrad Ventilator Metall Ölheizer HOI-30-230 Da 244mm 4 Flügel Indirektheizer";Germany;EUR;24,90;;20;;;ZSPHEATER00020
+Revise;123085452050;"Lüfterrad Ventilator Metall Ölheizer HOI-50-230 Da 350mm 4 Flügel Indirektheizer";Germany;EUR;24,90;;19;;;ZSPHEATER00021
+Revise;110308628638;"Feder für Wagenheber WH-2000-800 Rückholfeder";Germany;EUR;9,90;;23;;;ZSPHUB00109
+Revise;110308630446;"Fusspedal für Wagenheber WH-2000-800 Betätigungspedal";Germany;EUR;12,50;;4;;;ZSPHUB00110
+Revise;131714119394;"5000kg 5t 5to 3 Meter Kettenflaschenzug Kettenzug Hebezug Handkran Flaschenzug";Germany;EUR;139,90;;15;;;HUB027
+Revise;110308631881;"Lastrad für Wagenheber WH-2000-800 Vorderrad";Germany;EUR;12,50;;9;;;ZSPHUB00111
+Revise;121641155203;"4,8x25mm Kettenglied Verschlußglied Kettenschloss Notglied Kettenverbinder";Germany;EUR;3,90;;158;;;ZSPHUB00231
+Revise;131236614716;"Elektrostarter Anlasser zu Dieselmotoren Einzylinder Yanmar Kipor Rotek";Germany;EUR;84,90;;62;;;ZSPMOT00012
+Revise;112947589070;"Lüftermotor für Heizlüfter HF-03-230 für 230V 25W 1300rpm Rotek Typ YZF482175A";Germany;EUR;24,90;;48;;;ZSPHEATER00022
+Revise;112947592066;"Lüftermotor für Heizlüfter HF-05-400 HFR-05-400 für 380V 400V 30W YZF482175TB";Germany;EUR;26,90;;25;;;ZSPHEATER00023
+Revise;112947599457;"Lüftermotor für Heizlüfter HF-09-400 HFR-09-400 für 380V 400V 52W YZF482175TB";Germany;EUR;32,90;;21;;;ZSPHEATER00024
+Revise;123086000023;"Lüftermotor Heizer HF-15-400 HFR-15-400 für 380V 400V 95W YZF49740B (YZF48245BD)";Germany;EUR;33,90;;21;;;ZSPHEATER00025
+Revise;112947624010;"Lüftermotor Ventilator für HF-22-400 für 380V 400V 145W Sanmu YWF(K) 4D350-Z";Germany;EUR;125,00;;38;;;ZSPHEATER00026
+Revise;132588175553;"Lüftermotor für Gasheizer HG-15-230, HG-30-230 und HG-50-230 für 230V 95W BGA-50";Germany;EUR;35,00;;38;;;ZSPHEATER00027
+Revise;112947628618;"Treibstoffpumpe Ölpumpe für Rotek HOI-30-230 HOI-50-230 Danfoss BFP21R3 071N0109";Germany;EUR;108,90;;9;;;ZSPHEATER00033
+Revise;112534881723;"4-Zyl. Dieselmotor 1809ccm wassergekühlt Diesel Motor BHKW Generator SAE 4/7.5";Germany;EUR;2020,00;;2;;;MOT057
+Revise;132302567922;"4-Zyl. Dieselmotor 1809ccm wassergekühlt Bagger, Dumper, Pumpen, Baumaschinen";Germany;EUR;2020,00;;3;;;MOT148
+Revise;131982169588;"Spannungsregler AVR Generatoren 4A Erregung wie AS440, SX440 Stamford Newage";Germany;EUR;88,00;;11;;;ZSPGEN00198
+Revise;121404564976;"12V 12Ah Bleiakku Bleigel Modellbau Bleibatterie Battery Bateria baugleich 12Ah";Germany;EUR;30,00;;190;;;BAT037
+Revise;111429773338;"12V 28Ah Bleiakku Bleigel Modellbau Bleibatterie Battery Bateria wie 24Ah 26Ah";Germany;EUR;66,00;;110;;;BAT009
+Revise;122660972238;"4-Zyl. Dieselmotor 3857ccm wassergekühlt Diesel Motor BHKW Generator SAE 3/11.5";Germany;EUR;3190,00;;2;;;MOT032
+Revise;122660974070;"4-Zyl. Dieselmotor 2977ccm wassergekühlt Bagger, Dumper, Pumpen, Baumaschinen";Germany;EUR;2730,00;;0;;;MOT171
+Revise;112534896103;"4-Zyl. Dieselmotor 4.330ccm wassergekühlt Diesel Motor BHKW Generator SAE 3/11.5";Germany;EUR;4330,00;;3;;;MOT172
+Revise;112312138618;"Stromerzeuger 25kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;5590,00;;6;;;GEN197
+Revise;123030642145;"Zylinderkopfdichtung 910ccm V 2-Zylinder Dieselmotor zB Rotek,Kipor,Lombardini";Germany;EUR;14,90;;12;;;ZSPMOT00984
+Revise;112947674882;"Heizelement Heizstab Heizwendel für 3kW Heizlüfter (1,5kW pro Heizelement) 230V";Germany;EUR;13,90;;30;;;ZSPHEATER00054
+Revise;111786417916;"Spannungsregler elektronisch AVR Controller 230V LiHua 3KW.TT10-7C Generator";Germany;EUR;29,80;;54;;;ZSPGEN00166
+Revise;122660982782;"Wasserpumpe f. YD490 Motor komplett ohne Lüfter NEU";Germany;EUR;93,90;;6;;;ZSPMOT00509
+Revise;122660996826;"Wasserpumpe f. YD480 Motor komplett ohne Lüfter NEU";Germany;EUR;73,90;;9;;;ZSPMOT00978
+Revise;123086105012;"Heizelement Heizstab Heizwendel für 3kW Heizlüfter (1,5kW pro Heizelement) 230V";Germany;EUR;13,90;;1;;;ZSPHEATER00041
+Revise;123086107306;"Heizelement Heizstab Heizwendel für 9kW Heizlüfter (3kW pro Heizelement) 230V";Germany;EUR;13,90;;1;;;ZSPHEATER00042
+Revise;123086111273;"Heizelement Heizstab Heizwendel für 3kW Heizlüfter (1,5kW pro Heizelement) 230V";Germany;EUR;13,90;;5;;;HEATER044
+Revise;132302625512;"Wasserpumpe f. YD380 Motor komplett ohne Lüfter NEU";Germany;EUR;73,90;;6;;;ZSPMOT00698
+Revise;122367711259;"Stromerzeuger ohne Motor YHG-20 400V 20kW 3-phasig Synchron Generator TFW 20 AVR";Germany;EUR;1179,00;;4;;;GEN189
+Revise;112534957418;"Wasserpumpe f. Y4100 und Y4102 Yangdong Dieselmotor komplett ohne Lüfter NEU";Germany;EUR;103,90;;10;;;ZSPMOT00785
+Revise;112534959330;"Wasserpumpe f. Yangdong Y4105 Y4105ZLD Dieselmotor komplett ohne Lüfter NEU";Germany;EUR;113,90;;5;;;ZSPMOT00965
+Revise;121381369972;"Treibstoffhahn Dieselhahn Tankhahn Anbauhahn zu Rotek, Yanmar, DEK, Kipor Diesel";Germany;EUR;13,90;;77;;;ZSPMOT00842
+Revise;112534973811;"Lichtmaschine JFWZ25Y 24V 500W Yangdong Y4100 Y4102 Y4105 28V Laderegler";Germany;EUR;155,90;;5;;;ZSPMOT00972
+Revise;122661101839;"Ventilator Lüfter zu Dieselmotor Kühler Kühlventilator 420mm Fan 52mm Lochkreis";Germany;EUR;33,90;;19;;;ZSPMOT00594
+Revise;111429827673;"12V 28Ah Blei AGM Bleiakku Bleigel Akkumulator Batterie Camping wie 24Ah 26A USV";Germany;EUR;63,00;;84;;;BAT052
+Revise;121404627907;"12V 35Ah USV Blei AGM Bleiakku Bleigel Akkumulator Batterie Camping wie 32Ah 33A";Germany;EUR;73,00;;89;;;BAT048
+Revise;121404629209;"12V 80Ah USV AGM Bleiakku Bleigel Akkumulator Batterie Camping wie 70Ah 74A 75Ah";Germany;EUR;185,00;;34;;;BAT053
+Revise;131263527956;"Zyklentyp Zyklenfest Blei Bleiakku Bleigel Akku Bleigelakku Gelakku 12V 12Ah";Germany;EUR;33,00;;98;;;BAT034
+Revise;112535002670;"Ventilator Lüfter Dieselmotor D=490mm Fan Yangdong Y4100 Y4102 Y4105 52mm 28mm";Germany;EUR;39,90;;10;;;ZSPMOT00604
+Revise;112180967217;"Solid State SSR Halbleiterrelais Relais 25A 75-480VAC Ansteuerung 100-240 VAC";Germany;EUR;9,55;;0;;;ZSPGEN00299
+Revise;122197732737;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 130°C/100°C";Germany;EUR;8,80;;98;;;HEATER130
+Revise;111590622999;"Stromerzeuger 7kW Stromaggregat 230V Notstrom Notstromaggregat Generator Benzin";Germany;EUR;799,00;;19;;;GEN163
+Revise;131420130623;"Zubehör Radsatz f. Rotek GG4-1A-7300 Stromerzeuger GG4-3-7300 Generator Räder";Germany;EUR;43,90;;54;;;GEN173
+Revise;111590629200;"Stromerzeuger 5,5kW Stromaggregat 400V Notstromaggregat Generator Diesel 3 Phase";Germany;EUR;899,00;;0;;;GEN004
+Revise;131420149431;"Stromerzeuger 5,5kW Stromaggregat 230V Notstromaggregat Generator Diesel Silent";Germany;EUR;1259,00;;0;;;GEN056
+Revise;131420159671;"Diesel Einspritzpumpe mit Magnetventil 70/78 Yanmar  L40/L48/L60/L70/AE Rotek";Germany;EUR;59,90;;20;;;ZSPMOT00747
+Revise;121126405367;"Einspritzdüse Injektor KDAL-P027 passend z.Bsp. Zu ED4-2V-870 Dieselmotor Bosch";Germany;EUR;83,90;;45;;;ZSPMOT00794
+Revise;121405177341;"2000kg 2t Laufkatze Rollfahrwerk Handfahrwerk Kran Katze Handlaufwerk 66-220mm";Germany;EUR;73,90;;0;;;HUB161
+Revise;131504033161;"Umlenkrolle 1t/4t 1000/4000kg Seilwinde Seilzug Snatch Block Kloben 4-10mm Seil";Germany;EUR;36,80;;0;;;HUB152
+Revise;111032232033;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1050x680 mm, Plattenstärke 2,5 mm";Germany;EUR;93,90;;4;;;GFK041
+Revise;121126688403;"Ersatzkit 2x Schweißdraht 2x Teflon Schweißbalken Folienschweißgerät PFS-400 3mm";Germany;EUR;16,40;;65;;;ZSPPACK0020
+Revise;111662596792;"DRAHTSEIL 4mm 7x7 1300kg Forstseil Stahlseil Forstwindenseil Kranseil pro Meter";Germany;EUR;2,40;;172;;;ZSPHUB00233
+Revise;131504095283;"DRAHTSEIL 5mm 19x7 1990kg Forstseil Stahlseil Forstwindenseil Kranseil p. Meter";Germany;EUR;2,50;;203;;;ZSPHUB00232
+Revise;122368778089;"5.0x23.7mm Kettenglied Verschlußglied Kettenschloss Notglied Kettenverbinder";Germany;EUR;3,90;;72;;;ZSPHUB00244
+Revise;122368780469;"5x23.7mm Stahlkette Zugkette Handkette Haspelkette Kette verzinkt Antriebskette";Germany;EUR;4,90;;124;;;ZSPHUB00243
+Revise;110431049655;"Einspritzdüse Weichai Huafengdongli R4105-ZD1 PB86J01";Germany;EUR;49,00;;3;;;ZSPMOT00600
+Revise;121829210570;"Förderbandrolle Ersatzteil zu Rotek Continuouse Sealer PM-FC-CONT";Germany;EUR;24,90;;37;;;ZSPPACK0117
+Revise;132074547649;"10kg WIG Schweißstab Aluminium AlMg3 2.4mm Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;138,90;;100;;;SCHWEISS006
+Revise;112041398078;"10 Meter DRAHTSEIL 6mm 19x7 3050kg Forstseil Stahlseil Forstwindenseil Kranseil";Germany;EUR;9,50;;0;;;SET#ZSPHUB00246#X010
+Revise;111838563808;"Auspuff Silent zu 2 Zylinder Dieselmotor 19PS 794ccm 14kW wassergekühlt BHKW";Germany;EUR;214,90;;5;;;ZSPMOT00895
+Revise;121829275658;"Griffschutzgitter zu 2 Zylinder Dieselmotor 19PS 794ccm 14kW wassergekühlt BHKW";Germany;EUR;114,90;;5;;;ZSPMOT00894
+Revise;131665415365;"Montagebügel zu 2 Zylinder Dieselmotor 19PS 794ccm 14kW wassergekühlt BHKW";Germany;EUR;234,90;;4;;;ZSPMOT00893
+Revise;132405855444;"Motorpumpe 15m³/h Wasserpumpe 25m Kreiselpumpe 2,5 bar Pumpe 1,5Z Benzinpumpe";Germany;EUR;149,90;;0;;;PUM092
+Revise;132405865582;"Dieselfilter mit Absperrhahn Kraftstoffilter Wasserabscheider Anbaufilter";Germany;EUR;29,90;;93;;;ZSPMOT00025
+Revise;110139703382;"200 Stk Blitzbinder Reben binden Sackverschluss 120x3.5";Germany;EUR;7,90;;75;;;KBIND026
+Revise;112182676349;"Profi System Winkelschweißer Verpackungsmaschine Winkelschweißgerät NEU";Germany;EUR;1389,00;;0;;;PACK063
+Revise;131983490042;"Profi Vakuumierer Tisch 8cbm Vakuumiergerät Vakuummaschine Vakuumgerät Vakuum";Germany;EUR;749,00;;24;;;PACK104
+Revise;122871142022;"6V 6Ah Bleiakku Modellbau Bleibatterie Battery Bateria Aku wie 4Ah 4,5Ah 5Ah";Germany;EUR;12,20;;604;;;BAT013
+Revise;130990155119;"Stahlsaugkorb Stahl Saugkorb zu Tauchpumpen Modelle WPET-TC/TS-1,5kW";Germany;EUR;44,90;;100;;;PUM301
+Revise;112701661039;"12V 9Ah Blei Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku w. 7Ah 7,2Ah 8Ah";Germany;EUR;23,00;;427;;;BAT057
+Revise;130990158917;"Stahl Saugkorb Strainer für Tauchpumpen Modelle WPET-TC/TS-3,0kW";Germany;EUR;54,90;;100;;;PUM377
+Revise;130990163457;"Vakuumsealer Vakuumierer Ersatzteil T-Stück zu Ventilblock";Germany;EUR;14,90;;15;;;ZSPPACK0051
+Revise;132074777100;"Einspritzdüse Injektor PB80P07 passend zu ED4-2V-910 Dieselmotor Bosch 5-Loch";Germany;EUR;69,90;;50;;;ZSPMOT00939
+Revise;131983569371;"Ersatzteil Dichtung Deckeldichtung Vakuumsealer Vakuumierer >181cm VC-300/400";Germany;EUR;19,90;;212;;;PACK045
+Revise;121175180173;"Vakuumsealer Vakuumierer Magnetventil Doppelventil Ventilblock 24V VC-400 Ersatz";Germany;EUR;79,90;;5;;;ZSPPACK0052
+Revise;122871206195;"12V 14Ah Blei Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku baugleich 12Ah";Germany;EUR;32,00;;351;;;BAT008
+Revise;122871222482;"12V 20Ah Blei Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku 17Ah 18Ah 19Ah";Germany;EUR;43,00;;328;;;BAT003
+Revise;122369144182;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 800kg 0,8 t to 20m Seil";Germany;EUR;96,90;;0;;;SET#ZSPHUB00222+ZSPHUB00022
+Revise;112313497984;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 800kg 0,8 t to 40m Seil";Germany;EUR;116,90;;0;;;SET#ZSPHUB00222+ZSPHUB00201
+Revise;112313498439;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 800kg 0,8 t to 60m Seil";Germany;EUR;143,90;;0;;;SET#ZSPHUB00222+ZSPHUB00219
+Revise;112313501893;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 3200kg 3,2 t to 20m Seil";Germany;EUR;227,90;;0;;;SET#ZSPHUB00224+ZSPHUB00024
+Revise;132105798422;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 3200kg 3,2 t to 60m Seil";Germany;EUR;424,00;;1;;;SET#ZSPHUB00224+ZSPHUB00221
+Revise;122871274211;"12V 45Ah USV Blei AGM Bleiakku Bleigel Akkumulator Batterie Camping wie 40Ah 42A";Germany;EUR;96,00;;65;;;BAT020
+Revise;132441123439;"12V 55Ah USV Blei AGM Bleiakku Bleigel Akkumulator Batterie Camping wie 50Ah 60A";Germany;EUR;118,00;;52;;;BAT010
+Revise;122871355260;"12V 22Ah Zyklentyp Zyklenfest Blei Bleiakku Bleigel Akku Bleigelakku Gelakku 20";Germany;EUR;45,00;;0;;;BAT035
+Revise;122871366101;"12V 35Ah Blei Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku 32Ah zyklenfest";Germany;EUR;79,00;;46;;;BAT043
+Revise;112149842641;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1280x925mm Stärke/Dicke 0.5mm";Germany;EUR;54,90;;2;;;HGW2082-0.5X1280X925
+Revise;131951868520;"Baumwollhartgewebestab HGW2088 Durchmesser 15mm Länge 1000mm PFCC42 Stab";Germany;EUR;16,90;;93;;;PFCC42-ROD-D015X1000
+Revise;112149865603;"Baumwollhartgewebestab HGW2088 Durchmesser 18mm Länge 1000mm PFCC42 Stab";Germany;EUR;18,90;;85;;;PFCC42-ROD-D018X1000
+Revise;122153940708;"Baumwollhartgewebestab HGW2088 Durchmesser 25mm Länge 1000mm PFCC42 Stab";Germany;EUR;23,90;;88;;;PFCC42-ROD-D025X1000
+Revise;131951874295;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 6.0mm";Germany;EUR;88,90;;60;;;PFCC201-06X1220X0605
+Revise;112149869228;"Baumwollhartgewebestab HGW2088 Durchmesser 40mm Länge 1000mm PFCC42 Stab";Germany;EUR;41,90;;99;;;PFCC42-ROD-D040X1000
+Revise;131951876649;"Baumwollhartgewebestab HGW2088 Durchmesser 45mm Länge 1000mm PFCC42 Stab";Germany;EUR;49,90;;98;;;PFCC42-ROD-D045X1000
+Revise;131951877580;"Baumwollhartgewebestab HGW2088 Durchmesser 60mm Länge 1000mm PFCC42 Stab";Germany;EUR;80,90;;100;;;PFCC42-ROD-D060X1000
+Revise;131951878716;"Baumwollhartgewebestab HGW2088 Durchmesser 65mm Länge 1000mm PFCC42 Stab";Germany;EUR;96,90;;100;;;PFCC42-ROD-D065X1000
+Revise;131138323224;"Startschloss Zündschloss Universal 2+5pol. Benzin Diesel 24mm Generator Pumpe";Germany;EUR;23,90;;91;;;ZSPGEN00308
+Revise;121339023086;"Profi Vakuumierer Tisch 20cbm Vakuumiergerät Vakuummaschine Vakuumgerät Vakuum";Germany;EUR;969,00;;59;;;PACK101
+Revise;121339023729;"Vakuumierer Stand 20cbm Begasung Gas Vakuumiergerät Vakuummaschine Vakuumgerät";Germany;EUR;1239,00;;19;;;PACK112
+Revise;111404570641;"Stromerzeuger 37kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;6490,00;;3;;;GEN198
+Revise;111404575048;"Stromerzeuger ohne Motor STC-12 230V 12kW 1-phasig Synchron Generator STC 12 AVR";Germany;EUR;659,00;;3;;;GEN134
+Revise;121144081701;"Spannungsregler elektronisch AVR Controller 230V GFC9-1 Generator Stromerzeuger";Germany;EUR;57,80;;4;;;ZSPGEN00082
+Revise;111119942676;"Spannungsregler elektronisch AVR Controller 230V GTDK AVR3-1I4AH Generator";Germany;EUR;29,80;;19;;;ZSPGEN00241
+Revise;130948346729;"Spannungsregler elektronisch AVR Controller 230V Han Jing HJ5K-200 Generator";Germany;EUR;29,90;;68;;;ZSPGEN00252
+Revise;121144106281;"Spannungsregler elektronisch AVR Controller 230V LiHua 5KW.TT09-7C Generator";Germany;EUR;34,80;;49;;;ZSPGEN00169
+Revise;121455628241;"Manometer Adapterleitung Hydraulik Adapter M16x1.5 auf M20x1.5 270mm NEU";Germany;EUR;24,90;;9;;;ZSPWKZ000034
+Revise;111404658183;"Dieselfilter Treibstofffilter 133 mm Filter Diesel Treibstoff Tankeinbau Tank";Germany;EUR;10,00;;176;;;ZSPMOT00023
+Revise;111404660202;"Dieselfilter Treibstofffilter 155 mm Filter Diesel Treibstoff Tankeinbau Tank";Germany;EUR;10,00;;189;;;ZSPMOT00339
+Revise;121382628528;"Dieselfilter Treibstofffilter 185 mm Filter Diesel Treibstoff Tankeinbau Tank";Germany;EUR;10,00;;198;;;ZSPMOT00340
+Revise;111120019416;"Spannungsregler elektronisch AVR Controller 400V Han Jing HJ5K-220-3P Generator";Germany;EUR;34,80;;41;;;ZSPGEN00253
+Revise;121144186014;"Kohlenhalter mit Kohlen Bürsten Kohlensatz Generatoren Stromerzeuger KT KTS 5 6";Germany;EUR;19,80;;105;;;ZSPGEN00002
+Revise;121144193349;"Klemmbrett Anschlussleiste zu Generatoren Stromerzeuger KT KTS 3/5/6/10";Germany;EUR;14,80;;26;;;ZSPGEN00035
+Revise;111404750821;"Kolben für 418 420 ccm 1 Zylinder Dieselmotoren Hubraum Diesel Motor ED4-0420";Germany;EUR;21,00;;96;;;ZSPMOT00167
+Revise;132590755993;"Einspritzpumpe, passend zu 2-Zylinder V-Motor Diesel 910ccm ED4-2V-0910";Germany;EUR;119,90;;1;;;ZSPMOT00940
+Revise;132075575857;"Stromerzeuger Stromaggregat 230V Notstrom Notstromaggregat Generator Diesel 3kW";Germany;EUR;759,00;;43;;;GEN034
+Revise;111169301650;"Laderegler Lichtmaschinenregler 24V DC Gleichstrom NEU";Germany;EUR;14,90;;6;;;ZSPGEN00115
+Revise;112183971925;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 2.0mm";Germany;EUR;52,90;;94;;;PFCC201-02X1220X0605
+Revise;130990998242;"Amperemeter Ladestromanzeige 12V beleuchtet NEU";Germany;EUR;14,80;;83;;;ZSPMOT00541
+Revise;130991001544;"Messwiderstand Leistungswiderstand Shunt 75mV bei 30A Strommessung";Germany;EUR;15,00;;90;;;ZSPGEN00287
+Revise;131571277200;"Ersatzkit 2x Schweißdraht 2x Teflon Schweißbalken Folienschweißgerät PFS-400 2mm";Germany;EUR;16,40;;36;;;ZSPPACK0107
+Revise;131984559692;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuSi3 1.0mm D100 1kg";Germany;EUR;36,90;;97;;;SCHWEISS061
+Revise;131768532047;"Lichtmaschine JFWZ15Y 12V 500W Yangdong Yangdong YD490 und andere ED4W-4R Rotek";Germany;EUR;145,90;;9;;;ZSPMOT00929
+Revise;112281865411;"Auspuff zu Benzinmotor ED4-0160/0200/0210 GX160, GX200 Rotek DEK Kipor Honda";Germany;EUR;19,90;;4;;;ZSPMOT00327
+Revise;122327196529;"Zylinderkopfdichtung 420ccm Dieselmotor zB Rotek,Kipor,Yanmar L90,L100, F/FA186";Germany;EUR;15,90;;73;;;ZSPMOT00020
+Revise;122769803390;"Mobiler PWM Schweißinverter MMA Handelektrode Schweißgerät Inverter 200A Stab";Germany;EUR;299,00;;20;;;SCHWEISS164
+Revise;132372835931;"Mobiler 200A WIG DC PWM Schweißinverter Schweißgerät Inverter TIG MMA HF-Zündung";Germany;EUR;539,00;;10;;;SCHWEISS165
+Revise;122769816617;"Mobiler 200A WIG AC DC PWM Schweißinverter Schweißgerät Inverter TIG HF-Zündung";Germany;EUR;969,00;;14;;;SCHWEISS166
+Revise;132372868353;"200A WIG AC DC PWM Schweißinverter TIG für Werkstatt 20 Programme MMA-AC Puls";Germany;EUR;1079,00;;4;;;SCHWEISS167
+Revise;112705083194;"Orginal Apple Mini Displayport Dual-Link DVI Adapter (bis 2560x1600) Monitor";Germany;EUR;89,99;;1;;;EBAY004
+Revise;112614250403;"200A MIG MAG 5in1 PWM Schweißinverter MSG Löten WIG DC Schweißgerät Inverter";Germany;EUR;789,00;;15;;;SCHWEISS168
+Revise;112614254311;"Profi MIG MAG 5in1 PWM Schweißinverter MSG Löt WIG Schweissgerät 250A schweissen";Germany;EUR;1049,00;;9;;;SCHWEISS169
+Revise;120936647494;"Folienschweisser Folienschweissgerät speziell für Blockkastenbeutel Kaffeebeutel";Germany;EUR;348,90;;0;;;PACK079
+Revise;112614261020;"Profi MIG MAG 5in1 PWM Schweißinverter MSG Löt WIG Schweissgerät 350A schweissen";Germany;EUR;1649,00;;10;;;SCHWEISS170
+Revise;122769945127;"Kleinspulenbrenner MIG Aluminium D100 S100 Midget Brenner f. SWG-MIG250P MIG350P";Germany;EUR;299,00;;5;;;SCHWEISS171
+Revise;111640735402;"Benzinmotor 210ccm 6PS Konuswelle Vergaser Handstart konische Welle 25mm L:55mm";Germany;EUR;144,90;;21;;;MOT163
+Revise;111277448350;"Ölfilter JX0810 inkl. Druckregler,Filterflansch mit Topbohrung, W735/1 OC281";Germany;EUR;25,00;;28;;;ZSPGEN00279
+Revise;131114917524;"Ölfilter JX0810B/WB202 inkl. Halter,Druckregler ohne Topbohrung , W840, OC2";Germany;EUR;29,90;;45;;;ZSPMOT00364
+Revise;131505894396;"12V 200Ah Bleiakku AGM Bleigel Akku Batterie Bleigelakku Gelakku wie 180Ah 190Ah";Germany;EUR;459,00;;33;;;BAT056
+Revise;121854942650;"1kg WIG Schweißstab Aluminium AlMg3 2.0mm  Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;23,90;;93;;;SCHWEISS042
+Revise;121854949015;"1kg WIG Schweißstab Aluminium AlMg3 3.2mm  Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;22,90;;94;;;SCHWEISS043
+Revise;121854951133;"10kg WIG Schweißstab Aluminium AlMg3 3.2mm Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;132,90;;100;;;SCHWEISS007
+Revise;111864506996;"1kg WIG Schweißstab Aluminium AlMg3 4.0mm Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;22,90;;99;;;SCHWEISS053
+Revise;111864510101;"10kg WIG Schweißstab Aluminium AlMg3 4.0mm Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;130,90;;100;;;SCHWEISS048
+Revise;121096653095;"Manometer für Hydraulik, Werkstattpressen udgl. Nominal 680 Bar max. 1000 Bar";Germany;EUR;19,00;;31;;;ZSPWKZ000007
+Revise;121854963243;"1kg WIG Schweißstab Aluminium AlMg5 2.0mm Schweissstäbe Elektroden TIG 3.3556";Germany;EUR;22,90;;85;;;SCHWEISS044
+Revise;131690935476;"10kg WIG Schweißstab Aluminium AlMg5 2.0mm Schweissstäbe Elektroden TIG 3.3556";Germany;EUR;132,90;;100;;;SCHWEISS008
+Revise;121854966616;"1kg WIG Schweißstab Aluminium AlMg5 2.4mm Schweissstäbe Elektroden TIG 3.3556";Germany;EUR;22,90;;96;;;SCHWEISS045
+Revise;112495303191;"Stromerzeuger 15kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;5190,00;;2;;;GEN192
+Revise;121854969005;"10kg WIG Schweißstab Aluminium AlMg5 2.4mm Schweissstäbe Elektroden TIG 3.3556";Germany;EUR;132,90;;100;;;SCHWEISS009
+Revise;121854971300;"1kg WIG Schweißstab Aluminium AlMg5 3.2mm Schweissstäbe Elektroden TIG 3.3556";Germany;EUR;22,90;;91;;;SCHWEISS046
+Revise;111864525876;"10kg WIG Schweißstab Aluminium AlMg5 3.2mm Schweissstäbe Elektroden TIG 3.3556";Germany;EUR;130,90;;100;;;SCHWEISS010
+Revise;121854978277;"1kg WIG Schweißstab Edelstahl E316L V2A V4A 2.0x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;25,90;;93;;;SCHWEISS058
+Revise;111864534399;"10kg WIG Schweißstab Edelstahl E316L V2A V4A 2.0x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;149,90;;99;;;SCHWEISS059
+Revise;121854989514;"1kg WIG Schweißstab Edelstahl E316L V2A V4A 2.4x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;23,90;;97;;;SCHWEISS047
+Revise;131690977659;"10kg WIG Schweißstab Edelstahl E316L V2A V4A 2.4x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;146,90;;100;;;SCHWEISS011
+Revise;111864547509;"1kg WIG Schweißstab Edelstahl E316L V2A V4A 3.2x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;23,90;;98;;;SCHWEISS041
+Revise;121854999554;"10kg WIG Schweißstab Edelstahl E316L V2A V4A 3.2x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;145,90;;100;;;SCHWEISS012
+Revise;121855004311;"10kg WIG Schweißstab SG2 St37 1.6x1000mm Schweissstäbe TIG 1.5125";Germany;EUR;90,90;;100;;;SCHWEISS069
+Revise;131690990740;"10kg WIG Schweißstab SG2 St37 2.0x1000mm Schweissstäbe TIG 1.5125";Germany;EUR;89,90;;100;;;SCHWEISS070
+Revise;121855009354;"10kg WIG Schweißstab SG2 St37 2.4x1000mm Schweissstäbe TIG 1.5125";Germany;EUR;87,90;;100;;;SCHWEISS071
+Revise;121855014805;"10kg WIG Schweißstab SG2 St37 3.2x1000mm Schweissstäbe TIG 1.5125";Germany;EUR;86,90;;100;;;SCHWEISS072
+Revise;122327443895;"Dichtung Kopf/Ansaugkrümmer zu Dieselmotor 406/418/420 Rotek Yanmar L90,L100";Germany;EUR;7,00;;29;;;ZSPMOT00032
+Revise;131691013229;"Schweißelektrode Mo309 Schwarz/Weiss Stabelektrode 2.0mmx300 4kg Elektroden";Germany;EUR;88,90;;99;;;SCHWEISS066
+Revise;121855022985;"Schweißelektrode Mo309 Schwarz/Weiss Stabelektrode 2.5mmx300 4kg Elektroden";Germany;EUR;85,90;;93;;;SCHWEISS067
+Revise;132076608430;"Motoraufhängung Gummifuss Schwingungsdämpfer M10 NEU Rotek GD4-1A-6000";Germany;EUR;8,00;;92;;;ZSPMOT00712
+Revise;111864574750;"Schweißelektrode Mo309 Schwarz/Weiss Stabelektrode 3.2mmx350 5kg Elektroden";Germany;EUR;101,90;;100;;;SCHWEISS068
+Revise;131115027867;"Schaltschrankschloss 97 x 67 mm für GD4WSS-YH-Serie, Wartungsklappe Schloss";Germany;EUR;24,80;;20;;;ZSPGEN00172
+Revise;131691030639;"Schweißelektrode RC3 DIN6013 wie FOX OHV, Stabelektrode 2.0mmx300 4kg Elektroden";Germany;EUR;41,90;;99;;;SCHWEISS013
+Revise;111864583279;"Schweißelektrode RC3 DIN6013 w FOX OHV Stabelektrode 2.5mmx350 2.26kg Elektroden";Germany;EUR;24,10;;39;;;SCHWEISS055
+Revise;121855036777;"Schweißelektrode RC3 DIN6013 wie FOX OHV, Stabelektrode 2.5mmx350 5kg Elektroden";Germany;EUR;39,90;;93;;;SCHWEISS014
+Revise;121855040445;"Schweißelektrode RC3 DIN6013 wie FOX OHV, Stabelektrode 3.2mmx350 5kg Elektroden";Germany;EUR;39,90;;9;;;SCHWEISS015
+Revise;131691042609;"Schweißelektrode RC3 DIN6013 wie FOX OHV, Stabelektrode 4.0mmx350 5kg Elektroden";Germany;EUR;39,90;;100;;;SCHWEISS016
+Revise;131985548282;"Drehzahlregler Speedcontroller Maili SS22 zu Rotek Schrumpftunnel Drehzahlregler";Germany;EUR;59,90;;5;;;ZSPPACK0133
+Revise;110641534325;"Wellendichtring Dichtung Gleitringdichtung Dichtring Wolframcarbid D40/39 3kW";Germany;EUR;44,90;;15;;;ZSPPUM00136
+Revise;122202234960;"Drehzahlregler Speedcontroller Maili SS-02-H Rotek Schrumpftunnel Drehzahlregler";Germany;EUR;75,90;;5;;;ZSPPACK0134
+Revise;112185451639;"Schweissbalken 410x10mm passend zu VC-400 ab Version V1605";Germany;EUR;89,90;;20;;;ZSPPACK0129
+Revise;112185463453;"Schweißbalken komplett 600mmx10mm für Vakuumverpackungsmaschine Folienschweisser";Germany;EUR;119,90;;0;;;ZSPPACK0130
+Revise;122202350126;"Schweißbalken 600mmx8mm Vakuumverpackungsmaschine Folienschweisser Abtrennfunkt.";Germany;EUR;119,90;;18;;;ZSPPACK0128
+Revise;122202361748;"Ölfilter Ausgangsfilter Vakuumpumpe Exhaust Ersatzteil Vakuumsealer Vakuumierer";Germany;EUR;42,90;;30;;;ZSPPACK0131
+Revise;131985690828;"20A LS 2P Leitungsschutzschalter Kennlinie D Sicherungsautomat Automat Sicherung";Germany;EUR;20,90;;5;;;ZSPPACK0132
+Revise;111865048557;"Seilzug Greifzug Seilwinde Winde 800/1600/3200kg 0,8/1,6/3,2 t to 20/40/60m Seil";Germany;EUR;;;;;"Variante=Seilzug mit 20m Seil;Seilzug mit 40m Seil;Seilzug mit 60m Seil;Seilzug ohne Seil;20m Seil (ohne Zug);40m Seil (ohne Zug);60m Seil (ohne Zug);Ankerbolzen;Scherstift;Handhebel | Zugkraft=3200kg;800kg;1600kg";VAR#SEILZUG001
+;;;;;107,90;;75;Variation;"Variante=40m Seil (ohne Zug) | Zugkraft=1600kg";ZSPHUB00202
+;;;;;13,90;;24;Variation;"Variante=Ankerbolzen | Zugkraft=1600kg";ZSPHUB00018
+;;;;;16,90;;7;Variation;"Variante=Ankerbolzen | Zugkraft=3200kg";ZSPHUB00019
+;;;;;9,90;;597;Variation;"Variante=Scherstift | Zugkraft=800kg";ZSPHUB00020
+;;;;;26,90;;10;Variation;"Variante=Handhebel | Zugkraft=800kg";ZSPHUB00015
+;;;;;95,90;;54;Variation;"Variante=20m Seil (ohne Zug) | Zugkraft=3200kg";ZSPHUB00024
+;;;;;66,90;;80;Variation;"Variante=40m Seil (ohne Zug) | Zugkraft=800kg";ZSPHUB00201
+;;;;;132,90;;46;Variation;"Variante=60m Seil (ohne Zug) | Zugkraft=1600kg";ZSPHUB00220
+;;;;;338,00;;7;Variation;"Variante=60m Seil (ohne Zug) | Zugkraft=3200kg";ZSPHUB00221
+;;;;;12,90;;12;Variation;"Variante=Ankerbolzen | Zugkraft=800kg";ZSPHUB00017
+;;;;;374,90;;47;Variation;"Variante=Seilzug mit 40m Seil | Zugkraft=3200kg";SET#ZSPHUB00224+ZSPHUB00203
+;;;;;424,00;;4;Variation;"Variante=Seilzug mit 60m Seil | Zugkraft=3200kg";SET#ZSPHUB00224+ZSPHUB00221
+;;;;;166,90;;124;Variation;"Variante=Seilzug ohne Seil | Zugkraft=3200kg";ZSPHUB00224
+;;;;;39,90;;150;Variation;"Variante=20m Seil (ohne Zug) | Zugkraft=800kg";ZSPHUB00022
+;;;;;65,90;;245;Variation;"Variante=20m Seil (ohne Zug) | Zugkraft=1600kg";ZSPHUB00023
+;;;;;116,90;;0;Variation;"Variante=Seilzug mit 40m Seil | Zugkraft=800kg";SET#ZSPHUB00222+ZSPHUB00201
+;;;;;143,90;;0;Variation;"Variante=Seilzug mit 60m Seil | Zugkraft=800kg";SET#ZSPHUB00222+ZSPHUB00219
+;;;;;103,90;;286;Variation;"Variante=Seilzug ohne Seil | Zugkraft=1600kg";ZSPHUB00223
+;;;;;137,90;;238;Variation;"Variante=Seilzug mit 20m Seil | Zugkraft=1600kg";SET#ZSPHUB00223+ZSPHUB00023
+;;;;;179,90;;66;Variation;"Variante=Seilzug mit 40m Seil | Zugkraft=1600kg";SET#ZSPHUB00223+ZSPHUB00202
+;;;;;208,90;;46;Variation;"Variante=Seilzug mit 60m Seil | Zugkraft=1600kg";SET#ZSPHUB00223+ZSPHUB00220
+;;;;;9,90;;982;Variation;"Variante=Scherstift | Zugkraft=1600kg";ALIAS#ZSPHUB00021#001
+;;;;;9,90;;985;Variation;"Variante=Scherstift | Zugkraft=3200kg";ALIAS#ZSPHUB00021#002
+;;;;;83,90;;0;Variation;"Variante=Seilzug ohne Seil | Zugkraft=800kg";ZSPHUB00222
+;;;;;96,90;;0;Variation;"Variante=Seilzug mit 20m Seil | Zugkraft=800kg";SET#ZSPHUB00222+ZSPHUB00022
+;;;;;227,90;;45;Variation;"Variante=Seilzug mit 20m Seil | Zugkraft=3200kg";SET#ZSPHUB00224+ZSPHUB00024
+Revise;111865053434;"Forstwinde Offroad Winde 800/1600/3200kg 0,8/1,6/3,2 Tonnen 20/40/60m Stahlseil";Germany;EUR;;;;;"Variante=Seilzug mit 20m Seil;Seilzug mit 40m Seil;20m Seil (ohne Zug);40m Seil (ohne Zug);60m Seil (ohne Zug);Ankerbolzen;Handhebel;Seilzug mit 60m Seil;Scherstift;Seilzug ohne Seil | Zugkraft=3200kg;800kg;1600kg";VAR#SEILZUG002
+;;;;;107,90;;75;Variation;"Variante=40m Seil (ohne Zug) | Zugkraft=1600kg";ZSPHUB00202
+;;;;;9,90;;551;Variation;"Variante=Scherstift | Zugkraft=800kg";ZSPHUB00020
+;;;;;166,90;;124;Variation;"Variante=Seilzug ohne Seil | Zugkraft=3200kg";ZSPHUB00224
+;;;;;103,90;;286;Variation;"Variante=Seilzug ohne Seil | Zugkraft=1600kg";ZSPHUB00223
+;;;;;12,90;;12;Variation;"Variante=Ankerbolzen | Zugkraft=800kg";ZSPHUB00017
+;;;;;13,90;;24;Variation;"Variante=Ankerbolzen | Zugkraft=1600kg";ZSPHUB00018
+;;;;;16,90;;7;Variation;"Variante=Ankerbolzen | Zugkraft=3200kg";ZSPHUB00019
+;;;;;26,90;;11;Variation;"Variante=Handhebel | Zugkraft=800kg";ZSPHUB00015
+;;;;;66,90;;79;Variation;"Variante=40m Seil (ohne Zug) | Zugkraft=800kg";ZSPHUB00201
+;;;;;132,90;;46;Variation;"Variante=60m Seil (ohne Zug) | Zugkraft=1600kg";ZSPHUB00220
+;;;;;338,00;;6;Variation;"Variante=60m Seil (ohne Zug) | Zugkraft=3200kg";ZSPHUB00221
+;;;;;227,90;;52;Variation;"Variante=Seilzug mit 20m Seil | Zugkraft=3200kg";SET#ZSPHUB00224+ZSPHUB00024
+;;;;;374,90;;48;Variation;"Variante=Seilzug mit 40m Seil | Zugkraft=3200kg";SET#ZSPHUB00224+ZSPHUB00203
+;;;;;39,90;;149;Variation;"Variante=20m Seil (ohne Zug) | Zugkraft=800kg";ZSPHUB00022
+;;;;;65,90;;246;Variation;"Variante=20m Seil (ohne Zug) | Zugkraft=1600kg";ZSPHUB00023
+;;;;;96,90;;0;Variation;"Variante=Seilzug mit 20m Seil | Zugkraft=800kg";SET#ZSPHUB00222+ZSPHUB00022
+;;;;;116,90;;0;Variation;"Variante=Seilzug mit 40m Seil | Zugkraft=800kg";SET#ZSPHUB00222+ZSPHUB00201
+;;;;;9,90;;979;Variation;"Variante=Scherstift | Zugkraft=3200kg";ALIAS#ZSPHUB00021#002
+;;;;;95,90;;54;Variation;"Variante=20m Seil (ohne Zug) | Zugkraft=3200kg";ZSPHUB00024
+;;;;;83,90;;0;Variation;"Variante=Seilzug ohne Seil | Zugkraft=800kg";ZSPHUB00222
+;;;;;424,00;;7;Variation;"Variante=Seilzug mit 60m Seil | Zugkraft=3200kg";SET#ZSPHUB00224+ZSPHUB00221
+;;;;;179,90;;74;Variation;"Variante=Seilzug mit 40m Seil | Zugkraft=1600kg";SET#ZSPHUB00223+ZSPHUB00202
+;;;;;208,90;;46;Variation;"Variante=Seilzug mit 60m Seil | Zugkraft=1600kg";SET#ZSPHUB00223+ZSPHUB00220
+;;;;;9,90;;979;Variation;"Variante=Scherstift | Zugkraft=1600kg";ALIAS#ZSPHUB00021#001
+;;;;;137,90;;246;Variation;"Variante=Seilzug mit 20m Seil | Zugkraft=1600kg";SET#ZSPHUB00223+ZSPHUB00023
+Revise;131115610061;"Startschloss Zündschloss 3pol. Diesel 24mm Generator Pumpe mit Schlüssel";Germany;EUR;19,00;;41;;;ZSPGEN00093
+Revise;132141027809;"Tauchpumpe Schmutzwasserpumpe Schneidwerk Zerhacker Baupumpe Teichpumpe Pumpe";Germany;EUR;1639,00;;0;;;PUM207
+Revise;122771444381;"STC12 STC20 Kohlensatz Kohlenhalter STC-12 STC-20 Bürstensatz Erregung Isolator";Germany;EUR;19,90;;30;;;ZSPGEN00163
+Revise;111985330315;"Breitbandschelle Gelenkbolzenschelle Schlauchschelle 104-112mm, W1 doppelt Zink";Germany;EUR;4,50;;974;;;PUM063
+Revise;112615587605;"Diesel Einspritzleitung f. Rotek ED4-0210 1-Zylinder 211ccm 10500 1017 Injection";Germany;EUR;12,90;;3;;;ZSPMOT00026
+Revise;122771495094;"Diesel Einspritzleitung f. Rotek ED4-0219 1-Zylinder 219ccm 10500 1017 Injection";Germany;EUR;12,90;;10;;;ZSPMOT00976
+Revise;132374038457;"Diesel Einspritzleitung f. Rotek ED4-0418 1-Zylinder 418ccm 10500 1017 Injection";Germany;EUR;12,90;;26;;;ZSPMOT00817
+Revise;131799596087;"Breitbandschelle Gelenkbolzenschelle Schlauchschelle 113-121mm, W1 doppelt Zink";Germany;EUR;4,50;;1000;;;PUM064
+Revise;111985347219;"Schneckengewindeschelle Schlauchschelle 100-120mm, W1 C7 verzinkt";Germany;EUR;2,90;;1000;;;ZSPNT00037
+Revise;112615613134;"Benzinmotor 4-Takt 9 PS Kartmotor Benzin Motor 6,6 kW Standmotor OHV 4T NEU";Germany;EUR;244,90;;37;;;MOT179
+Revise;122771514046;"Benzinmotor 4-Takt 9 PS Kartmotor Benzin Motor 6,6 kW Standmotor OHV 4T NEU";Germany;EUR;286,90;;16;;;MOT180
+Revise;122003061500;"Hubtisch Tischwagen 700kg Kommissionierwagen Hebetisch Arbeitstisch verstellbar";Germany;EUR;799,00;;3;;;HUB141
+Revise;122003063033;"Hubtisch Tischwagen bis 1000kg 1 Tonne grosser Tisch 200x75cm  Hubhöhe 140cm";Germany;EUR;949,00;;0;;;HUB060
+Revise;121512679006;"Stahlseil 8,3mm 60m Seilzug Greifzug Seilwinde Forstseilwinde Winde 800kg 0,8t";Germany;EUR;90,90;;13;;;ZSPHUB00219
+Revise;131799774735;"Schneckengewindeschelle Schlauchschelle 40-60mm, Material W1 C7 verzinkt";Germany;EUR;2,50;;1000;;;ZSPNT00075
+Revise;112152512963;"Baumwollhartgewebestab HGW2088 Durchmesser 70mm Länge 1000mm PFCC42 Stab";Germany;EUR;110,90;;99;;;PFCC42-ROD-D070X1000
+Revise;122157889893;"Baumwollhartgewebestab HGW2088 Durchmesser 80mm Länge 1000mm PFCC42 Stab";Germany;EUR;139,90;;99;;;PFCC42-ROD-D080X1000
+Revise;112152516929;"Baumwollhartgewebestab HGW2088 Durchmesser 140mm Länge 1000mm PFCC42";Germany;EUR;409,90;;100;;;PFCC42-ROD-D140X1000
+Revise;112152518090;"Baumwollhartgewebestab HGW2088 Durchmesser 180mm Länge 1000mm PFCC42";Germany;EUR;684,90;;100;;;PFCC42-ROD-D180X1000
+Revise;122419164875;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuSi3 0.8mm 15kg";Germany;EUR;344,90;;100;;;SCHWEISS162
+Revise;122419166555;"Schweißdraht Lötdraht MIG/MAG Löten Schutzgaslöten Lötdraht CuSi3 1.0mm 15kg";Germany;EUR;334,90;;99;;;SCHWEISS163
+Revise;131954742722;"Baumwollhartgewebestab HGW2088 Durchmesser 13mm Länge 1000mm PFCC42 Stab";Germany;EUR;24,90;;0;;;GFK048
+Revise;131954750745;"Baumwollhartgewebestab HGW2088 Durchmesser 22mm Länge 1000mm PFCC42 Stab";Germany;EUR;31,90;;2;;;GFK051
+Revise;110814017888;"Werkstattpresse 20t Hydraulikpresse Lagerpresse hydraulische Presse Dornpresse";Germany;EUR;399,00;;53;;;WKZ020
+Revise;131691720120;"Industrie Wasserpumpe 11m³/h Bewässerungspumpe Motorpumpe 6 bar Kreiselpumpe NEU";Germany;EUR;549,00;;4;;;PUM244
+Revise;112152581614;"Baumwollhartgewebestab HGW2088 Durchmesser 30mm Länge 1000mm PFCC42 Stab";Germany;EUR;28,90;;95;;;PFCC42-ROD-D030X1000
+Revise;111865279928;"Betriebsstundenzähler 230VAC Betriebsstundenanzeige digital Calculagraph";Germany;EUR;19,90;;4;;;ZSPGEN00352
+Revise;122158050503;"Baumwollhartgewebestab HGW2088 Durchmesser 10mm Länge 1000mm PFCC42 Stab";Germany;EUR;13,90;;95;;;PFCC42-ROD-D010X1000
+Revise;131954820764;"Baumwollhartgewebestab HGW2088 Durchmesser 120mm Länge 1000mm PFCC42";Germany;EUR;304,90;;100;;;PFCC42-ROD-D120X1000
+Revise;112152594689;"Baumwollhartgewebestab HGW2088 Durchmesser 150mm Länge 1000mm PFCC42";Germany;EUR;474,90;;100;;;PFCC42-ROD-D150X1000
+Revise;131954823359;"Baumwollhartgewebestab HGW2088 Durchmesser 160mm Länge 1000mm PFCC42";Germany;EUR;534,90;;100;;;PFCC42-ROD-D160X1000
+Revise;121855803345;"Voltmeter 230, max.300VAC, 44x44mm, passend zu Rotek Generator GG4-1A-3400/7300";Germany;EUR;14,90;;13;;;ZSPGEN00344
+Revise;112152597338;"Baumwollhartgewebestab HGW2088 Durchmesser 200mm Länge 1000mm PFCC42";Germany;EUR;834,90;;100;;;PFCC42-ROD-D200X1000
+Revise;112152601841;"Baumwollhartgewebestab HGW2088 Durchmesser 90mm Länge 1000mm PFCC42 Stab";Germany;EUR;174,90;;100;;;PFCC42-ROD-D090X1000
+Revise;131691777998;"Tankdeckel Kunststoff passend zu Kunststofftanks Generatoren Rotek GG4 Serie";Germany;EUR;15,90;;40;;;ZSPGEN00343
+Revise;112152610756;"Baumwollhartgewebestab HGW2088 Durchmesser 8mm, Länge 1000mm PFCC42 Stab";Germany;EUR;14,50;;96;;;PFCC42-ROD-D008X1000
+Revise;131954841662;"Baumwollhartgewebestab HGW2088 Durchmesser 55mm Länge 1000mm PFCC42 Stab";Germany;EUR;69,90;;99;;;PFCC42-ROD-D055X1000
+Revise;122158097519;"Baumwollhartgewebestab HGW2088 Durchmesser 100mm Länge 1000mm PFCC42";Germany;EUR;203,90;;99;;;PFCC42-ROD-D100X1000
+Revise;131954969922;"Baumwollhartgewebestab HGW2088 Durchmesser 32mm Länge 1000mm PFCC42 Stab";Germany;EUR;43,90;;99;;;GFK053
+Revise;122158419712;"Baumwollhartgewebestab HGW2088 Durchmesser 35mm Länge 1000mm PFCC42 Stab";Germany;EUR;35,90;;91;;;PFCC42-ROD-D035X1000
+Revise;131954972878;"Baumwollhartgewebestab HGW2088 Durchmesser 16mm Länge 1000mm PFCC42 Stab";Germany;EUR;17,90;;97;;;PFCC42-ROD-D016X1000
+Revise;131954974412;"Baumwollhartgewebestab HGW2088 Durchmesser 20mm Länge 1000mm PFCC42 Stab";Germany;EUR;20,90;;95;;;PFCC42-ROD-D020X1000
+Revise;112152775502;"Baumwollhartgewebestab HGW2088 Durchmesser 50mm Länge 1000mm PFCC42 Stab";Germany;EUR;59,90;;98;;;PFCC42-ROD-D050X1000
+Revise;131954976642;"Baumwollhartgewebestab HGW2088 Durchmesser 12mm Länge 1000mm PFCC42 Stab";Germany;EUR;14,40;;88;;;PFCC42-ROD-D012X1000
+Revise;121855963720;"Drehzahlregler Type A(F) Yanmar  L40/L48/L60/L70/L90/L100 Rotek Kipor DEK Kama";Germany;EUR;15,90;;7;;;ZSPMOT00374
+Revise;121855966681;"Drehzahlregler Type C(FG) Yanmar  L40/L48/L60/L70/L90/L100 Rotek Kipor DEK Kama";Germany;EUR;17,90;;37;;;ZSPMOT00063
+Revise;121855969573;"Drehzahlregler Prellfeder Yanmar L40/L48/L60/L70/L90/L100 Rotek Kipor DEK Kama";Germany;EUR;14,90;;0;;;ZSPMOT00856
+Revise;121855971412;"Drehzahlregler Rückholfeder Yanmar L40/L48/L60/L70/L90/L100 Rotek Kipor DEK Kama";Germany;EUR;14,90;;12;;;ZSPMOT00857
+Revise;131691944883;"Drehzahlregler Regelfeder Yanmar L40/L48/L60/L70 Rotek Kipor DEK Kama 190-306ccm";Germany;EUR;14,90;;16;;;ZSPMOT00859
+Revise;121855977287;"Drehzahlregler Regelfeder Yanmar L90/L100 Rotek Kipor DEK Kama 396-418-420ccm";Germany;EUR;14,90;;14;;;ZSPMOT00858
+Revise;121855983852;"Zylinderkopfdichtung Y4100/YD4102/4105 Dieselmotor z.Bsp. Rotek ED4W4R,Yangdong";Germany;EUR;29,90;;12;;;ZSPMOT00879
+Revise;121855996227;"Elektrostarter Dieselmotor Starter QDJ1329D 12V 3.5kW YD490/TD490 Rotek Yangdong";Germany;EUR;179,90;;5;;;ZSPMOT00610
+Revise;121856009479;"Elektrostarter Dieselmotor Starter QDJ2636A 26S6A YSCW 24V 5kW Rotek Yangdong";Germany;EUR;179,90;;7;;;ZSPMOT00797
+Revise;121129003553;"Spannungsregler Regelkondensator 12µF 300V zu GSE950 STE850 GG2-1-950 Generator";Germany;EUR;16,80;;174;;;ZSPGEN00017
+Revise;131399358696;"Chemie Pumpe Aquarium max 10.8l/min max. 0,48 bar 24V Wasserkühlung Lebensmittel";Germany;EUR;23,90;;505;;;PUM294
+Revise;111100508949;"Regelkondensator 22uF 450V AC Motorkondensator Anlaufkondensator Spannungsregler";Germany;EUR;16,80;;192;;;ZSPGEN00178
+Revise;131621038568;"4-Zyl. Dieselmotor 3857ccm wassergekühlt Diesel Motor BHKW Generator SAE 3/10";Germany;EUR;3190,00;;3;;;MOT173
+Revise;112387811902;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1020x670 mm Plattenstärke Dicke 6mm";Germany;EUR;174,90;;100;;;EPGC202-06X1020X670
+Revise;131116492400;"Tankanzeige für Rahmentanks mechanisch, für Tanktiefe ca. 130mm Dieseltank";Germany;EUR;34,80;;91;;;ZSPGEN00244
+Revise;111512078654;"Lüftermotor YD-8226 Elektromotor 230V 65Watt 1300U/min Ventilator Gebläsemotor";Germany;EUR;63,90;;38;;;KLI049
+Revise;111618066528;"Batterie Fasspumpe Kanisterpumpe Handpumpe Dieselpumpe Wasserpumpe Füllpumpe 7l";Germany;EUR;14,00;;507;;;PUM312
+Revise;120972817237;"Betätigungsstange Handhebel Betätigungshebel für Werkstattpresse Hydraulikpumpe";Germany;EUR;17,80;;87;;;ZSPWKZ000010
+Revise;111618162915;"Zylinderkopf Huafengdongli Huafa K4102D1.1/D1.2/495D6/495D10/K4100 und ähnliche";Germany;EUR;379,00;;2;;;ZSPMOT00625
+Revise;111056098424;"Voltmeter Einbaugerät 400V 450V AC 48x48mm Spannung Wechselspannung neu";Germany;EUR;19,80;;18;;;ZSPGEN00025
+Revise;121592252234;"Zylinderkopf Assembly Rotek ED4W3R-1357 YD/TD380 Yangdong Taidong u. ähnliche";Germany;EUR;194,90;;1;;;ZSPMOT00666
+Revise;111056106913;"Voltmeter Panelmeter 230V 300V AC 48x48mm Spannung Wechselspannung Generator";Germany;EUR;19,80;;16;;;ZSPGEN00076
+Revise;111056113144;"Voltmeter Panelmeter 230V 250V AC 48x48mm Spannung Wechselspannung Generator";Germany;EUR;19,80;;14;;;ZSPGEN00270
+Revise;131452218211;"Zylinderkopf Assembly Rotek ED4W4R-3707 YD/TD/K4100 Y4100 Yangdong Taidong";Germany;EUR;469,00;;2;;;ZSPMOT00775
+Revise;121097696401;"Voltmeter Panelmeter 400V 500V AC 48x48mm Spannung Wechselspannung Generator";Germany;EUR;19,80;;73;;;ZSPGEN00271
+Revise;111056135061;"Voltmeter Panelmeter 230V 250V AC 72x72mm Spannung Wechselspannung Generator";Germany;EUR;24,80;;80;;;ZSPGEN00264
+Revise;121097710450;"Amperemeter 50/5A AC Wechselstrom 48x48mm Ampere Meter Panelmeter Strom";Germany;EUR;24,80;;5;;;ZSPGEN00083
+Revise;111036470818;"Brückengleichrichter 3-Phase 1600V 40A B6 Drehstrom Gleichrichter SQL40A-1600V";Germany;EUR;18,80;;65;;;ZSPGEN00216
+Revise;121097718747;"Amperemeter 20A AC Wechselstrom 48x48mm Ampere Meter Panelmeter Strom mit Shunt";Germany;EUR;19,90;;17;;;ZSPGEN00084
+Revise;111056153126;"Amperemeter 100A/5A AC Wechselstrom 48x48mm Ampere Meter Panelmeter Strom neu";Germany;EUR;24,80;;9;;;ZSPGEN00273
+Revise;121041497685;"0,25to 250kg Hebelzug Flaschenzug Kettenzug Ratschenzug Hebezug Handy 1,5m Kette";Germany;EUR;61,90;;92;;;HUB194
+Revise;121275374664;"Schweissdraht zu Vakuumsealer und Folienschweissgeräte 540x10mm Reparatursatz";Germany;EUR;29,80;;77;;;PACK030
+Revise;121084369911;"Einbauinstrument 50A Amperemeter 72x72mm 50/5A Strom 50A/5A Ampere Meter Panel";Germany;EUR;24,80;;5;;;ZSPGEN00188
+Revise;121097726196;"Amperemeter 150A/5A AC Wechselstrom 48x48mm Ampere Meter Panelmeter Strom neu";Germany;EUR;24,80;;99;;;ZSPGEN00274
+Revise;121097728437;"Einbauinstrument 30A Amperemeter 72x72mm 30/5A Strom 30A/5A Ampere Meter";Germany;EUR;24,80;;86;;;ZSPGEN00186
+Revise;111036488486;"Einbauinstrument 150A Amperemeter 72x72mm 150/5A Strom Ampere Meter Panelmeter";Germany;EUR;19,90;;20;;;ZSPGEN00131
+Revise;111036494169;"Einbauinstrument 50Hz Hertzmeter f. 230V Frequenz messen 72x72mm Herzmeter Panel";Germany;EUR;34,80;;17;;;ZSPGEN00238
+Revise;111036500486;"Einbauinstrument cosPhi Meter 400V 50Hz cos-Phi messen 72x72mm cos Phi Meßgerät";Germany;EUR;74,80;;94;;;ZSPGEN00237
+Revise;111056194377;"Einbauinstrument 50Hz Hertzmeter f. 230V Frequenz messen 48x48mm Herzmeter Panel";Germany;EUR;34,80;;157;;;ZSPGEN00275
+Revise;132018691611;"Luftfilterkasten Luftfilter zu Benzinmotor 200ccm Benzingenerator GG4-1A-3400";Germany;EUR;19,90;;16;;;ZSPGEN00250
+Revise;132018694139;"Lagerschild vorne für diverse Stromerzeuger Generatoren KT3 / Rotek GG4-1-3400";Germany;EUR;19,90;;25;;;ZSPGEN00291
+Revise;111056205677;"Shunt Messwiderstand 75mV bei 20A Strommessung Leistungswiderstand";Germany;EUR;19,90;;96;;;ZSPGEN00286
+Revise;112499121763;"Schweisstrafo Vakuumierer Folienschweisser Styroporschneider 230V, 21VAC, 260VA";Germany;EUR;59,90;;1;;;ZSPPACK0154
+Revise;122619620747;"Temperaturregler 0-300°C Zweipunktregler SW-C100 0-300°C für K-Sensor";Germany;EUR;59,90;;10;;;ZSPPACK0157
+Revise;122619625329;"Schweissdraht Reparatursatz Vakuumsealer VC-300 300mm Schweißbalken Teflonband";Germany;EUR;19,90;;43;;;ZSPPACK0152
+Revise;132276416539;"Steuerung Panel PCB Schaltpanel für Vakuumierer Rotek VC-300 und andere";Germany;EUR;99,90;;7;;;ZSPPACK0153
+Revise;112499137210;"Schweissdraht Reparatursatz VC-400 mit Trenndraht zu Vakuumierer Schweißbalken";Germany;EUR;53,90;;0;;;ZSPPACK0155
+Revise;122619633343;"Schweissdraht Reparatursatz VC-600 mit Trenndraht zu Vakuumierer Schweißbalken";Germany;EUR;69,90;;10;;;ZSPPACK0156
+Revise;112499141401;"K-Sensor, Temperatursensor, Temperaturfühler NiCr-Ni 0-400°C M6 Einschraubsensor";Germany;EUR;22,90;;10;;;ZSPPACK0158
+Revise;132276427360;"Sichtfenster zur Ölkontrolle zu Rotek VC-400 Vakuumierer, Kontrollfenster";Germany;EUR;14,90;;20;;;ZSPPACK0147
+Revise;112499152851;"Grafisches Display LCD Display Hintergrundbeleuchtet 70x39mm Rotek Vakuumierer";Germany;EUR;44,90;;7;;;ZSPPACK0149
+Revise;122619669422;"Schauglas Gauge Ölstand Da=42mm, 36mm Schlüsselweite, zu Vakuumpumpe XP-20";Germany;EUR;19,90;;50;;;ZSPPACK0089
+Revise;112499179245;"Ersatzteil Dichtung Deckeldichtung Vakuumsealer Vakuumierer >148cm VC-300";Germany;EUR;17,90;;12;;;ZSPPACK0151
+Revise;112499183440;"Ersatzteil Dichtung Deckeldichtung Vakuumsealer Vakuumierer >257cm VC300/400/600";Germany;EUR;24,90;;48;;;ZSPPACK0073
+Revise;132276472603;"Lüftermotor YDK-10-4 230V 10Watt 1400U/min Ventilator Gebläsemotor Rotek ACD50HZ";Germany;EUR;34,90;;20;;;ZSPKLI0004
+Revise;112499191471;"Lüftermotor YY-120 230V 50Watt 1400U/min Ventilator Gebläsemotor Rotek ACD90HZ";Germany;EUR;56,90;;30;;;ZSPKLI0005
+Revise;112499197711;"Rotek Luftentfeuchter ACD50-HZH Power PCB Platine Steuerplatine Steuerung";Germany;EUR;56,90;;6;;;ZSPKLI0009
+Revise;122619694651;"Rotek Luftentfeuchter ACD90-HZH Power PCB Platine Steuerplatine Steuerung";Germany;EUR;56,90;;11;;;ZSPKLI0010
+Revise;132276493456;"Vakuumpumpe Unterdruckpumpe Vakuum Pumpe Evakuierungspumpe 250W 8cbm 1mBar";Germany;EUR;219,90;;18;;;PACK116
+Revise;122619703130;"Vakuumpumpe Unterdruckpumpe Vakuum Pumpe Evakuierungspumpe 750W 20cbm 0.5mBar";Germany;EUR;329,90;;13;;;PACK102
+Revise;122619705998;"Vakuumpumpe Unterdruckpumpe Vakuum Evakuierungspumpe 750W 20cbm 0.5mBar 400V";Germany;EUR;369,90;;5;;;PACK109
+Revise;122619719214;"Vakuumpumpe Unterdruckpumpe Vakuum Evakuierungspumpe 1500W 65cbm 0.3mBar 400V";Germany;EUR;1569,90;;3;;;PACK115
+Revise;111545416880;"Leistungsschütz Schaltschütz Schütz 230/400/690VAC 25A 4-polig 400V Spule ABB";Germany;EUR;22,90;;25;;;ZSPPUM00151
+Revise;112499252902;"Vakuumierer mit Begasung 600mm Kammer Vakuumiergerät Vakuummaschine 65cbm Pumpe";Germany;EUR;2849,00;;4;;;PACK113
+Revise;132276522454;"Profi Doppelkammer Vakuumierer 40cbm Vakuumiergerät Vakuummaschine Vakuumgerät";Germany;EUR;3139,00;;3;;;PACK119
+Revise;132276523999;"Profi Doppelkammer Vakuumierer 130cbm Vakuumiergerät Vakuummaschine Vakuumgerät";Germany;EUR;5039,00;;5;;;PACK114
+Revise;111327130255;"Benzinmotor 4-Takt 2,4 PS Kartmotor Benzin Motor 1,79 kW Standmotor OHV 4T NEU";Germany;EUR;119,90;;31;;;MOT153
+Revise;111618819260;"Spannungsregler AVR Universal Generatoren 4A Erregung wie SX460 Stamford Newage";Germany;EUR;53,90;;12;;;ZSPGEN00197
+Revise;111257594223;"10mm Teflonband PTFE Tape selbstklebend Schweißbalken Folienschweißgeräte adhesi";Germany;EUR;15,90;;12;;;ZSPPACK0026
+Revise;131376216058;"Heizstab 300W Glasfaserheizstab Infrarot Schrumpftunnel Reflow Öfen bis 400°C";Germany;EUR;19,90;;38;;;ZSPPACK0003
+Revise;121320045966;"Dieselmotor 11PS Diesel Motor 7,8kW Kleindiesel Nockenwelle EStart L75 L90 L100";Germany;EUR;639,90;;7;;;MOT145
+Revise;131167777940;"Hochdruckpumpe Motorpumpe 18m³/h 80m Kreiselpumpe 8,0bar Pumpe 2Z Dieselpumpe";Germany;EUR;639,00;;22;;;PUM370
+Revise;111257674188;"Heizelement Folienschweisser Endlos Sealer Dauerbeheizung 230V 300 Watt FS-CONT";Germany;EUR;19,90;;31;;;ZSPPACK0043
+Revise;121254964694;"Lüftermotor Elektromotor Radiallüfter Ventilator Motor 40W 2800U/min 230V AC";Germany;EUR;129,90;;20;;;ZSPPACK0040
+Revise;121254968927;"Lüftermotor Elektromotor Radiallüfter Ventilator Motor 25W 2800U/min 230V AC";Germany;EUR;119,90;;19;;;ZSPPACK0041
+Revise;132481554243;"Hydraulikpumpe Werkstattpressen 10,20,30T, 700Bar, 700ccm manuell stehend";Germany;EUR;73,90;;11;;;ZSPWKZ000047
+Revise;132481560863;"Hydraulikzylinder 20T für Werkstattpresse Dornpresse Druckzylinder Hebezylinder";Germany;EUR;98,90;;27;;;ZSPWKZ000044
+Revise;110443490661;"Drehknopf zu Heizlüftern bzw. Potentiometern 6mm Achse";Germany;EUR;13,90;;66;;;HEATER022
+Revise;122671612638;"Dieselfilter samt Halterung CX0708 mit Halteflansch Universal Diesel Filter";Germany;EUR;29,90;;0;;;ZSPMOT00365
+Revise;112543086944;"Dieselfilter CX0710 Wechselpatrone CX07100 M16x1.5 Treibstofffilter K4102";Germany;EUR;25,00;;19;;;ZSPMOT00368
+Revise;132309714692;"Dieselfilter HECX0706 Wechselpatrone M16x1.5 Treibstofffilter TDME 380 480";Germany;EUR;25,00;;19;;;ZSPMOT00642
+Revise;111843892910;"Dieselmotor 4,3PS Diesel Motor 3kW Kleindiesel Lichtmaschine Laderegler L40 L48";Germany;EUR;424,90;;18;;;MOT127
+Revise;132309741135;"Ölfilter WB202 Wechselpatrone JX0810 M20x1.5 W840 K4102 Schmierfilter";Germany;EUR;25,00;;13;;;ZSPMOT00367
+Revise;132309744131;"12V Elektrostarter Dieselmotor Starter QDJ1308 4,2kW QD1536 QD138Y QD1315 QD132";Germany;EUR;169,90;;19;;;ZSPMOT00908
+Revise;122671673103;"Elektrostarter Dieselmotor Starter QDX265F/QDJ2608F/QD265F R4105 R6105 5.5kW 24V";Germany;EUR;223,90;;5;;;ZSPMOT00597
+Revise;122671674298;"Elektrostarter Dieselmotor Starter QD138Y 12V 2.5kW YD380/480/K4100/K4102";Germany;EUR;169,90;;19;;;ZSPMOT00505
+Revise;112543128321;"mechanischer Thermostat Kühlerthermostat 65mm/60mm 76°C für Wasserpumpe";Germany;EUR;19,90;;19;;;ZSPMOT00966
+Revise;132309760004;"Thermostatgehäuse Yangdong Y380 Y480 Thermostatbaugruppe Thermostatkopf";Germany;EUR;39,90;;4;;;ZSPMOT00968
+Revise;122671687406;"Thermostatgehäuse Yangdong Y4100 Y4102 Y4105 Thermostatbaugruppe Thermostatkopf";Germany;EUR;39,90;;10;;;ZSPMOT00969
+Revise;112543139127;"Zylinderkopf Assembly Rotek ED4W3R-1357 YD/TD380 Yangdong Taidong w/o Thermostat";Germany;EUR;214,90;;2;;;ZSPMOT00891
+Revise;112543153748;"Zylinderkopf Assembly Rotek ED4W4R-1809 YD/TD480 Yangdong Taidong u. Ähnliche";Germany;EUR;284,90;;3;;;ZSPMOT00668
+Revise;112543162961;"Handpumpe zu Einspritzpumpe für Dieselmotoren P-Serie Pumpen  Vorförderpumpe";Germany;EUR;49,90;;7;;;ZSPMOT00721
+Revise;122671759925;"Einspritzpumpe mechanisch 3-Zylinder BH3Q70R8 Yangdong Y380 Y385 3QD155";Germany;EUR;249,90;;2;;;ZSPMOT00672
+Revise;122671769868;"Einspritzpumpe mechanisch 4-Zylinder BH4W75R8 Yangdong Y480 TD480 4Q426";Germany;EUR;269,90;;2;;;ZSPMOT00967
+Revise;122671774897;"Einspritzpumpe mechanisch 4-Zylinder BH4QT85R9 Yangdong Y4100 Y4102 4QTD482";Germany;EUR;319,90;;3;;;ZSPMOT00971
+Revise;112543183168;"Einspritzdüse Yangdong YSD490 Y490 00P46-28 YSD490Q-10700 SHA2202 SD3002 PF68S07";Germany;EUR;36,90;;17;;;ZSPMOT00496
+Revise;122671782165;"Ventildeckeldichtung für Rotek ED4W4R-1809-E, Yangdong YD480 Motor, Generator";Germany;EUR;18,90;;24;;;ZSPMOT00503
+Revise;112543189159;"Ventildeckeldichtung für Yangdong YD490 YSD490 Motor, Generator, U-Profil Gummi";Germany;EUR;22,90;;30;;;ZSPMOT00814
+Revise;112543194605;"Ventildeckeldichtung für Yangdong Y4100 Y4102 Y4105, T-Profil Gummi, Dieselmotor";Germany;EUR;22,90;;30;;;ZSPMOT00973
+Revise;111514348433;"12V 120Ah Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku 100Ah 110Ah 115Ah";Germany;EUR;236,00;;39;;;BAT054
+Revise;111959005275;"Ventilator Lüfter zu YD380/480 Dieselmotor Kühler Kühlventilator 380mm Fan NEU";Germany;EUR;31,90;;16;;;ZSPMOT00500
+Revise;111844070325;"Zylinderkopfdichtung 200ccm Glimmer Benzinmotor zB Rotek,Lifan,Kama,Kipor,Honda";Germany;EUR;12,00;;15;;;ZSPMOT00429
+Revise;131670321434;"Dieseltank Tank 5L zu Dieselmotor 406/480/420ccm Rotek DEK Kipor Yanmar L90 L100";Germany;EUR;35,90;;11;;;ZSPMOT00808
+Revise;111546564382;"Schweißdraht SG2 Schutzgas MIG SG-2 Ti 0,8mm 2kg Titan Kfz Zinkromax Verzinkt";Germany;EUR;29,90;;57;;;SCHWEISS077
+Revise;121516099172;"10kg WIG Schweißstab Aluminium AlMg3 2.0mm Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;138,90;;100;;;SCHWEISS005
+Revise;111409585803;"Schlauch D12 für Ölkühler 125cm mit 1/4"" AG Ölschlauch Ölleitung Kühlerschlauch";Germany;EUR;23,90;;8;;;ZSPMOT00844
+Revise;111280493045;"Kettenflaschenzug 1000kg 1t 1to 3m Kettenzug Flaschenzug Hebezug Handkran";Germany;EUR;49,90;;393;;;HUB012
+Revise;131118091106;"Kettenflaschenzug Kettenzug Flaschenzug Hebezug Seilzug Handkran 2000kg 2t 2to";Germany;EUR;63,90;;353;;;HUB013
+Revise;110433351109;"Wellendichtring Wolframkarbid Durchmesser 61/63mm NEU";Germany;EUR;53,90;;10;;;ZSPPUM00139
+Revise;121130831452;"Stromerzeuger 5,5kW Stromaggregat 230V Notstromaggregat Generator Diesel ATS NEU";Germany;EUR;1399,00;;0;;;GEN058
+Revise;110968583162;"Stromerzeuger ohne Motor KT-2.8 230V 2,8 kW 1-phasig Synchron Generator AVR NEU";Germany;EUR;228,90;;5;;;GEN190
+Revise;131509683649;"DRAHTSEIL 4mm 7x7 1300kg Forstseil Stahlseil Forstwindenseil Kranseil 10 Meter";Germany;EUR;7,50;;89;;;SET#ZSPHUB00233#X010
+Revise;131348752747;"Fasspumpe Faßpumpe pneumatisch 23l/min bis SAE80 Motorölpumpe Ölpumpe Kühlmittel";Germany;EUR;169,90;;8;;;PUM305
+Revise;121649470124;"Seilklemme verzinkt für 4mm Drahtseile, Stahlseile, 10 Stk. pro Einheit";Germany;EUR;3,10;;100;;;SET#ZSPHUB00235#X010
+Revise;111668972849;"Seilklemme verzinkt für 4mm Drahtseile, Stahlseile, 10 Stk. pro Einheit";Germany;EUR;3,30;;96;;;SET#ZSPHUB00236#X010
+Revise;111410254949;"Anlasser Elektrostarter Benzinmotor 240-270ccm Pumpe Generator DEK/Kipor/Honda";Germany;EUR;60,90;;10;;;ZSPMOT00450
+Revise;131509696970;"Seilkausche Seilauge verzinkt für 4mm Drahtseile Stahlseile, 10 Stk. pro Einheit";Germany;EUR;3,30;;100;;;SET#ZSPHUB00237#X010
+Revise;131509699252;"Seilkausche Seilauge verzinkt für 5mm Drahtseile Stahlseile, 10 Stk. pro Einheit";Germany;EUR;3,30;;100;;;SET#ZSPHUB00238#X010
+Revise;111410261525;"Elektrostarter Anlasser 340/490/420ccm  für Benzinmotor Wasserpumpe Generator";Germany;EUR;66,90;;24;;;ZSPMOT00035
+Revise;131509703876;"Seilhaken, Lasthaken, Anschlaghaken für Drahtseile oder Karabiner Schäkel 1500kg";Germany;EUR;3,90;;21;;;ZSPHUB00234
+Revise;121387395724;"Normflansch Schraubflansch Pumpenflansch LK4x100mm DN32 auf DN50 G2"" Gewinde";Germany;EUR;39,90;;21;;;PUM256
+Revise;131243867415;"Normflansch Schraubflansch Pumpenflansch LK4x100 DN32 auf DN36 Gewinde 5/4"" AG";Germany;EUR;39,90;;9;;;PUM383
+Revise;111410303747;"Normflansch Schraubflansch Pumpenflansch LK4x125mm DN50 auf DN50 2"" (G2) Gewinde";Germany;EUR;41,90;;7;;;PUM254
+Revise;111410307491;"Normflansch Schraubflansch Pumpenflansch LK8x160 DN80 auf DN80 3"" (G3) Gewinde";Germany;EUR;45,90;;9;;;PUM384
+Revise;121387410286;"Normflansch Schraubflansch Pumpenflansch LK8x160 DN125 auf DN125 5"" G5 Gewinde";Germany;EUR;49,90;;9;;;PUM268
+Revise;131623788576;"1000 Stk. (10 Packungen) Kabelbinder 100mm x 2.5mm, Farbe Natur";Germany;EUR;6,90;;898;;;SET#KBIND001#X010
+Revise;112156446961;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 10.0mm";Germany;EUR;127,90;;90;;;PFCC201-10X1220X0605
+Revise;122163674921;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 8.0mm";Germany;EUR;124,90;;100;;;PFCC201-08X1220X0605
+Revise;111793124069;"1000 Stk. (10 Packungen) Kabelbinder 100mm x 2.5mm, Farbe Gelb";Germany;EUR;9,90;;899;;;SET#KBIND010#X010
+Revise;131958825914;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 1.0mm";Germany;EUR;28,90;;90;;;PFCC201-01X1220X0605
+Revise;122163677473;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 20.0mm";Germany;EUR;244,90;;47;;;PFCC201-20X1220X0605
+Revise;131958830375;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 15.0mm";Germany;EUR;179,90;;46;;;PFCC201-15X1220X0605
+Revise;112156453166;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 4.0mm";Germany;EUR;59,90;;97;;;PFCC201-04X1220X0605
+Revise;121387420066;"Wellendichtring Dichtung Wolframcarbid Da40 Welle D25 Rotary Seal Pumendichtung";Germany;EUR;34,80;;2;;;ZSPPUM00157
+Revise;131958845931;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 3.0mm";Germany;EUR;56,90;;93;;;PFCC201-03X1220X0605
+Revise;131623796207;"1000 Stk. (10 Packungen) Kabelbinder 100mm x 2.5mm, Farbe Rot";Germany;EUR;9,90;;899;;;SET#KBIND009#X010
+Revise;122163684744;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 25.0mm";Germany;EUR;287,90;;50;;;PFCC201-25X1220X0605
+Revise;122163696760;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 12.0mm";Germany;EUR;148,90;;100;;;PFCC201-12X1220X0605
+Revise;111793130746;"1000 Stk. (10 Packungen) Kabelbinder 100mm x 2.5mm, Farbe Blau";Germany;EUR;9,90;;899;;;SET#KBIND011#X010
+Revise;112156458928;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 7.0mm";Germany;EUR;99,90;;100;;;PFCC201-07X1220X0605
+Revise;121783101539;"1000 Stk. (10 Packungen) Kabelbinder 100mm x 2.5mm, Farbe Grün";Germany;EUR;9,90;;899;;;SET#KBIND012#X010
+Revise;121783103063;"1000 Stk. (10 Packungen) Kabelbinder 100mm x 2.5mm, Farbe Schwarz";Germany;EUR;6,90;;891;;;SET#KBIND002#X010
+Revise;131623802331;"1000 Stk. (10 Packungen) Kabelbinder 200mm x 2.5mm, Farbe Natur";Germany;EUR;13,90;;899;;;SET#KBIND003#X010
+Revise;111793138563;"1000 Stk. (10 Packungen) Kabelbinder 200mm x 2.5mm, Farbe Schwarz";Germany;EUR;13,90;;899;;;SET#KBIND004#X010
+Revise;121783108660;"500 Stk. (5 Packungen) Kabelbinder 200mm x 4.8mm, Farbe Gelb";Germany;EUR;13,90;;899;;;SET#KBIND014#X005
+Revise;111793142350;"500 Stk. (5 Packungen) Kabelbinder 200mm x 4.8mm, Farbe Rot";Germany;EUR;13,90;;898;;;SET#KBIND013#X005
+Revise;121783113085;"500 Stk. (5 Packungen) Kabelbinder 200mm x 4.8mm, Farbe Blau";Germany;EUR;13,90;;900;;;SET#KBIND015#X005
+Revise;131623814842;"500 Stk. (5 Packungen) Kabelbinder 200mm x 4.8mm, Farbe Grün";Germany;EUR;13,90;;899;;;SET#KBIND016#X005
+Revise;111793149013;"500 Stk. (5 Packungen) Kabelbinder 290mm x 3.6mm, Farbe Natur";Germany;EUR;13,90;;900;;;SET#KBIND005#X005
+Revise;131623818167;"500 Stk. (5 Packungen) Kabelbinder 290mm x 3.6mm, Farbe Schwarz";Germany;EUR;13,90;;899;;;SET#KBIND006#X005
+Revise;111793152866;"500 Stk. (5 Packungen) Kabelbinder 290mm x 4.8mm, Farbe Gelb";Germany;EUR;17,50;;899;;;SET#KBIND018#X005
+Revise;121783121573;"500 Stk. (5 Packungen) Kabelbinder 290mm x 4.8mm, Farbe Rot";Germany;EUR;17,50;;900;;;SET#KBIND017#X005
+Revise;111793156599;"500 Stk. (5 Packungen) Kabelbinder 290mm x 4.8mm, Farbe Blau";Germany;EUR;17,50;;899;;;SET#KBIND019#X005
+Revise;131623825809;"500 Stk. (5 Packungen) Kabelbinder 290mm x 4.8mm, Farbe Grün";Germany;EUR;17,50;;900;;;SET#KBIND020#X005
+Revise;131623827655;"500 Stk. (5 Packungen) Kabelbinder 290mm x 4.8mm, Farbe Schwarz";Germany;EUR;13,90;;894;;;SET#KBIND090#X005
+Revise;111793162965;"100 Stk. (1 Packung) Kabelbinder 430mm x 4.8mm, Farbe Natur";Germany;EUR;8,90;;899;;;KBIND093
+Revise;121783131139;"100 Stk. (1 Packung) Kabelbinder 430mm x 4.8mm, Farbe Schwarz";Germany;EUR;8,90;;897;;;KBIND092
+Revise;121783133753;"100 Stk. (1 Packung) Kabelbinder 540mm x 7.8mm, Farbe Natur";Germany;EUR;17,90;;900;;;KBIND007
+Revise;131623833585;"100 Stk. (1 Packung) Kabelbinder 540mm x 7.8mm, Farbe Schwarz";Germany;EUR;17,90;;898;;;KBIND008
+Revise;121783139926;"100 Stk. (1 Packung) Kabelbinder 580mm x 12.5mm, Farbe Schwarz";Germany;EUR;32,90;;0;;;KBIND094
+Revise;131623839160;"50 Stk. (1 Packung) Kabelbinder 1002mm x 12.5mm, Farbe Schwarz 100cm = 1m Länge";Germany;EUR;29,00;;484;;;KBIND095
+Revise;111793183690;"500 Stk. (5 Packung) Kabelbinder 100mm x 2.5mm mit Beschriftungsfeld Farbe Natur";Germany;EUR;14,90;;899;;;SET#KBIND021#X005
+Revise;111793185454;"500 Stk. (5 Packung) Kabelbinder 200mm x 2.5mm mit Beschriftungsfeld Farbe Natur";Germany;EUR;21,00;;897;;;SET#KBIND022#X005
+Revise;111016389007;"Thyristormodul Leistungssteller 230V 40A Phasenanschnitt Dimmer f. Heizstäbe usw";Germany;EUR;25,00;;13;;;ZSPPACK0002
+Revise;131623851110;"100 Stk. (1 Packung) Einschlaghalter Befestigung zu Bohrung 8mm für Kabelbinder";Germany;EUR;10,50;;887;;;KBIND024
+Revise;111515511973;"Zündschalter Zündunterbrecher Ausschalter zu Benzinmotoren Rotek,Robin,Honda uvm";Germany;EUR;13,90;;75;;;ZSPMOT00254
+Revise;121783158212;"100 Stk. (1 Packung) Klebesockel 27x27mm schwarz, Befestigung für Kabelbinder";Germany;EUR;10,50;;883;;;KBIND091
+Revise;131623856051;"100 Stk. (1 Packung) Klebesockel 27x27mm Farbe Natur Befestigung für Kabelbinder";Germany;EUR;10,50;;897;;;KBIND023
+Revise;121486710800;"Kerzenstecker Zündschuh Kerzenschuh lang zu Benzinmotor Rotek Kipor Honda usw";Germany;EUR;13,90;;91;;;ZSPMOT00324
+Revise;111793201784;"100 Stk (1 Packung) Markierungsplatten Beschriftung f. Kabelbinder 40x20mm Natur";Germany;EUR;10,90;;833;;;KBIND025
+Revise;121387480681;"Kopfdichtung Stösselstangentunnel Ventiltunnel oval Kunststoff zu Yanmar L60/70";Germany;EUR;9,90;;46;;;ZSPMOT00103
+Revise;111793206106;"400 Stk. (2 Packungen) Knotenbinder Blitzbinder Sackbinder Rebenbinder 120x3.5";Germany;EUR;10,90;;880;;;SET#KBIND026#X002
+Revise;131243961425;"Kopfdichtung Stösselstangentunnel Ventiltunnel oval Kunststoff zu Yanmar L90/100";Germany;EUR;9,90;;92;;;ZSPMOT00104
+Revise;121783175229;"200 Stk. (1 Packung) Knotenbinder Blitzbinder Sackbinder Rebenbinder 180x3.5";Germany;EUR;9,90;;226;;;KBIND027
+Revise;111793210775;"200 Stk. (1 Packung) Knotenbinder Blitzbinder Sackbinder Rebenbinder 240x3.9";Germany;EUR;13,90;;300;;;KBIND028
+Revise;121783182599;"100 Stk. (1 Packung) Knotenbinder Blitzbinder Sackbinder Rebenbinder 500x5.7";Germany;EUR;32,90;;193;;;KBIND029
+Revise;121387493002;"Zylinderkopf komplett mit Ventildeckel 2-Zylinder ED4-2R-0954 Rotek Lombardini";Germany;EUR;89,90;;6;;;ZSPMOT00801
+Revise;121486734292;"Spannungsregler elektronisch AVR Controller 400V GTDK AVR5-3B3A Generator 3phase";Germany;EUR;29,80;;50;;;ZSPGEN00170
+Revise;110682768514;"Einspritzpumpe f. R4105ZD1 BYC 10 400 874 064";Germany;EUR;539,00;;2;;;ZSPMOT00714
+Revise;120719665751;"Einspritzdüse Einsatz zu K4102D1.1 / 495D6";Germany;EUR;29,90;;33;;;ZSPMOT00699
+Revise;121070417526;"Segmenttypensatz mit Codierrad passend zu FS-CONT Continuouse Sealer vertieft";Germany;EUR;43,90;;100;;;ZSPPACK0025
+Revise;110682762068;"Thermostat f. Wasserpumpe f. 495D6 / K4102D1.1";Germany;EUR;33,90;;9;;;ZSPMOT00720
+Revise;121070420282;"Segmenttypensatz passend zu Step Sealer mit zur Zeile senkrechten Haltenuten";Germany;EUR;43,90;;100;;;ZSPPACK0033
+Revise;121070422658;"Segmenttypensatz passend zu Step Sealer mit zur Zeile waagrechten Haltenuten";Germany;EUR;43,90;;100;;;ZSPPACK0047
+Revise;131575625043;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 130°C/100°C";Germany;EUR;8,80;;25;;;HEATER139
+Revise;121727305051;"Thermoschalter Klixon Thermosicherung Bimetallschalter BW/KSD301 NC 140°C/110°C";Germany;EUR;8,80;;90;;;HEATER140
+Revise;131991173109;"Hydraulikpumpe Werkstattpressen 20 30 50 70 Tonnen 700bar, 1100ccm pneumatisch";Germany;EUR;129,00;;21;;;ZSPWKZ000056
+Revise;112191728890;"Hydraulikzylinder 50T für Werkstattpresse Dornpresse Druckzylinder Hebezylinder";Germany;EUR;208,90;;0;;;ZSPWKZ000005
+Revise;131991211092;"Werkstattpressen Dornpressen Hydraulikzylinder 100T 100000kg 555Bar 1000kN";Germany;EUR;739,00;;2;;;ZSPWKZ000035
+Revise;131991279595;"Laustaufnahmemutter Spannmutter Spannring zu Hydraulikzylinder 10T M56x1.5mm";Germany;EUR;14,90;;0;;;ZSPWKZ000036
+Revise;111038302881;"Kühlerschlauch 10 Bar -30..+110°C 12.7-19-25.4-32-38-40-45-50mm KFZ Marine Auto";Germany;EUR;;;;;"Durchmesser=12.7 / 19.9 (19.9x3.6) mm;19.0 / 27.0 (27.0x4.0) mm;25.4 / 33.6 (33.6x4.1) mm;32.0 / 40.0 (40.0x4.0) mm;38.0 / 46.0 (46.0x4.0) mm;40.0 / 50.0 (50.0x5.0) mm;45.0 / 55.0 (55.0x5.0) mm;50.0 / 60.0 (60.0x5.0) mm";VAR#KUEHLERSCHLAUCH001
+;;;;;26,00;;99;Variation;"Durchmesser=32.0 / 40.0 (40.0x4.0) mm";ZSPMOT00725
+;;;;;28,00;;100;Variation;"Durchmesser=38.0 / 46.0 (46.0x4.0) mm";ZSPMOT00558
+;;;;;31,00;;99;Variation;"Durchmesser=40.0 / 50.0 (50.0x5.0) mm";ZSPMOT00726
+;;;;;37,00;;100;Variation;"Durchmesser=45.0 / 55.0 (55.0x5.0) mm";ZSPMOT00559
+;;;;;38,00;;99;Variation;"Durchmesser=50.0 / 60.0 (60.0x5.0) mm";ZSPMOT00727
+;;;;;17,00;;99;Variation;"Durchmesser=12.7 / 19.9 (19.9x3.6) mm";ZSPMOT00723
+;;;;;22,00;;100;Variation;"Durchmesser=19.0 / 27.0 (27.0x4.0) mm";ZSPMOT00557
+;;;;;23,00;;97;Variation;"Durchmesser=25.4 / 33.6 (33.6x4.1) mm";ZSPMOT00724
+Revise;112503215612;"Steuerplatinen Elektronik zu Rotek Luftentfeuchter Bautrockner ACD-50, ACD-90-EG";Germany;EUR;39,90;;5;;;ZSPKLI0006
+Revise;132211883090;"Dieselfilter Treibstofffilter C0506B C0506C externer Filter Diesel Treibstoff";Germany;EUR;29,90;;39;;;ZSPMOT00366
+Revise;122624750990;"Feuchtesensor Hygrosensor zu Rotek Luftentfeuchter Bautrockner ACD-50, ACD-90-EG";Germany;EUR;16,90;;4;;;ZSPKLI0007
+Revise;112503246240;"Kondensathebepumpe Kondensatpumpe zu Rotek ACD-50-EG ACD-90-EG Bautrockner";Germany;EUR;51,90;;1;;;ZSPKLI0008
+Revise;131671891097;"Benzinmotor 4-Takt 6 PS Elektrostart Kartmotor Benzin Motor 4,5 kW Standmotor";Germany;EUR;174,90;;29;;;MOT159
+Revise;131244641723;"Stromerzeuger 3kW Stromaggregat 230V Notstrom Notstromaggregat Generator Benzin";Germany;EUR;399,00;;1;;;GEN162
+Revise;111411081343;"Stromerzeuger 7kW Stromaggregat 400V Notstrom Notstromaggregat Generator Benzin";Germany;EUR;799,00;;0;;;GEN164
+Revise;122165049637;"1kg WIG Schweißstab Edelstahl E316L V2A V4A 1.6x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;26,90;;95;;;SCHWEISS151
+Revise;112157237473;"10kg WIG Schweißstab Edelstahl E316L V2A V4A 1.6x1000mm Schweissstäbe TIG 1.4430";Germany;EUR;162,90;;100;;;SCHWEISS150
+Revise;121388053496;"Stromerzeuger 5,5kW Stromaggregat 400V Notstromaggregat Generator Diesel Silent";Germany;EUR;1259,00;;0;;;GEN003
+Revise;122527057857;"Dieselmotor 11PS Diesel Motor 7,8kW konische Welle E-Start Konus zöllig Zoll";Germany;EUR;619,90;;5;;;MOT135
+Revise;111411089237;"Stromerzeuger 5,5kW Stromaggregat 400V Notstromaggregat Generator Diesel ATS NEU";Germany;EUR;1399,00;;0;;;GEN027
+Revise;131244656630;"15L Benzintank Kunststofftank Gerätetank mit Tankanzeige zu Rotek GG4-1-3400";Germany;EUR;43,90;;3;;;ZSPGEN00249
+Revise;111411104769;"externer Dieselfilter / Wasserabscheider zu Dieselmotor, Generator, Pumpe";Germany;EUR;29,90;;7;;;ZSPMOT00733
+Revise;121543040341;"Schweißbalken komplett 400mmx10mm für Vakuumverpackungsmaschine Folienschweisser";Germany;EUR;49,90;;22;;;ZSPPACK0068
+Revise;131402596800;"100/5A Stromwandler 100/50/25/20/10A auf 5A für Amperemeter 100A:5A Strom messen";Germany;EUR;12,00;;24;;;ZSPGEN00309
+Revise;121917798940;"19mm Vergaserdichtung Isol/Motorblock 160-200ccm zu Pumpen Generator GX160 GX200";Germany;EUR;13,90;;20;;;ZSPMOT00926
+Revise;131218415460;"Schweißdraht SG2 Schutzgas MIG SG-2 Ti 0,8mm 5kg speziell f. KFZ verrostet Zink";Germany;EUR;59,90;;53;;;SCHWEISS076
+Revise;131774613039;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1020x670 mm Plattenstärke Dicke 3mm";Germany;EUR;89,90;;47;;;EPGC202-03X1020X670
+Revise;112545673244;"Rotek Luftentfeuchter ACD50/90-HZH Control PCB Platine Steuerplatine Steuerung";Germany;EUR;56,90;;19;;;ZSPKLI0001
+Revise;121298619548;"Lagerschild vorne für diverse Stromerzeuger Generatoren KT6 / Rotek GG4-1/3-7300";Germany;EUR;19,90;;66;;;ZSPGEN00292
+Revise;112192650726;"Stromerzeuger ohne Motor STC-12 400V 12kW 3-phasig Synchron Generator STC 12 AVR";Germany;EUR;659,00;;9;;;GEN036
+Revise;131992294224;"Stromerzeuger ohne Motor YHG-12 400V 12kW 3-phasig Synchron Generator YHG 12 AVR";Germany;EUR;999,00;;8;;;GEN082
+Revise;112192684062;"Stromerzeuger ohne Motor TFW-20 400V 20kW 3-phasig Synchron Generator TFW 20 AVR";Germany;EUR;1179,00;;5;;;GEN083
+Revise;120719975348;"Ventildeckeldichtung zu Huafengdongli 495D6 / K4102D1.1";Germany;EUR;29,90;;32;;;ZSPMOT00716
+Revise;110683080894;"Zylinderkopf zu Huafengdongli R4105ZD1";Germany;EUR;479,00;;1;;;ZSPMOT00719
+Revise;110683083038;"Wasserkühler zu Huafengdongli 495D6";Germany;EUR;459,00;;2;;;ZSPMOT00608
+Revise;122884937214;"Schleifring Schleifringe Generator Kohlen Slip Ring Slipring Bürsten d=66/118mm";Germany;EUR;38,90;;1;;;ZSPGEN00256
+Revise;120719976028;"Ventildeckeldichtung zu Huafengdongli R4105ZD1";Germany;EUR;29,90;;18;;;ZSPMOT00717
+Revise;131402793166;"Spannungsregler AVR Rotek R230 wie Leroy Somer R230B AEM110RE014 LSA37...LSA47";Germany;EUR;77,00;;7;;;ZSPGEN00205
+Revise;131899808298;"Profi Luftentfeuchter Bautrockner Entfeuchtungsgerät Entfeuchter 50 60 70 L/Tag";Germany;EUR;329,90;;0;;;KLI057
+Revise;121298844498;"Scherstift für 800kg 0,8 t to Greifzug Forstseilwinde Seilwinde Seilzug Winde";Germany;EUR;9,90;;592;;;ZSPHUB00020
+Revise;121299159407;"Batterie Trennrelais 24V 200A 100A Relais KFZ PKW BOOT CAMPING WOHNMOBIL";Germany;EUR;14,90;;467;;;ZSPGEN00289
+Revise;112546481445;"Pumpenrad Impeller zu Schmutzwasserpumpe Benzin/Dieselmotor WPD4/WPG4-TRASH";Germany;EUR;29,90;;9;;;ZSPPUM00182
+Revise;132312998726;"Pumpenrad Impeller zu Hochdruckpumpe Benzin/Dieselmotor WPD4/WPG4-HP-0500";Germany;EUR;34,90;;9;;;ZSPPUM00188
+Revise;112546490288;"Benzintank Treibstofftank 6 Liter Benzinmotor EG4-0270 EG4-0390 EG4-0420 NEU";Germany;EUR;32,90;;22;;;ZSPMOT00632
+Revise;122678085006;"Luftfilterkasten Benzinmotor Rotek EG4-0270 EG4-0240 Luftfilter komplett";Germany;EUR;34,90;;10;;;ZSPMOT00460
+Revise;131672725742;"19mm Vergaser 160-200ccm zu Pumpen Generator Benzinmotor GX160 GX200 ohne Hahn";Germany;EUR;27,80;;17;;;ZSPMOT00744
+Revise;132313068003;"Elektrostarter Dieselmotor Starter Yanmar L90/L100 Rotek mit Nockenwellenabtrieb";Germany;EUR;98,90;;6;;;ZSPMOT00805
+Revise;111304862223;"Regelkondensator 15uF 450V AC Motorkondensator Anlaufkondensator Spannungsregler";Germany;EUR;16,80;;216;;;ZSPGEN00008
+Revise;132520069639;"Motoraufhängung Gummifuss Schwingungsdämpfer M8 NEU GG4-1A-3400";Germany;EUR;8,00;;88;;;ZSPMOT00770
+Revise;132520099787;"Tankanzeige Rund D34 D28mm Schwimmer für Benzin Treibstoffe zu Rotek GG4-7300";Germany;EUR;11,00;;19;;;ZSPMOT00982
+Revise;121543833126;"Polierpaste Meisterstück K7 - sehr feines Polierfett für Polierscheiben";Germany;EUR;13,90;;103;;;POL001
+Revise;131403355413;"Polierpaste Meisterstück A120 - Schleifpaste Bürstpaste für Polierscheiben";Germany;EUR;14,90;;997;;;POL002
+Revise;132520189821;"Motoraufhängung Gummifuss Schwingungsdämpfer M10 Rotek GD4-13000 GD4SS-13000";Germany;EUR;10,00;;96;;;ZSPGEN00377
+Revise;131403359812;"Polierpaste Meisterstück R845 Polierpaste zu Polierscheiben speziell Buntmetalle";Germany;EUR;12,90;;110;;;POL003
+Revise;131379752626;"Startschloss Zündschloss Universal 2+5pol. Benzin Diesel 18mm Generator Pumpe";Germany;EUR;23,90;;92;;;ZSPGEN00293
+Revise;121543841332;"Polierpaste Meisterstück K207 Polierpaste grob zu Polierscheiben";Germany;EUR;14,90;;51;;;POL004
+Revise;132083522061;"Benzintank Treibstofftank 3,7 Liter 200ccm Benzinmotor EG4-0200 EG4-0210 Tank";Germany;EUR;24,90;;29;;;ZSPMOT00630
+Revise;112290049642;"Zylinderkopfdichtung EG4-0420 Benzinmotor 420ccm Kopfdichtung Di:91mm Dichtung";Germany;EUR;12,00;;35;;;ZSPMOT00892
+Revise;112290052566;"Ventildeckeldichtung Rotek ED4-2R-0954 Dieselmotor Papier 7.2.15 Ventildichtung";Germany;EUR;14,90;;20;;;ZSPMOT00757
+Revise;132083534288;"Ventildeckeldichtung Rotek ED4-0418 Dieselmotor Herzförmig Ventildichtung";Germany;EUR;10,00;;49;;;ZSPMOT00517
+Revise;112546747211;"Kolben 1 Zylinder 420ccm Benzinmotor EG4-0420 90mm Kolben Aluminium";Germany;EUR;23,90;;3;;;ZSPMOT00754
+Revise;112546749952;"Kolbenringsatz 1 Zylinder 420ccm Benzinmotor EG4-0420 90mm Kolbenringe";Germany;EUR;12,00;;8;;;ZSPMOT00755
+Revise;111573902511;"Polierpaste Meisterstück K282 Polierpaste fein zu Polierscheiben";Germany;EUR;16,90;;50;;;POL005
+Revise;112546753212;"Ventildeckeldichtung Rotek Benzinmotor EG4-2V-0614-E Head Cover Teil 0709";Germany;EUR;10,00;;10;;;ZSPMOT00825
+Revise;131403379508;"Polierpaste Meisterstück L915 Polierpaste ganz fein, Abklärpaste Fertigpolitur";Germany;EUR;16,90;;53;;;POL006
+Revise;112290075685;"Ventildeckeldichtung Rotek ED4-0420 Dieselmotor Ventildichtung Teile Nr. 317";Germany;EUR;10,00;;43;;;ZSPMOT00151
+Revise;112290078440;"Ventildeckeldichtung 200ccm Rotek EG4-0200 Benzinmotor EG4-0210 Ventildichtung";Germany;EUR;10,00;;20;;;ZSPMOT00437
+Revise;112546758614;"O-Ring 34,5 x 1,8 Ölpumpenabdeckung ED4-0219 ED4-0306 ED4-0418 Rotek 34.5 x 1.8";Germany;EUR;4,00;;8;;;ZSPMOT00142
+Revise;132313256670;"O-Ring 38,7 x 2,65 Stösselstangenbuchse ED4-2R-0954-E Rotek 38.7 x 2.65 7.1.43";Germany;EUR;4,00;;18;;;ZSPMOT00800
+Revise;132313261296;"O-Ring 60 x 2,65 Ölfilterflansch ED4-2R-0954-E Rotek 60 x 2.65 Teil 7.9.24";Germany;EUR;4,00;;13;;;ZSPMOT00936
+Revise;132083566031;"Kolben spitz 1 Zylinder 300ccm Dieselmotor ED4-0300 - Mexikanerhut 296ccm";Germany;EUR;23,90;;6;;;ZSPMOT00166
+Revise;121543874402;"Polierpaste Meisterstück SET Polierpaste von grob bis ganz fein Abklärpaste";Germany;EUR;55,90;;103;;;SET#POLIERPASTEN001
+Revise;122338937446;"Kolben abgeflacht 1 Zylinder Dieselmotor ED4-0306 - Mexikanerhut abgeflacht NEU";Germany;EUR;23,90;;15;;;ZSPMOT00964
+Revise;132313265716;"Pleuel Assembly Baugruppe 418ccm Dieselmotor Rotek ED4-0418 ED4-0420 420ccm";Germany;EUR;23,90;;8;;;ZSPMOT00177
+Revise;120363987869;"Luftfilterelement Einsatz f. Rotek 340/390 ccm Motor";Germany;EUR;14,90;;7;;;ZSPMOT00285
+Revise;132313268810;"Stösselstange 418ccm Dieselmotor Rotek ED4-0418 ED4-0420 420ccm Ventilstange";Germany;EUR;12,00;;23;;;ZSPMOT00027
+Revise;112290113518;"Schwungrad mit aufgebrachtem Zahnkranz für 200ccm Dieselmotor ED4-0200 ED4-0210";Germany;EUR;49,90;;8;;;ZSPMOT00959
+Revise;132083573540;"Schwungrad mit aufgebrachtem Zahnkranz für 300ccm Dieselmotor ED4-0300 ED4-0306";Germany;EUR;54,90;;4;;;ZSPMOT00960
+Revise;112546804682;"Kurbelgehäusedichtung 418ccm Dieselmotor Rotek ED4-0418 ED4-0420 420ccm Blech";Germany;EUR;16,90;;47;;;ZSPMOT00019
+Revise;112290118926;"Schwungrad mit aufgebrachtem Zahnkranz für 420ccm Dieselmotor ED4-0418 ED4-0420";Germany;EUR;69,90;;5;;;ZSPMOT00961
+Revise;132313279000;"Auspuff 2-Zylinder Benzinmotor Rotek EG4-2V-0614-E mit Krümmer Muffler";Germany;EUR;83,90;;1;;;ZSPMOT00975
+Revise;122338975411;"Handstart Einheit Dieselmotor ED4-0418 ED4-0420 Reversierstarter Seilzugstarter";Germany;EUR;29,90;;32;;;ZSPMOT00017
+Revise;122008760881;"Stromerzeuger ohne Motor KT-6 400V 6 kW 3-phasig Synchron Generator 7,2 kVA AVR";Germany;EUR;278,90;;0;;;GEN226
+Revise;112840047530;"Kompakter Universal Ölkühler Tülle Schlauch EG4-2V-0614 Kühlung Öl Radiator";Germany;EUR;53,90;;10;;;ZSPMOT00843
+Revise;132520299934;"Luftfilterkasten Benzinmotor Rotek EG4-0210 EG4-0200 Luftfilter komplett 200ccm";Germany;EUR;24,00;;6;;;ZSPMOT00459
+Revise;132520305091;"Auspuff zu Dieselmotor ED4-0200 ED4-0210 Rotek DEK Kipor mit Auspuffkrümmer NEU";Germany;EUR;28,00;;2;;;ZSPMOT00132
+Revise;132313336097;"Manometer für Hydraulik, Werkstattpressen udgl. Nominal 680 Bar max. 1000 Bar";Germany;EUR;19,00;;21;;;ZSPWKZ000006
+Revise;112900980615;"Stromerzeuger ohne Motor STC-20 400V 20kW 3-phasig Synchron Generator STC 20 AVR";Germany;EUR;919,00;;5;;;GEN057
+Revise;123048660861;"Stromerzeuger ohne Motor YHG-50-PMG 400V 50kW 3-phasig Synchron Generator AVR";Germany;EUR;2049,00;;3;;;GEN217
+Revise;123048662801;"Stromerzeuger ohne Motor YHG-120-PMG 400V 120 kW 3-phasig Synchron Generator AVR";Germany;EUR;3490,00;;2;;;GEN218
+Revise;122991402561;"Handstart Einheit Dieselmotor ED4-0210 ED4-0219 Reversierstarter Seilzugstarter";Germany;EUR;20,00;;21;;;ZSPMOT00065
+Revise;132520345727;"Zylinderkopf 90ccm Benzinmotor zB Rotek,Kama,Lifan,Kipor EG4-0090 Baugruppe NEU";Germany;EUR;43,90;;6;;;ZSPMOT00659
+Revise;131929985588;"20m Stahlseil 3200kg 3,2t d=16mm Greifzug Seilzug Seilwinde Forstseilwinde Winde";Germany;EUR;95,90;;1;;;ZSPHUB00024
+Revise;112840150729;"Dieseltank Tank 2,5L zu Dieselmotor 200/219ccm Rotek DEK Kipor Yanmar";Germany;EUR;29,90;;5;;;ZSPMOT00806
+Revise;111598265973;"12V 4.5Ah Blei AGM Bleiakku Bleigel Akku Batterie Bleigelakku Gelakku wie 4Ah";Germany;EUR;21,00;;85;;;BAT001
+Revise;112840200201;"Handstart Seilzugstarter Handstarteinrichtung EG4-0270 EG4-0240 GX Rotek";Germany;EUR;25,00;;9;;;ZSPMOT00970
+Revise;122254904989;"Dichtung Deckeldichtung zu Vakuumsealer Vakuumierer Silikon PM-VC-6002 (330cm)";Germany;EUR;79,90;;19;;;ZSPPACK0140
+Revise;132024063016;"Beutelklammer passend zu Schweissbalken der Rotek Vakuumierer VC-400/600/6002";Germany;EUR;11,90;;100;;;ZSPPACK0144
+Revise;132024068076;"Reparaturglied Kettenglied zu Antriebskette Rotek Schrumpftunnel PM-ST-BS Serie";Germany;EUR;16,90;;10;;;ZSPPACK0143
+Revise;132024071301;"Reparaturglied Kettenglied Rollförderkette Rotek Schrumpftunnel PM-ST-BS Serie";Germany;EUR;16,90;;10;;;ZSPPACK0142
+Revise;122992507243;"Ersatzkompressor zu 20/30kW Ölheizkanonen mit Zerstäubersystem Ölheizer Diesel";Germany;EUR;33,80;;26;;;HEATER030
+Revise;132521096292;"Heizelement Heizstab Heizwendel für 9kW Heizlüfter (3kW pro Heizelement) 230V";Germany;EUR;20,80;;31;;;HEATER046
+Revise;132521099311;"Thermostat 0-40°C zu 3kW Heizlüfter 16A 230V Thermoschalter Ersatzteil WY40B NEU";Germany;EUR;16,80;;28;;;HEATER094
+Revise;122992521390;"Thermostat 0-40°C zu 15kW Heizlüfter 16A 400V Thermoschalter WK-R36 155°C Abscha";Germany;EUR;29,80;;32;;;HEATER097
+Revise;132521103835;"Thermostat Thermoschalter YT-WNS T100 passend zu div. Heizlüftern 0-40°C 230V16A";Germany;EUR;21,80;;65;;;HEATER098
+Revise;111717946816;"Dieselmotor 11PS Diesel Motor 7,8kW Kleindiesel zoll zöllig Welle L75 L90 L100";Germany;EUR;619,90;;10;;;MOT133
+Revise;111717992530;"Auspuff zu Benzinmotor EG4-0340/0390/0420 GX340, GX390 Rotek DEK Kipor Honda";Germany;EUR;34,90;;0;;;ZSPMOT00329
+Revise;131324295534;"21mm Vergaser 240-270ccm zu Pumpen Generator Benzinmotor GX240 GX270 mit Hahn";Germany;EUR;28,80;;16;;;ZSPMOT00274
+Revise;121889766836;"Ersatzschlüssel zu Startschloss Zündschloss Universal 18mm Generator Pumpe Rotek";Germany;EUR;9,90;;19;;;ZSPGEN00294
+Revise;121462904082;"27mm Vergaser 320/390/420ccm zu Pumpen Generator Benzinmotor GX320 GX390 Hahn";Germany;EUR;29,80;;21;;;ZSPMOT00275
+Revise;131324321001;"27mm Vergaser 320/390/420ccm Pumpen Generator Benzinmotor GX320 GX390 Backfire";Germany;EUR;36,80;;18;;;ZSPMOT00613
+Revise;121462924302;"19mm Vergaserdichtung Filterseitig 160-200ccm zu Pumpen Generator GX160 GX200";Germany;EUR;13,90;;93;;;ZSPMOT00269
+Revise;122009633262;"Seilwinde Forstwinde Winde 500kg Nennlast ohne Seil und Haken, bis zu 35m Seil";Germany;EUR;35,90;;179;;;HUB177
+Revise;132521224151;"Balancer Positionierer Balancierer 900kg passend zu Werkstättenkran Motorkran";Germany;EUR;34,80;;158;;;HUB171
+Revise;112021272185;"Seilwinde Forstwinde Winde 1200kg Nennlast ohne Seil und Haken, bis zu 45m Seil";Germany;EUR;64,90;;68;;;HUB179
+Revise;112841933778;"Manueller Mini Stapler mit Plattform, Tragkraft 400kg, Hubhöhe 1,5m Hochhubwagen";Germany;EUR;549,00;;6;;;HUB201
+Revise;131324326699;"21mm Vergaserdichtung Filterseitig 240-270ccm zu Pumpen Generator GX240 GX270";Germany;EUR;13,90;;100;;;ZSPMOT00270
+Revise;131324329379;"27mm Vergaserdichtung Filterseitig 340/390ccm zu Pumpen Generator GX340/390/420";Germany;EUR;13,90;;95;;;ZSPMOT00271
+Revise;121703998968;"Zylinderkopf 420ccm Benzinmotor zB Rotek,Lifan,Kama,Kipor,Honda,GX420 und andere";Germany;EUR;58,90;;6;;;ZSPMOT00910
+Revise;132521234054;"Palettencontainer Gittercontainer Gitterbox 80x60cm NEU";Germany;EUR;99,00;;4;;;HUB110
+Revise;132521237754;"Trennwand Paletten Käfig Container T 600 x H 640mm NEU";Germany;EUR;24,90;;74;;;HUB114
+Revise;122992693245;"Räder Rollen für Paletten Käfig Container Gitterbox NEU";Germany;EUR;75,00;;31;;;HUB122
+Revise;131324335413;"19mm Vergaserdichtung Motorseitig 160-200ccm zu Pumpen Generator GX160 GX200";Germany;EUR;13,90;;98;;;ZSPMOT00257
+Revise;112841974516;"10mm Schweissdraht Reparatur Schweissbalken Folienschweisser pro Meter Meterware";Germany;EUR;9,00;;995;;;ZSPPACK0178
+Revise;111487673083;"21mm Vergaserdichtung Motorseitig 240-270ccm zu Pumpen Generator GX240 GX270";Germany;EUR;13,90;;100;;;ZSPMOT00258
+Revise;131324340688;"27mm Vergaserdichtung Motorseitig 340/390ccm zu Pumpen Generator GX340/390/420";Germany;EUR;13,90;;94;;;ZSPMOT00259
+Revise;121919672907;"Stromerzeuger 62kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;8590,00;;1;;;GEN199
+Revise;110281392959;"Auspuff Schalldämpfer GSE950 STE850 ESE900 NEU";Germany;EUR;29,90;;2;;;ZSPMOT00043
+Revise;132248584059;"Rotek Vakuumierer Panel Umbausatz von altem auf neues Digitalpanel Kabelsatz";Germany;EUR;61,90;;19;;;PACK118
+Revise;132248587077;"Hydraulikleitungen Schlauchsatz zu Rotek 100T Presse 200cm + 170cm, M16/M22x1.5";Germany;EUR;34,90;;3;;;ZSPWKZ000042
+Revise;111195935595;"Schneidplatte, Gegenplatte, Einlass zu Tauchpumpe 1.5kW Cutter mit Schneidzahn";Germany;EUR;34,90;;100;;;ZSPPUM00185
+Revise;121919691089;"Stromerzeuger ohne Motor YHG-12 400V 12kW 3-phasig Synchron Generator YHG12 AVR";Germany;EUR;999,00;;5;;;GEN152
+Revise;132521287413;"Saugkorb 2 Zoll 2Z B 2"" inklusive Rückschlagventil G2 Innengewinde Rohrgewinde";Germany;EUR;34,80;;45;;;PUM049
+Revise;110327593351;"Farbband für Codierungsmaschine B=30mm f. PM-FS-L600";Germany;EUR;19,90;;17;;;PACK021
+Revise;111847463891;"Drehzahlregler Speedcontroller Ersatzteil Rotek Verpackungsmaschine PM-FS-CONT";Germany;EUR;28,90;;10;;;ZSPPACK0109
+Revise;121462967789;"19mm Vergaserisolator Motorseitig 160-200ccm zu Pumpen Generator GX160 GX200";Germany;EUR;14,90;;100;;;ZSPMOT00260
+Revise;121837915597;"Timer Zeitrelais Steuerung Ersatzteil zu Rotek Verpackungsmaschine PM-FS-STEP";Germany;EUR;28,90;;10;;;ZSPPACK0110
+Revise;131842281078;"Drahtseil 6mm, 18m mit Lasthaken passend zu Seilwinde 500-1200kg (3t Bruchlast)";Germany;EUR;25,90;;49;;;HUB186
+Revise;121462970510;"21mm Vergaserisolator Motorseitig 240-270ccm zu Pumpen Generator GX240 GX270";Germany;EUR;14,90;;100;;;ZSPMOT00261
+Revise;121462975582;"27mm Vergaserisolator Motorseitig 340/390ccm zu Pumpen Generator GX340/390/420";Germany;EUR;14,90;;100;;;ZSPMOT00262
+Revise;122992799823;"zwei (2) Zylinder Dieselmotor 19PS 794ccm 14kW wassergekühlt BHKW bzw. Marine";Germany;EUR;2690,00;;2;;;MOT167
+Revise;112021364355;"1000kg 1t 1to 12m Flaschenzug Kettenzug Kettenflaschenzug Hebezug Handkran";Germany;EUR;129,90;;100;;;HUB055
+Revise;122580008597;"Digitalpanel Ersatzpanel Steuerplatine zu Rotek Vakuumierer PCB Steuerung";Germany;EUR;139,90;;44;;;ZSPPACK0100
+Revise;132417460318;"32A FI/LS FILS Kombi Automat Fehlerstromschutzschalter Leitungsschutzschalter 3P";Germany;EUR;25,00;;15;;;ZSPGEN00145
+Revise;112226926324;"Dieselmotor 11PS Diesel Motor 8,0kW Lichtmaschine Laderegler EStart L75 L90 L100";Germany;EUR;639,90;;31;;;MOT175
+Revise;122992861609;"1kg WIG Schweißstab Aluminium AlMg3 2.4mm  Schweissstäbe Elektroden TIG 3.3536";Germany;EUR;23,90;;100;;;SCHWEISS040
+Revise;112842185314;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 3.2x350mm 1.0 kg";Germany;EUR;27,90;;100;;;SCHWEISS051
+Revise;112842191578;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 3.2x350mm 2.5 kg";Germany;EUR;53,90;;100;;;SCHWEISS156
+Revise;112664821070;"Absteller Abstellmagnet Solenoid Stopmagnet Zugmagnet 12V";Germany;EUR;34,80;;63;;;ZSPGEN00138
+Revise;132521383572;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 4.0x350mm 2.5 kg";Germany;EUR;54,90;;100;;;SCHWEISS158
+Revise;112226949861;"Zylinderkopf 390ccm Benzinmotor zB Rotek,Lifan,Kama,Kipor,Honda, GX390";Germany;EUR;59,90;;10;;;ZSPMOT00635
+Revise;120923364660;"Stromerzeuger ohne Motor KT-3 230V 3 kW 1-phasig Synchron Generator 3,6 kVA AVR";Germany;EUR;228,90;;8;;;GEN154
+Revise;112842266884;"Hauptplatine Steuerung Rotek BGO Ölheizkanonen Heizkanone 20/30/50kW ohne MV";Germany;EUR;37,80;;6;;;ZSPHEATER045
+Revise;132521438027;"Drehknopf Rotek BGO Ölheizkanonen Gasheizkanonen Heizkanone 15/20/30/50kW 35/6mm";Germany;EUR;12,80;;9;;;ZSPHEATER050
+Revise;112842271065;"Steuerung Anzeigeplatine Rotek BGO Ölheizkanonen Heizkanone 20/30/50kW ohne MV";Germany;EUR;37,80;;12;;;ZSPHEATER051
+Revise;112842273556;"Zündtrafo Zündtransformator 1x15kV 30mA 33%ED 230V Universal Ersatzzündtrafo";Germany;EUR;29,80;;2;;;ZSPHEATER063
+Revise;112842289348;"15mm Vergaser 2/4-Takt 63-100ccm GG2-1/GSE950 STE850 ESE900 langer Jokerhebel";Germany;EUR;26,80;;13;;;ZSPMOT00657
+Revise;132521458181;"Auspuffkrümmer zu 2 Zylinder Dieselmotor 19PS 794ccm 14kW wassergekühlt BHKW";Germany;EUR;139,90;;3;;;ZSPMOT00896
+Revise;132521464809;"Prismenauflage Pressblock zu 50T Werkstattpresse Hydraulikpresse Dornpresse";Germany;EUR;88,90;;10;;;ZSPWKZ000014
+Revise;131324480561;"25mm Vergaser 620/630/ccm Pumpen Generator Benzinmotor GX620 GX630 Backfire";Germany;EUR;56,80;;49;;;ZSPMOT00831
+Revise;111487830885;"25mm Vergaserdichtung Motorseitig GX620/630ccm zu Pumpen Generator EG4-2V-0614";Germany;EUR;13,90;;100;;;ZSPMOT00824
+Revise;111487832981;"25mm Vergaserdichtung Ansaugkrümmer GX620/630ccm zu Pumpen Generator EG4-2V-0614";Germany;EUR;13,90;;100;;;ZSPMOT00830
+Revise;121652527909;"Elektrostarter Anlasser zu 620ccm 2-Zyl Benzinmotor Wasserpumpe Generator etc.";Germany;EUR;92,90;;2;;;ZSPMOT00812
+Revise;121463096028;"25mm Vergaser Isolator Motorseitig GX620/630ccm zu Pumpen Generator EG4-2V-0614";Germany;EUR;14,90;;100;;;ZSPMOT00833
+Revise;111126418399;"Druckluft Kühler CNC Fräsmaschine Drehmaschine Vortex Cooler Wirbelrohr Kühler";Germany;EUR;149,00;;111;;;WKZ019
+Revise;131324498242;"25mm Vergaser Dichtung Ansaugkrümmer GX620/630ccm zu Pumpen Generator EG42V-0614";Germany;EUR;13,90;;100;;;ZSPMOT00826
+Revise;110752978899;"Wiederbefüllbare Druckluft Spraydose Sprühgerät Zerstäuber Sprühflasche Lack";Germany;EUR;31,00;;837;;;WKZ003
+Revise;131512843852;"Treibstoffpumpe Benzinpumpe Membranpumpe zu Vergaser 620ccm Rotek Honda DEK";Germany;EUR;23,90;;8;;;ZSPMOT00837
+Revise;111671873321;"Handstart Seilzugstarter Handstarteinrichtung EG4-0200/0210 GX160,GX200 Rotek";Germany;EUR;23,90;;43;;;ZSPMOT00741
+Revise;111671879975;"Luftfilter zu Dieselmotor 210/219/300/306 Rotek Yanmar L48,L60,L70 rund";Germany;EUR;7,90;;190;;;ZSPMOT00009
+Revise;111671888269;"Luftfilter zu Dieselmotor 406/418/420 Rotek DEK Kipor Yanmar L90,L100 oval";Germany;EUR;9,90;;124;;;ZSPMOT00010
+Revise;121544862953;"Werkstattpresse 100t Hydraulikpresse Montagepresse Lagerpresse Presse elektrohyd";Germany;EUR;4290,00;;6;;;WKZ022
+Revise;121544866123;"Hydraulikpumpe Handpumpe Werkstattpressen 20 30 50 70 Tonnen Pneumatikmotor";Germany;EUR;39,80;;13;;;ZSPWKZ000030
+Revise;121544888458;"Öltank Tank Heizöltank zu Ölheizern direkt BDO30kW HO-30-BG Heizkanonen";Germany;EUR;49,80;;99;;;ZSPHEATER035
+Revise;121544890766;"Öltank Tank Heizöltank zu Ölheizern direkt BDO50B HOI-50-BG Heizkanonen";Germany;EUR;69,80;;100;;;ZSPHEATER038
+Revise;111742842420;"Mini Vollkunststoff Kreisel Pumpe 12V Minipumpe Tauchpumpe Säure Lauge Benzin";Germany;EUR;18,90;;0;;;PUM371
+Revise;112506662033;"Schalttafel Leuchte Signalleuchte Signallampe LED 24V Rot 29mm Schaltschrank";Germany;EUR;1,00;;2;;;ZSPGEN00330
+Revise;132282177960;"Thermoschalter K40 KSD301 250V 10A für Temp.Überwachung";Germany;EUR;14,90;;98;;;HEATER013
+Revise;121597932015;"Benzinmotor 420ccm 13PS Kleinmotor Vergaser Elektrostart zylindrische Welle 25mm";Germany;EUR;321,90;;20;;;MOT118
+Revise;111623304605;"Benzinmotor 4-Takt 13 PS Kartmotor Benzin Motor 10 kW Standmotor OHV 4T E-Start";Germany;EUR;321,90;;18;;;MOT120
+Revise;121279201361;"Öltank Tank Heizöltank zu Ölheizern direkt BDO30B HOI-30-BG Heizkanonen";Germany;EUR;49,80;;100;;;ZSPHEATER037
+Revise;111623652961;"Dieselmotor 6,7PS Diesel Motor 5kW Kleindiesel Traktor Bagger H-Start L60 L70";Germany;EUR;444,90;;16;;;MOT128
+Revise;131458830484;"Dieselmotor 6,7PS Diesel Motor 5kW 300ccm konische Welle E-Start Konus Generator";Germany;EUR;519,90;;7;;;MOT130
+Revise;122994388054;"Heizstab 600W Glasfaserheizstab Infrarot Schrumpftunnel Reflow Öfen bis 400°C";Germany;EUR;19,90;;35;;;ZSPPACK0005
+Revise;121598346661;"Kolben für 418 420 ccm 1 Zylinder Dieselmotoren Hubraum Diesel Motor ED4-0418";Germany;EUR;25,90;;12;;;ZSPMOT00168
+Revise;111623678997;"19mm Vergaser 160-200ccm zu Pumpen Generator Benzinmotor GX160 GX200 mit Hahn";Germany;EUR;27,80;;26;;;ZSPMOT00272
+Revise;111623687770;"Starter Anlasser Elektrostarter zu Diesel 2-Zylinder Lombardini 12V 1.6kW Rotek";Germany;EUR;119,90;;12;;;ZSPMOT00763
+Revise;122581420175;"Pumpen Saugschlauch 2 Zoll C Schlauch 50mm Quadriflex PVC Kunststoffspirale";Germany;EUR;8,90;;941;;;PUM062
+Revise;112468675201;"Pumpen Saugschlauch 3 Zoll B Schlauch 75mm Quadriflex PVC Kunststoffspirale";Germany;EUR;13,20;;499;;;PUM060
+Revise;112468683944;"Pumpen Saugschlauch 4 Zoll A Schlauch 100mm Quadriflex PVC Kunststoffspirale";Germany;EUR;18,70;;956;;;PUM058
+Revise;112468691993;"Pumpen Saugschlauch 2 Zoll C Schlauch 50mm Heduflex Stahlspirale UV Säure Frost";Germany;EUR;18,90;;979;;;PUM061
+Revise;132249771251;"Pumpen Saugschlauch 3 Zoll C Schlauch 75mm Heduflex Stahlspirale UV Säure Frost";Germany;EUR;28,90;;500;;;PUM059
+Revise;132249774375;"Pumpen Saugschlauch 4 Zoll A Schlauch 100mm Heduflex Stahlspirale UV Säure Frost";Germany;EUR;38,00;;976;;;PUM057
+Revise;122581440414;"Pumpen Druckschlauch 2 Zoll C Schlauch 50mm Eurolon Flachschlauch aufrollbar";Germany;EUR;7,80;;999;;;PUM056
+Revise;132249778488;"Pumpen Druckschlauch 3 Zoll C Schlauch 75mm Eurolon Flachschlauch aufrollbar";Germany;EUR;11,20;;500;;;PUM054
+Revise;112468817647;"Pumpen Druckschlauch 4 Zoll A Schlauch 100mm Eurolon Flachschlauch aufrollbar";Germany;EUR;14,90;;992;;;PUM052
+Revise;112468819140;"Pumpen Druckschlauch 5 Zoll Schlauch 125mm Eurolon Flachschlauch aufrollbar";Germany;EUR;16,10;;999;;;PUM232
+Revise;112468828257;"Pumpen Druckschlauch 2 Zoll C Schlauch 50mm Agriflat Flachschlauch Gülle UV";Germany;EUR;12,90;;998;;;PUM055
+Revise;132249837810;"Pumpen Druckschlauch 3 Zoll B Schlauch 75mm Agriflat Flachschlauch Gülle UV";Germany;EUR;17,40;;1000;;;PUM053
+Revise;132249838694;"Pumpen Druckschlauch 4 Zoll A Schlauch 100mm Agriflat Flachschlauch Gülle UV";Germany;EUR;23,90;;999;;;PUM051
+Revise;131381577397;"100T Prismenauflage Pressblock für Hydraulikpresse Werkstattpresse  Dornpresse";Germany;EUR;579,90;;1;;;ZSPWKZ000023
+Revise;121346765500;"Hygrosensor Feuchtigkeitssensor Feuchtesensor Sensor Hygroskop Luftentfeuchter";Germany;EUR;19,80;;47;;;KLI047
+Revise;111359985129;"Öltank Tank Heizöltank zu Ölheizern direkt BDO20kW HO-20-BG Heizkanonen";Germany;EUR;44,80;;100;;;ZSPHEATER034
+Revise;131536681951;"40mm 0.13mm PFTE Teflon Abdeckband zu Folienschweißer, Vakuumsealer, Schweißbalk";Germany;EUR;34,90;;70;;;ZSPPACK0093
+Revise;111359986581;"Stahlseil 800kg 0,8t d=8,3mm 20m Seilzug Greifzug Forstseilwinde Winde Seilwinde";Germany;EUR;39,90;;146;;;ZSPHUB00022
+Revise;111695630230;"Steuerplatine Timer PCB zu Schweißbalken Folienschweißgerät PFS-200 PM-FS-L0200";Germany;EUR;14,90;;15;;;ZSPPACK0094
+Revise;111695631555;"Steuerplatine Timer PCB zu Schweißbalken Folienschweißgerät PFS-300 PM-FS-L0300";Germany;EUR;14,90;;14;;;ZSPPACK0095
+Revise;121678696490;"Steuerplatine Timer PCB zu Schweißbalken Folienschweißgerät PFS-400 PM-FS-L0400";Germany;EUR;14,90;;10;;;ZSPPACK0106
+Revise;121678697409;"Steuerplatine Timer PCB zu Schweißbalken Folienschweißgerät PFS-500 PM-FS-L0500";Germany;EUR;14,90;;20;;;ZSPPACK0105
+Revise;121678702563;"Andruckstreifen für Schneideinheit zu Folienschweißgerät  PFS-200 PM-FS-L0200";Germany;EUR;12,90;;20;;;ZSPPACK0096
+Revise;121678710787;"Andruckstreifen für Schneideinheit zu Folienschweißgerät  PFS-300 PM-FS-L0300";Germany;EUR;13,40;;19;;;ZSPPACK0097
+Revise;111695643325;"Andruckstreifen für Schneideinheit zu Folienschweißgerät  PFS-400 PM-FS-L0400";Germany;EUR;13,90;;19;;;ZSPPACK0098
+Revise;121678712328;"Andruckstreifen für Schneideinheit zu Folienschweißgerät  PFS-500 PM-FS-L0500";Germany;EUR;14,40;;19;;;ZSPPACK0099
+Revise;121346788333;"0,5to 500kg 1,5m Kette Kettenzug Ratschenzug Hebezug Hebelzug Flaschenzug Handy";Germany;EUR;74,90;;127;;;HUB195
+Revise;131195760214;"2000kg 2t Laufkatze Kran Katze Handlaufwerk 66-220mm Rollfahrwerk Handfahrwerk";Germany;EUR;117,90;;40;;;HUB165
+Revise;111360016984;"Öltank Tank Heizöltank zu Ölheizern direkt BDO50kW HO-50-BG Heizkanonen";Germany;EUR;54,80;;98;;;ZSPHEATER036
+Revise;111360019876;"Generator GAVR-SCA Modul für Spannungsregler GAVR-Serie für cos Phi Regelung";Germany;EUR;155,90;;9;;;ZSPGEN00142
+Revise;131121355953;"Startschloss Zündschloss Universal 5pol. Benzin Diesel 24mm Generator Pumpe";Germany;EUR;23,90;;143;;;ZSPMOT00014
+Revise;132488186351;"Hydraulikleitung Werkstattpressen 20 30 50 70 Tonnen 700bar L=510mm";Germany;EUR;24,80;;20;;;ZSPWKZ000052
+Revise;132488190939;"Hydraulikleitung Werkstattpressen 20 30 50 70 Tonnen 700bar L=1010mm";Germany;EUR;24,80;;19;;;ZSPWKZ000053
+Revise;132488193148;"Hydraulikleitung Werkstattpressen 20 30 50 70 Tonnen 700bar L=750mm";Germany;EUR;24,80;;19;;;ZSPWKZ000054
+Revise;122941668470;"Hydraulikleitung Werkstattpressen 20 30 50 70 Tonnen 700bar L=1200mm";Germany;EUR;24,80;;15;;;ZSPWKZ000055
+Revise;132488198538;"Hydraulikkupplung Werkstattpressen 20 30 50 70 Tonnen 700bar M14 kegel 1/4"" NPT";Germany;EUR;16,90;;27;;;ZSPWKZ000057
+Revise;122941673382;"Schraubensatz zu Verschubeinheit 100T Rotek Werkstattpresse, Knebelschraube M12";Germany;EUR;16,90;;10;;;ZSPWKZ000051
+Revise;121390723178;"Spannungsregler AVR Universal Generatoren 230V/400V f. 6A Shunt Arep Erregung";Germany;EUR;65,00;;51;;;ZSPGEN00080
+Revise;121390724900;"Spannungsregler AVR Rotek SR7-2 mecc alte SR7-1 sdmo 330430237 NEU";Germany;EUR;95,00;;41;;;ZSPGEN00266
+Revise;132283889438;"Stromerzeuger 10kW Stromaggregat 230V Notstromaggregat Generator Benzin NEU";Germany;EUR;1869,00;;6;;;GEN204
+Revise;131173105796;"Profi Vakuumierer Stand 20cbm Vakuumiergerät Vakuummaschine Vakuumgerät Vakuum";Germany;EUR;1179,00;;24;;;PACK111
+Revise;131627689297;"GFK Platte HGW 2372.1 FR4 EP GC 202 EPGC 1020x670mm Plattenstärke 1,0 mm";Germany;EUR;38,90;;1;;;EPGC202-01X1020X670
+Revise;110890492075;"Normflansch CESM/IS/SPP Pumpe DN100 auf G4"" Schraubflansch Pumpenflansch Flansch";Germany;EUR;45,90;;2;;;PUM251
+Revise;121863444670;"Luftentfeuchter Entfeuchter Bautrockner Raumentfeuchter 20l/24l/25l/Tag stylish";Germany;EUR;178,90;;0;;;KLI055
+Revise;131932632579;"Industrie Folienschweißgerät Balkenschweißgerät Folienschweißer Sealer PFS 200mm";Germany;EUR;49,90;;57;;;PACK067
+Revise;121891656613;"Schutzgitter Ansaugabdeckung zu Rotek BGO Gasheizkanonen Heizkanone 30kW, D225mm";Germany;EUR;18,80;;20;;;ZSPHEATER047
+Revise;122122460725;"Vakuumierer Begasung 600mm 40m³ Kammer Vakuumiergerät Vakuummaschine Vakuumgerät";Germany;EUR;2079,00;;9;;;PACK094
+Revise;111902144812;"Edelstahlfilter, Pflanzenöl, Vorfilter, Ölfilter, Heizölfilter, Einstrangfilter";Germany;EUR;19,80;;20;;;ZSPHEATER039
+Revise;120695711812;"mechanischer Thermostat Kühlerthermostat 54mm 72°C für Wasserpumpe Dieselmotor";Germany;EUR;19,90;;19;;;ZSPMOT00499
+Revise;112127091612;"Temperaturregler Temperaturregelung Regler 0-400°C Temperaturanzeige analog";Germany;EUR;39,90;;9;;;ZSPPACK0062
+Revise;111387875261;"Spannungsregler AVR für STC 1-Phasige Brush Generatoren ST501 ST-501 AC";Germany;EUR;39,90;;5;;;ZSPGEN00019
+Revise;121150057641;"Lüfterrad Ventilator passend zu Alternator Generator STC-12 Stromerzeuger";Germany;EUR;23,90;;98;;;ZSPGEN00284
+Revise;121150058074;"Lüfterrad Ventilator passend zu Alternator Generator STC-8 Stromerzeuger";Germany;EUR;23,90;;3;;;ZSPGEN00280
+Revise;130955680730;"Einspritzdüse zu Huafengdongli K4102D1.1 / 495D6 PP93S1 Zapfendüse";Germany;EUR;59,90;;43;;;ZSPMOT00520
+Revise;121044477192;"Schalttafel Leuchte Signalleuchte Signallampe LED 400V Grün 29mm Schaltschrank";Germany;EUR;1,00;;50;;;ZSPGEN00126
+Revise;130955719220;"Stromerzeuger ohne Motor STC-5 230V 5kW 1-phasig Synchron Generator STC 5 kW AVR";Germany;EUR;529,00;;1;;;GEN117
+Revise;121058563954;"50A FI/LS Schutzschalter Fehlerstromschutzschalter Leitungsschutzschalter Kombi";Germany;EUR;25,00;;4;;;ZSPGEN00147
+Revise;111128412347;"Stromerzeuger ohne Motor STC-8 230V 8kW 1-phasig Synchron Generator STC 8 kW AVR";Germany;EUR;549,00;;4;;;GEN118
+Revise;122685842996;"Digitalplatine Ersatzplatine Steuerplatine zu Rotek Vakuumierer PCB Steuerung";Germany;EUR;109,90;;16;;;ZSPPACK0102
+Revise;131604308771;"12V 150Ah Bleiakku Gel Bleigel Gelakku Bleibatterie Battery Akku wie 130Ah 140Ah";Germany;EUR;342,00;;32;;;BAT055
+Revise;111995343009;"Hochdruckpumpe Motorpumpe 18m³/h 80m Kreiselpumpe 8,0bar Pumpe 2Z Benzinpumpe";Germany;EUR;249,90;;19;;;PUM354
+Revise;111995344964;"Hochdruckpumpe Motorpumpe 30m³/h 45m Kreiselpumpe 4,5bar Pumpe 2Z Dieselpumpe";Germany;EUR;599,00;;18;;;PUM359
+Revise;111995347042;"Motorpumpe 60m³/h Schmutzwasser 25m Kreiselpumpe 2,5 bar Pumpe 3Z Benzinpumpe";Germany;EUR;269,90;;39;;;PUM355
+Revise;111720355936;"Kettenrad Kettenrolle Umlenkrolle Kette Antrieb D=110 B=25 Kette 5x23,7mm";Germany;EUR;19,90;;15;;;ZSPHUB00218
+Revise;131248921993;"Bleiakku Ladegerät Einbau Netzadapter Netzteil 110V/230V auf 12V/13.8V DC 3A 40W";Germany;EUR;32,80;;18;;;ZSPGEN00235
+Revise;111334329629;"Werkstattpresse 20t Hydraulikpresse pneumatisch Lagerpresse Pneumatik Presse";Germany;EUR;445,55;;56;;;WKZ015
+Revise;131173949275;"Hydraulikpumpe Werkstattpressen 10,20,30T, 700Bar, 700ccm manuell";Germany;EUR;59,00;;14;;;ZSPWKZ000009
+Revise;122946631624;"12V 45Ah Zyklentyp Zyklenfest Blei Bleiakku Bleigel Akku Bleigelakku Gelakku 40";Germany;EUR;112,00;;54;;;BAT044
+Revise;112791101551;"600 Stk. Dübel Expansionsdübel Universaldübel Knotendübel 50x8mm ohne Kragen";Germany;EUR;11,90;;81;;;DUEBEL004
+Revise;132491585470;"300 Stk. Dübel Universaldübel Expansionsdübel 60x10mm Kragenlos Kunststoffdübel";Germany;EUR;10,90;;83;;;DUEBEL005
+Revise;132491594520;"Stufenschalter 15kW 400V Heizlüfter Nockenschalter 4stufig 8polig Hauptschalter";Germany;EUR;18,80;;39;;;HEATER021
+Revise;132491597281;"Ersatzkompressor zu 50kW Ölheizkanonen mit Zerstäubersystem Ölheizer Diesel";Germany;EUR;31,80;;23;;;HEATER029
+Revise;111442377439;"Rolle Rad Universalrad Rasenmäherrad D=150mm B=30mm d=12mm 25kg Tragfähigkeit";Germany;EUR;10,80;;990;;;IBROL00001
+Revise;111577609786;"Einbauinstrument cosPhi Meter 230V 50Hz cos-Phi messen 72x72mm cos Phi Meßgerät";Germany;EUR;74,80;;100;;;ZSPGEN00265
+Revise;112434464244;"Ölfilter 3/4"" 16 UNF mit Filterflansch Rotek EG4-2V-0614-E Wechselpatrone NEU";Germany;EUR;29,90;;7;;;ZSPMOT00840
+Revise;132218981130;"Ölfilter 3/4"" 18 UNS mit Filterflansch Rotek EG4-2V-0614-E Wechselpatrone NEU";Germany;EUR;29,90;;3;;;ZSPMOT00841
+Revise;112162790532;"PFCC201 Platte HGW2082 Baumwollhartgewebe 1220x605mm Stärke/Dicke 5.0mm";Germany;EUR;73,90;;94;;;PFCC201-05X1220X0605
+Revise;112162794376;"GFK Platte HGW 2372.1 (FR4) EP GC 202 EPGC 1020x670 mm Plattenstärke Dicke 5mm";Germany;EUR;154,90;;100;;;EPGC202-05X1020X670
+Revise;131676902113;"Pumpenrad Impeller zu Tauchpumpe WPET-TSH-3.0kW Rotek für Schredder Schneidkranz";Germany;EUR;40,90;;3;;;ZSPPUM00164
+Revise;121841165423;"Schneidplatte, Gegenplatte, Einlass zu Tauchpumpe 3.0kW Cutter mit Schneidzahn";Germany;EUR;44,90;;100;;;ZSPPUM00186
+Revise;121841176374;"Wellendichtring Dichtung Gleitringdichtung Dichtring Wolframcarbid 56/58mm 7,5kW";Germany;EUR;64,90;;5;;;ZSPPUM00137
+Revise;111442507504;"Kugelhahn G1/2"" mit Schlauchtülle 1/2Zoll Tülle 10mm 0,5Zoll Schieber 0,5"" Zoll";Germany;EUR;8,90;;4;;;ZSPMOT00815
+Revise;130918963472;"Benzinmotor 614ccm 15kW Kleinmotor 2-Zyl Elektrostart 25,4mm Welle 2 Zylinder 1""";Germany;EUR;919,90;;1;;;MOT123
+Revise;131030903727;"Vakuumsealer Vakuumierer Ersatzteil T-Stück zu Ventilblock gewinkelt";Germany;EUR;14,90;;15;;;ZSPPACK0058
+Revise;112553169732;"Bauheizer Baulüfter Elektroheizer Heizlüfter Heizgerät Bautrockner 230V 3kW NEU";Germany;EUR;52,00;;0;;;HEATER069
+Revise;112553172446;"Bauheizer Baulüfter Elektroheizer Heizlüfter Heizgerät Baulüfter Bautrockner 5kW";Germany;EUR;78,00;;115;;;HEATER070
+Revise;122687933329;"Bauheizer Baulüfter Elektroheizer Heizlüfter Heizgerät Bautrockner 400V 9kW";Germany;EUR;117,00;;0;;;HEATER071
+Revise;112553194376;"Bauheizer Baulüfter Elektroheizer Heizlüfter Heizgerät Bautrockner 230V 3kW Rund";Germany;EUR;64,00;;0;;;HEATER076
+Revise;132319334656;"Bauheizer Elektroheizer Heizlüfter Heizgerät Baulüfter Bautrockner 5kW Rundheize";Germany;EUR;91,00;;39;;;HEATER077
+Revise;132153240710;"Fasspumpe Faßpumpe pneumatisch 18l/min Motoröl Getriebeöl Ölpumpe bis SAE240";Germany;EUR;169,90;;0;;;PUM309
+Revise;121443226820;"Ratschenzug 3t 3to 3000kg 1,5m Kette Kettenzug Hebezug Hebelzug Flaschenzug Kran";Germany;EUR;104,90;;1;;;HUB107
+Revise;110741138584;"1 Paar Gabelverlängerung Stapler für 150mm Gabel 1830mm";Germany;EUR;289,00;;17;;;HUB100
+Revise;111469560372;"Lasthaken Kranhaken Anschlaghaken Forsthaken 35mm 500kg 4mm Kette G80 Sicherung";Germany;EUR;19,90;;12;;;ZSPHUB00195
+Revise;112026468278;"Stromerzeuger 12kVA Stromaggregat 230/400V 3Ph Notstromaggregat Generator Benzin";Germany;EUR;1869,00;;12;;;GEN205
+Revise;131462644915;"Kondensathebepumpe Kondensatpumpe Kondensathebeanlage kompatibel zu Wilo Aspen";Germany;EUR;79,90;;55;;;KLI053
+Revise;121866132471;"Brückengleichrichter B4 1000V 35A Vollweggleichrichter Gleichrichter KBPC3210";Germany;EUR;7,00;;46;;;ZSPGEN00361
+Revise;121866135245;"Brückengleichrichter 3-Phase 1600V 100A B6 Drehstrom Gleichrichter SQL100-1600V";Germany;EUR;14,90;;64;;;ZSPGEN00362
+Revise;121866138519;"Brückengleichrichter 3-Phase 1600V 100A B6 Drehstrom Gleichrichter MDS100A-1600V";Germany;EUR;17,00;;58;;;ZSPGEN00363
+Revise;132568271519;"Tauchpumpe Schmutzwasserpumpe Schneidwerk Zerhacker Baupumpe Teichpumpe Pumpe";Germany;EUR;559,90;;7;;;PUM202
+Revise;132568272551;"Schneidwerk Zerhacker Tauchpumpe Schmutzwasserpumpe Baupumpe Teichpumpe Pumpe";Germany;EUR;709,90;;1;;;PUM203
+Revise;131701852201;"Schrumpftunnel BS6550 Schrumpfgerät Verpackungsmaschine Schrumpfmaschin?e";Germany;EUR;2289,00;;4;;;PACK090
+Revise;112914769557;"Impeller Pumpenrad zu Industrietauchpumpe WPET-TC-003kW";Germany;EUR;61,90;;2;;;ZSPPUM00114
+Revise;132568285927;"Wellendichtring Dichtung Gleitringdichtung Dichtring Wolframcarbid 32/35mm 1,5kW";Germany;EUR;44,90;;9;;;ZSPPUM00135
+Revise;132220158507;"Hydraulikkupplung und Hydraulik Nippel, bis 600 Bar, M22x1.5mm Super Günstig !";Germany;EUR;34,90;;20;;;ZSPWKZ000041
+Revise;121443398558;"Schweissdraht Fülldraht OpenArc 0,9 mm D200 2,0 kg ohne Schutzgas MIG Schweissen";Germany;EUR;25,90;;186;;;SCHWEISS078
+Revise;111875845595;"Einphasiger Elektromotor, Ersatzmotor zu Vakuumpumpe VP-20cbm, 900W, 230V, 50Hz";Germany;EUR;199,90;;5;;;PACK077
+Revise;131701951681;"Förderbandrolle Ersatzteil zu Rotek Continuouse Sealer PM-FC-CONT angetrieben";Germany;EUR;24,90;;20;;;ZSPPACK0119
+Revise;131175501479;"Dichtsatz zu Hydraulikpumpe Handpumpe Werkstattpressen 20 30 50 70 Tonnen 700bar";Germany;EUR;14,80;;92;;;ZSPWKZ000026
+Revise;131224601694;"Steuerplatine ELEMCH zu Ölheizern direkt BDO20/30/50kW Heizkanonen Thermostat";Germany;EUR;35,80;;42;;;ZSPHEATER041
+Revise;111336342306;"Hydraulikpumpe Handpumpe Werkstattpressen 20 30 50 70 Tonnen 700bar Hydraulik";Germany;EUR;20,80;;14;;;ZSPWKZ000028
+Revise;121327480668;"Pneumatikschlauch Druckluftschlauch Pneumatikmotor Werkstattpresse Absperrventil";Germany;EUR;24,80;;7;;;ZSPWKZ000032
+Revise;120723244963;"Hubwagen Palettenhubwagen Sideroller Querfahrer 2,5T";Germany;EUR;469,00;;9;;;HUB021
+Revise;111336393879;"Hydraulikleitung zu Hydraulikpumpe Werkstattpressen 20 30 50 70 Tonnen 700bar";Germany;EUR;24,80;;17;;;ZSPWKZ000049
+Revise;111336416563;"Stahlseil 11mm 20m Seilzug Greifzug Seilwinde Forstseilwinde Winde 1600kg 1,6t";Germany;EUR;65,90;;243;;;ZSPHUB00023
+Revise;121327540115;"Ankerbolzen für 1600kg Greifzug Seilzug Greifzüge Seilzüge  D=24.5 x 120mm";Germany;EUR;13,90;;24;;;ZSPHUB00018
+Revise;111851760135;"Dieselfilter Treibstofffilter HECX0706D externer Filter Diesel Treibstoff Anbau";Germany;EUR;29,90;;28;;;ZSPMOT00611
+Revise;130938668444;"6V 12Ah Blei AGM  Bleigel Akkumulator Batterie PEG PEREGO wie 9Ah 10Ah 11Ah";Germany;EUR;21,00;;272;;;BAT046
+Revise;130938673677;"12V 7Ah Blei AGM Bleiakku Bleigel Akkumulator Batterie PEG PEREGO Scooter E-Bike";Germany;EUR;22,00;;2;;;BAT047
+Revise;110959710500;"Benzinmotor 4-Takt 9 PS Kartmotor Benzin Motor 6,6 kW Standmotor OHV 4T NEU";Germany;EUR;286,90;;13;;;MOT116
+Revise;123060044673;"20A FI/LS FILS Kombi Automat Fehlerstromschutzschalter Leitungsschutzschalter 3P";Germany;EUR;25,00;;9;;;ZSPGEN00144
+Revise;112675605454;"ENDLOS Industrie Impuls Folienschweißgerät Balkenschweißgerät Balken PVC-Sealer";Germany;EUR;389,90;;0;;;PACK086
+Revise;112916829289;"Stromwandler 150/75/50/30/25/15-5A 2.5VA für Amperemeter Strommessung NEU";Germany;EUR;18,90;;40;;;ZSPGEN00285
+Revise;132569330635;"50Hz Hertzmeter für 400V Frequenz messen 72x72mm Frequenzmeter Meter Einbaugerät";Germany;EUR;29,90;;16;;;ZSPGEN00184
+Revise;123060136954;"400V 500V Voltmeter Einbaugerät Frontplatte:72x72mm Spannung messen Volt Meter";Germany;EUR;19,90;;18;;;ZSPGEN00132
+Revise;111603330547;"Lichtmaschine Benzinmotor EG4-2V-0614 2-Zylinder Rotek Honda GX,Kipor,DEK,Kama";Germany;EUR;27,90;;2;;;ZSPMOT00848
+Revise;132569346927;"Spannungsregler AVR Rotek R250 wie Leroy Somer R250 AEM110RE019 LSA37...LSA47";Germany;EUR;99,90;;3;;;ZSPGEN00347
+Revise;112916881719;"Absteller Abstellmotor Solenoid Stopmagnet Magnetventil 24V ETS Stellmotor";Germany;EUR;29,80;;36;;;ZSPGEN00158
+Revise;111227024745;"Benzinmotor 4-Takt 6 PS Kartmotor Benzin Motor 4,5 kW Standmotor OHV 4T NEU";Germany;EUR;144,90;;49;;;MOT161
+Revise;121223978073;"Benzinmotor 4-Takt 6 PS Kartmotor Benzin Motor 4,5 kW Standmotor OHV 4T NEU";Germany;EUR;144,90;;47;;;MOT160
+Revise;121575382945;"Lichtmaschine JFWZ13-2A 12V 350W Yangdong YD380,385,480,485,490 ED4W-4R Rotek";Germany;EUR;145,90;;11;;;ZSPMOT00743
+Revise;123060175529;"Schalttafel Leuchte Signalleuchte Signallampe LED 230V Grün 29mm Schaltschrank";Germany;EUR;1,00;;300;;;ZSPGEN00124
+Revise;111470263120;"Amperemeter 30A/5A AC Wechselstrom 48x48mm Ampere Meter Panelmeter Strom neu";Germany;EUR;19,80;;92;;;ZSPGEN00272
+Revise;121575407285;"Lichtmaschine JFWZ15A-51 12V 500W, Riemenscheibe SPA, Dw85mm zu Dieselmotoren";Germany;EUR;105,90;;2;;;ZSPMOT00638
+Revise;121575411469;"Lichtmaschine JFWZ15B-22 12V 500W, Riemenscheibe SPB, Dw80mm zu Dieselmotoren";Germany;EUR;105,90;;2;;;ZSPMOT00639
+Revise;112675770515;"Ersatzkit 2x Schweißdraht 2x Teflon Schweißbalken Folienschweißgerät PFS-500x3mm";Germany;EUR;11,50;;40;;;ZSPPACK0021
+Revise;122488582845;"Steuerplatine Set für Rotek BGO Gasheizer Heizkanonen GAS 15/30/50kW Anzeige";Germany;EUR;42,90;;10;;;ZSPHEATER072
+Revise;121926335194;"Treibstoffhahn Dieselhahn mit Leckölanschluß zu Rotek, Yanmar, DEK, Kipor Diesel";Germany;EUR;15,90;;30;;;ZSPMOT00870
+Revise;131409123880;"Dieselmotor 17PS zwei (2) Zylinder 12,5kW Kleindiesel für Traktor Bagger E-Start";Germany;EUR;1749,00;;16;;;MOT137
+Revise;121305629502;"Solidstate Lastschütz Leistungsschalter Schütz Lastrelais Halbleiterrelais ..90A";Germany;EUR;;;;;"Laststrom=Laststrom 25A @ 78-440VAC;Laststrom 40A @ 78-440VAC;Laststrom 90A @ 78-440VAC | Ansteuerung=Ansteuerung 0-24VDC;Ansteuerung 0-240VAC";VAR#SSR-RELAIS001
+;;;;;9,55;;0;Variation;"Laststrom=Laststrom 25A @ 78-440VAC | Ansteuerung=Ansteuerung 0-240VAC";ZSPGEN00299
+;;;;;14,59;;1;Variation;"Laststrom=Laststrom 40A @ 78-440VAC | Ansteuerung=Ansteuerung 0-24VDC";ZSPGEN00300
+;;;;;14,59;;26;Variation;"Laststrom=Laststrom 40A @ 78-440VAC | Ansteuerung=Ansteuerung 0-240VAC";ZSPGEN00301
+;;;;;9,55;;7;Variation;"Laststrom=Laststrom 25A @ 78-440VAC | Ansteuerung=Ansteuerung 0-24VDC";ZSPGEN00298
+;;;;;17,20;;45;Variation;"Laststrom=Laststrom 90A @ 78-440VAC | Ansteuerung=Ansteuerung 0-24VDC";ZSPGEN00302
+;;;;;17,20;;22;Variation;"Laststrom=Laststrom 90A @ 78-440VAC | Ansteuerung=Ansteuerung 0-240VAC";ZSPGEN00303
+Revise;111470307994;"Leistungsschütz Schaltschütz Schütz 230VAC 32A 4kW/230V 7.5kW/400V 4-polig";Germany;EUR;22,90;;19;;;ZSPPACK0061
+Revise;121444131588;"Installationsschütz Wechsler Wechselschütz 2 polig / 230V Spulenspannung 25A";Germany;EUR;24,00;;26;;;ZSPGEN00195
+Revise;132649911535;"Schmutzwasserpumpe Teichpumpe Wasserpumpe Schlammpumpe Motorpumpe Diesel E-Start";Germany;EUR;639,00;;14;;;PUM369
+Revise;110598348742;"Wasserpumpe f. Huafengdongli K4102D1.1 NEU";Germany;EUR;65,00;;0;;;ZSPMOT00601
+Revise;120633839832;"Wasserpumpe f. Huafengdongli Weichai 495D6 NEU";Germany;EUR;65,00;;4;;;ZSPMOT00602
+Revise;132650000096;"Stromerzeuger 25kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;6090,00;;5;;;GEN193
+Revise;123172358549;"Stromerzeuger 37kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;6990,00;;3;;;GEN194
+Revise;113037878111;"Stromerzeuger ohne Motor YHG-30-PMG 400V 30kW 3-phasig Synchron Generator AVR";Germany;EUR;1769,00;;1;;;GEN216
+Revise;112917484372;"Batterie Trennrelais 12V 300A 150A Relais KFZ PKW BOOT CAMPING WOHNMOBIL 200A";Germany;EUR;19,00;;179;;;ZSPGEN00379
+Revise;122306548391;"Ersatzkompressor komplett 50kW Ölheizkanonen Venturi Ölheizer mit Manometer";Germany;EUR;93,90;;26;;;ZSPHEATER070
+Revise;110598355401;"Rückschlagventil Rückschlagklappe 4 Zoll NEU OVP";Germany;EUR;11,00;;8;;;ZSPPUM00068
+Revise;111131973069;"40A FI/LS FILS Kombi Automat Fehlerstromschutzschalter Leitungsschutzschalter 3P";Germany;EUR;25,00;;19;;;ZSPGEN00146
+Revise;130958436592;"63A FI/LS FILS Kombi Automat Fehlerstromschutzschalter Leitungsschutzschalter 3P";Germany;EUR;25,00;;5;;;ZSPGEN00148
+Revise;112917853325;"Silikon Andruckstreifen zu Schweißbalken Vakuumverpackungsmaschine 12x17x409mm";Germany;EUR;19,80;;15;;;ZSPPACK0024
+Revise;112917885941;"Schweissdraht Reparatursatz zu 600x10mm Vakuumsealer Vakuum Schweissbalken";Germany;EUR;36,90;;14;;;ZSPPACK0086
+Revise;131409491811;"1000kg 1t Laufkatze Rollfahrwerk Handfahrwerk Kran Katze Handlaufwerk 50-220mm";Germany;EUR;88,90;;36;;;HUB164
+Revise;123060968751;"Halteschraube Schweissdraht Klemmschraube Ersatzteil Vakuumsealer Vakuumierer";Germany;EUR;10,00;;45;;;ZSPPACK0028
+Revise;111579586838;"Seilzug Greifzug Seilwinde Forstseilwinde Offroad Winde 800kg 0,8 t to ohne Seil";Germany;EUR;83,90;;0;;;ZSPHUB00222
+Revise;123060971513;"Segmenttypensatz Prägebuchstaben Silikon zu Vakuumsealer und Schweissbalken";Germany;EUR;43,90;;6;;;ZSPPACK0049
+Revise;112917900290;"Endschalter Rollenschalter Rollenstössel JLXK1-411, 230V, 5A,1Schliesser 1Öffner";Germany;EUR;29,90;;37;;;ZSPPACK0148
+Revise;121549782137;"4x12mm Stahlkette Zugkette Lastkette Hebekette Forstkette Kette G80 verzinkt";Germany;EUR;7,90;;183;;;ZSPHUB00193
+Revise;131409514955;"10x30mm Stahlkette Zugkette Lastkette Hebekette Forstkette Kette G80 Meterware";Germany;EUR;10,90;;130;;;ZSPHUB00227
+Revise;111579965403;"Ventilator Lüfterrad D=200mm zu 20/30kW Ölheizkanone Ölheizer Heizkanone";Germany;EUR;24,80;;445;;;HEATER042
+Revise;131409852634;"Ventilator Lüfterrad D=225mm zu 50kW Ölheizkanone Ölheizer Heizkanone Dieselheiz";Germany;EUR;24,80;;499;;;HEATER043
+Revise;121550222490;"Ventilator Lüfterrad D=250mm zu 50kW Ölheizkanone Ölheizer Heizkanone Dieselheiz";Germany;EUR;24,80;;485;;;ZSPHEATER060
+Revise;131937818139;"Stromerzeuger 15kVA Stromaggregat 400V Notstromaggregat Generator Diesel f. BHKW";Germany;EUR;4790,00;;8;;;GEN196
+Revise;111580040870;"Flammwächter Photozelle LDR zu 20/30/50kW Ölheizkanone Ölheizer Heizkanone";Germany;EUR;14,80;;27;;;HEATER038
+Revise;123173851856;"Baumwollhartgewebestab HGW2088 Durchmesser 6mm, Länge 1000mm PFCC42 Stab";Germany;EUR;14,50;;100;;;PFCC42-ROD-D006X1000
+Revise;121394596589;"Diesel Einspritzpumpe Justierplättchen Einstellscheibe Rotek,YANMAR,DEK,Kipor";Germany;EUR;8,90;;30;;;ZSPMOT00384
+Revise;131252456229;"Diesel Einspritzpumpe 70/78 Yanmar  L40/L48/L60/L70/AE Rotek Kipor DEK Kama etc.";Germany;EUR;49,90;;11;;;ZSPMOT00007
+Revise;111418851094;"Diesel Einspritzpumpe Zufuhr Rechts 178 Yanmar  L40/L48/L60/L70/AE Rotek,Kipor";Germany;EUR;49,90;;13;;;ZSPMOT00758
+Revise;131252470150;"Diesel Einspritzpumpe Zufuhr Rechts 186FA Yanmar  L90/L100/AE Rotek,Kipor,DEK";Germany;EUR;52,90;;12;;;ZSPMOT00759
+Revise;131252474044;"Diesel Einspritzpumpe Zufuhr Links 186F Yanmar L90/L100/AE Rotek,Kipor,DEK,Kama";Germany;EUR;52,90;;34;;;ZSPMOT00001
+Revise;111418888161;"Diesel Einspritzpumpe Magnetventil 2 Zul 186F Yanmar L90/L100/AE Rotek/DEK/KIPOR";Germany;EUR;69,90;;13;;;ZSPMOT00871
+Revise;131409955881;"Schutzgitter Ansaugabdeckung zu Rotek BGO Gasheizkanonen Heizkanone 15kW, D190mm";Germany;EUR;17,80;;25;;;ZSPHEATER046
+Revise;121550339687;"Schutzgitter Ansaugabdeckung zu Rotek BGO Gasheizkanonen Heizkanone 50kW, D247mm";Germany;EUR;19,80;;26;;;ZSPHEATER048
+Revise;121550348795;"Brennerdüse Öldüse Düse zu Rotek BGO Ölheizkanonen Heizkanone 20kW 0.65mm";Germany;EUR;24,80;;28;;;ZSPHEATER049
+Revise;132426493152;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 2.0mmx300 2.5 kg";Germany;EUR;58,90;;31;;;SCHWEISS089
+Revise;122848850512;"Schweißelektrode Edelstahl 1.4430 (E316L,V4A,VA4) Stabelektrode 2.5mmx300 2.5 kg";Germany;EUR;54,90;;29;;;SCHWEISS155
+Revise;112677918526;"Schweissdraht Fülldraht OpenArc 0,9 mm D200 5,0 kg ohne Schutzgas MIG Schweissen";Germany;EUR;45,90;;45;;;SCHWEISS079
+Revise;111580195373;"Brennerdüse Öldüse Düse zu Rotek BGO Ölheizkanonen Heizkanone 30kW 0.80mm";Germany;EUR;24,80;;4;;;HEATER034
+Revise;111580199151;"Brennerdüse Öldüse Düse zu Rotek BGO Ölheizkanonen Heizkanone 50kW 1.30mm";Germany;EUR;24,80;;78;;;HEATER035
+Revise;110996314906;"Betriebsstundenzähler 12VAC 12VDC Betriebsstundenanzeige digital";Germany;EUR;23,80;;86;;;ZSPGEN00261
+Revise;122441474352;"Spannungsregler AVR 3P STC Generatoren bis 300kW 20A Erregerstrom GB130B/PEB300B";Germany;EUR;83,90;;6;;;ZSPGEN00218
+Revise;112367202303;"Spannungsregler AVR Mecc Alte UVR6, 1/3P Sensing 170-480V Supply 80-270V IF 6A";Germany;EUR;199,90;;0;;;ZSPGEN00204
+Revise;121927522936;"12L Dieseltank Blechtank Gerätetank mit Tankanzeige zu Rotek GD4 / WPD4 Serie";Germany;EUR;48,90;;0;;;ZSPGEN00193
+Revise;122441481814;"Spannungsregler AVR Magneto Marelli M40FA640A MARK I Sense 170-480V Netzparallel";Germany;EUR;229,90;;17;;;ZSPGEN00215
+Revise;121204388053;"Schlauch Gas 20 Bar 2m 3/8"" Anschluss Gasschlauch DVGW geprüft CFH VS758";Germany;EUR;21,80;;93;;;HEATER054
+Revise;131410134595;"Ölheizkanone Ersatzkompressor 20/30kW Ölheizkanonen Zerstäubersystem Manometer";Germany;EUR;93,90;;35;;;ZSPHEATER054
+Revise;131033795698;"Schlauchbruchsicherung 3/8"" CFH SB118 DVGW geprüft, gewerblich vorgeschrieben";Germany;EUR;21,80;;97;;;HEATER093
+Revise;131410149647;"Lüftermotor Pumpenantrieb Danfoss Rotek 30kW Ölheizkanonen Indirektheizer BGO";Germany;EUR;103,90;;50;;;ZSPHEATER057
+Revise;111580361741;"Lüftermotor Pumpenantrieb Danfoss Rotek 50kW Ölheizkanonen Indirektheizer BGO";Germany;EUR;143,90;;48;;;ZSPHEATER058
+Revise;121306695509;"Mini Kreisel Pumpe 12V Minipumpe Tauchpumpe Wasserpumpe Diesel Öl Wasser 4,5 l/m";Germany;EUR;23,90;;0;;;PUM337
+Revise;131561499573;"Schrumpftunnel BS4525 Schrumpfgerät Verpackungsmaschine Schrumpfmaschin?e";Germany;EUR;899,00;;4;;;PACK087
+Revise;131561566447;"Silikon Andruckstreifen 620mm Schweißbalken, passend zu PM-FS-L0600-B10 Step";Germany;EUR;20,90;;21;;;ZSPPACK0103
+Revise;111202493166;"Ersatzteil zu Ölheizer indirekt 30kW HOI-30-BG Ausgangsflansch Aluminium";Germany;EUR;29,90;;30;;;ZSPHEATER032
+Revise;131034380336;"Ersatzteil zu Ölheizer indirekt 50kW HOI-50-BG Ausgangsflansch Aluminium";Germany;EUR;29,90;;30;;;ZSPHEATER033
+Revise;121225154920;"Schleifring Schleifringe Bürsten Drehkontakt Kohlen für Generator STC 20/30";Germany;EUR;33,90;;49;;;ZSPGEN00255
+Revise;132613929943;"Prismenauflage Pressblock zu 10T Werkstattpresse Hydraulikpresse Dornpresse";Germany;EUR;28,90;;11;;;ZSPWKZ000011
+Revise;131849545454;"Kühler Ventilator Lüfter zu Huafengdongli K4102D1.1 / 495D6 D=450mm, 6 Flügel";Germany;EUR;39,90;;18;;;ZSPMOT00605
+Revise;111701290103;"Umwälzpumpe 160m³/h Industriepumpe Wasserpumpe 13bar Beregnungspumpe Pumpe NEU";Germany;EUR;849,00;;1;;;PUM161
+Revise;111701304454;"Industrie Wasserpumpe 134m³/h Bewässerungspumpe Motorpumpe 2 bar Kreiselpumpe";Germany;EUR;549,00;;3;;;PUM269
+Revise;122953941656;"Hubtisch Tischwagen bis 500kg Kommissionierwagen Hebetisch Plattformwagen";Germany;EUR;389,00;;15;;;HUB043
+Revise;111471765821;"Ölfilter Ausgangsfilter Vakuumpumpe Exhaust Ersatzteil Vakuumsealer Vakuumierer";Germany;EUR;25,00;;49;;;ZSPPACK0042
+Revise;131541495536;"Umwälzpumpe 140m³/h Industriepumpe Wasserpumpe 5 bar Beregnungspumpe Pumpe NEU";Germany;EUR;1099,00;;3;;;PUM261
+Revise;111701312792;"Industrie Wasserpumpe 18m³/h Bewässerungspumpe Motorpumpe 8 bar Kreiselpumpe NEU";Germany;EUR;549,00;;3;;;PUM230
+Revise;121685018399;"Industrie Wasserpumpe 23m³/h Bewässerungspumpe Motorpumpe 4 bar Kreiselpumpe";Germany;EUR;469,00;;4;;;PUM245
+Revise;121685024616;"Umwälzpumpe 35m³/h Industriepumpe Wasserpumpe 13 bar Beregnungspumpe Pumpe NEU";Germany;EUR;649,00;;3;;;PUM159
+Revise;121685027795;"Umwälzpumpe 73m³/h Industriepumpe Wasserpumpe 5 bar Beregnungspumpe Pumpe NEU";Germany;EUR;549,00;;0;;;PUM343
+Revise;131541520994;"Zirkulationspumpe 68m³/h Hochdruckpumpe Pumpe Teichpumpe ISO2858 Wasserpumpe";Germany;EUR;599,00;;4;;;PUM276
+Revise;121685033007;"Drehstrom Umwälzpumpe 18m³/h Industriepumpe Wasserpumpe 6 bar Beregnungspumpe";Germany;EUR;1199,90;;0;;;PUM247
+Revise;121685054171;"Normflansch CESM/IS/SPP Pumpe DN40 auf G2"" Schraubflansch Pumpenflansch Flansch";Germany;EUR;41,90;;17;;;PUM255
+Revise;121868770206;"Zündtrafo Zündtransformator 2x7.5/15kV 40mA kompatibel zu Danfoss EBI052F0030";Germany;EUR;29,80;;38;;;ZSPHEATER062
+Revise;121685057026;"Normflansch CESM/IS/SPP Pumpe DN65 auf G3"" Schraubflansch Pumpenflansch Flansch";Germany;EUR;43,90;;15;;;PUM253
+Revise;111701349052;"Normflansch CESM/IS/SPP Pumpe DN80 auf G4"" Schraubflansch Pumpenflansch Flansch";Germany;EUR;45,90;;19;;;PUM252
+Revise;121445658187;"Einbauinstrument 30A Amperemeter 96x96mm 30A/5A Strom Ampere Meter Meßgerät";Germany;EUR;24,80;;1;;;ZSPGEN00317
+Revise;121445660520;"Einbauinstrument 50A Amperemeter 96x96mm 50A/5A Strom Ampere Meter Meßgerät";Germany;EUR;19,90;;3;;;ZSPGEN00318
+Revise;111471843141;"Einbauinstrument 75A Amperemeter 96x96mm 75A/5A Strom Ampere Meter Meßgerät";Germany;EUR;24,80;;100;;;ZSPGEN00319
+Revise;131305659703;"Einbauinstrument 100A Amperemeter 96x96mm 100A/5A Strom Ampere Meter Meßgerät";Germany;EUR;24,80;;98;;;ZSPGEN00320
+Revise;131305663626;"Einbauinstrument 150A Amperemeter 96x96mm 150A/5A Strom Ampere Meter Meßgerät";Germany;EUR;24,80;;95;;;ZSPGEN00321
+Revise;121445669632;"Einbauinstrument 300A Amperemeter 96x96mm 300A/5A Strom Ampere Meter Meßgerät";Germany;EUR;24,80;;99;;;ZSPGEN00322
+Revise;112096484998;"Zylinderkopf Assembly Rotek ED4W4R-2540 YD/TD490 Yangdong Taidong";Germany;EUR;429,00;;3;;;ZSPMOT00669
+Revise;112405018949;"Seilwinde Konsolenwinde Forstwinde Boot 500/800/1200kg 10/20m 5/6mm Stahlseil";Germany;EUR;;;;;"Zugkraft=500kg;800kg;1200kg;nur Seile | Ausführung=Winde ohne Seil;Winde mit 10m 5mm Seil;Winde mit 10m 6mm Seil;Winde mit 20m 5mm Seil;Winde mit 18m 6mm Seil;10m 5mm Seil;20m 5mm Seil;10m 6mm Seil;18m 6mm Seil";VAR#SEILWINDE001
+;;;;;45,90;;48;Variation;"Zugkraft=500kg | Ausführung=Winde mit 10m 5mm Seil";SET#HUB177+HUB183
+;;;;;47,90;;123;Variation;"Zugkraft=500kg | Ausführung=Winde mit 10m 6mm Seil";SET#HUB177+HUB185
+;;;;;67,90;;50;Variation;"Zugkraft=800kg | Ausführung=Winde mit 10m 5mm Seil";SET#HUB178+HUB183
+;;;;;73,90;;94;Variation;"Zugkraft=800kg | Ausführung=Winde mit 20m 5mm Seil";SET#HUB178+HUB184
+;;;;;74,90;;83;Variation;"Zugkraft=800kg | Ausführung=Winde mit 18m 6mm Seil";SET#HUB178+HUB186
+;;;;;68,90;;108;Variation;"Zugkraft=800kg | Ausführung=Winde mit 10m 6mm Seil";SET#HUB178+HUB185
+;;;;;74,90;;50;Variation;"Zugkraft=1200kg | Ausführung=Winde mit 10m 5mm Seil";SET#HUB179+HUB183
+;;;;;80,90;;89;Variation;"Zugkraft=1200kg | Ausführung=Winde mit 20m 5mm Seil";SET#HUB179+HUB184
+;;;;;82,90;;83;Variation;"Zugkraft=1200kg | Ausführung=Winde mit 18m 6mm Seil";SET#HUB179+HUB186
+;;;;;76,90;;108;Variation;"Zugkraft=1200kg | Ausführung=Winde mit 10m 6mm Seil";SET#HUB179+HUB185
+;;;;;56,90;;140;Variation;"Zugkraft=800kg | Ausführung=Winde ohne Seil";HUB178
+;;;;;64,90;;106;Variation;"Zugkraft=1200kg | Ausführung=Winde ohne Seil";HUB179
+;;;;;35,90;;169;Variation;"Zugkraft=500kg | Ausführung=Winde ohne Seil";HUB177
+;;;;;25,90;;94;Variation;"Zugkraft=nur Seile | Ausführung=20m 5mm Seil";HUB184
+;;;;;19,90;;123;Variation;"Zugkraft=nur Seile | Ausführung=10m 6mm Seil";HUB185
+;;;;;25,90;;83;Variation;"Zugkraft=nur Seile | Ausführung=18m 6mm Seil";HUB186
+;;;;;18,90;;50;Variation;"Zugkraft=nur Seile | Ausführung=10m 5mm Seil";HUB183
+Revise;121445704645;"50Hz Hertzmeter für 230V Frequenz messen 96x96mm Frequenzmeter Meter Einbaugerät";Germany;EUR;29,90;;16;;;ZSPGEN00325
+Revise;121445707308;"60Hz Hertzmeter für 230V Frequenz messen 96x96mm Frequenzmeter Meter Einbaugerät";Germany;EUR;34,80;;2;;;ZSPGEN00326
+Revise;111366081751;"Manometer Hydraulik, Werkstattpressen 100T/200T max. für 150mm Kolbendurchmesser";Germany;EUR;35,00;;15;;;ZSPWKZ000033
+Revise;131305770867;"Schalttafel Leuchte Signalleuchte Signallampe LED 12V Blau 29mm Schaltschrank";Germany;EUR;1,90;;98;;;ZSPGEN00333
+Revise;132391830477;"Wagenheber Rangierwagenheber Heber LKW Profi 2to to 2000kg kg 800mm 80cm 0,8m";Germany;EUR;279,00;;167;;;HUB080
+Revise;121685192378;"Wellendichtring Dichtung Wolframcarbid Da49 Welle D35 Rotary Seal Pumendichtung";Germany;EUR;39,80;;5;;;ZSPPUM00196
+Revise;121445721238;"Schalttafel Leuchte Signalleuchte Signallampe LED 24V Blau 29mm Schaltschrank";Germany;EUR;1,90;;108;;;ZSPGEN00334
+Revise;111471911560;"Schalttafel Leuchte Signalleuchte Signallampe LED 12V Gelb 29mm Schaltschrank";Germany;EUR;1,00;;153;;;ZSPGEN00331
+Revise;121445728047;"Schalttafel Leuchte Signalleuchte Signallampe LED 24V Gelb 29mm Schaltschrank";Germany;EUR;1,00;;77;;;ZSPGEN00332
+Revise;111471919247;"Schalttafel Leuchte Signalleuchte Signallampe LED 12V Grün 29mm Schaltschrank";Germany;EUR;1,00;;97;;;ZSPGEN00327
+Revise;111471921350;"Schalttafel Leuchte Signalleuchte Signallampe LED 24V Grün 29mm Schaltschrank";Germany;EUR;1,00;;188;;;ZSPGEN00328
+Revise;122593633857;"Ersatzkit 2x Schweißdraht 2x Teflon zu Schweißbalken Folienschweißgerät PFS-200";Germany;EUR;11,50;;50;;;ZSPPACK0018
+Revise;131305802459;"Schalttafel Leuchte Signalleuchte Signallampe LED 12V Rot 29mm Schaltschrank";Germany;EUR;1,00;;148;;;ZSPGEN00329
+Revise;111471943667;"Schalttafel Leuchte Signalleuchte Signallampe LED 12V Weiss 29mm Schaltschrank";Germany;EUR;1,90;;68;;;ZSPGEN00335
+Revise;111313654031;"Chemie Pumpe Aquarium max 10,5l/min max. 0,50 bar 24V Wasserkühlung Lebensmittel";Germany;EUR;23,90;;440;;;PUM375
+Revise;111289416186;"12V 9Ah Zyklentyp Zyklenfest Blei Bleiakku Bleigel Akku Bleigelakku Gelakku 7Ah";Germany;EUR;38,00;;90;;;BAT033
+Revise;121989782728;"Scherstift für Seilzug Greifzug Seilwinde Winde 1600kg 1,6 / 3200kg 3,2 t to";Germany;EUR;9,90;;980;;;ZSPHUB00021
+Revise;131201794559;"Wasserkühler für Dieselmotor YSD490 bzw. mit 2540 ccm Kühler Radiator 20kW";Germany;EUR;299,90;;2;;;ZSPMOT00477
+Revise;121351381871;"Einspritzpumpe für Huafengdongli K4102D1.1, 4IJ12B, 4I195, 1500/1800 U/min";Germany;EUR;284,90;;4;;;ZSPMOT00521
+Revise;112236246832;"Dieselmotor Zweizylinder 19PS 794ccm 14kW wassergekühlt BHKW Aixam incl. Kühler";Germany;EUR;1990,00;;2;;;MOT166
+Revise;131541535441;"Industrie Elektropumpe 30m³/h Bewässerungspumpe Motorpumpe 8 bar Kreiselpumpe";Germany;EUR;1299,00;;2;;;PUM271
