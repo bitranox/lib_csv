@@ -8,26 +8,26 @@ lib_ip
 .. |license| image:: https://img.shields.io/github/license/webcomics/pywine.svg
    :target: http://en.wikipedia.org/wiki/MIT_License
 .. |maintenance| image:: https://img.shields.io/maintenance/yes/2019.svg
-.. |Build Status| image:: https://travis-ci.org/bitranox/lip_ip.svg?branch=master
-   :target: https://travis-ci.org/bitranox/lip_ip
+.. |Build Status| image:: https://travis-ci.org/bitranox/lib_csv.svg?branch=master
+   :target: https://travis-ci.org/bitranox/lib_csv
 .. for the pypi status link note the dashes, not the underscore !
-.. |Pypi Status| image:: https://badge.fury.io/py/lip-ip.svg
-   :target: https://badge.fury.io/py/lip_ip
-.. |Codecov Status| image:: https://codecov.io/gh/bitranox/lip_ip/branch/master/graph/badge.svg
-   :target: https://codecov.io/gh/bitranox/lip_ip
-.. |Better Code| image:: https://bettercodehub.com/edge/badge/bitranox/lip_ip?branch=master
-   :target: https://bettercodehub.com/results/bitranox/lip_ip
-.. |snyk security| image:: https://snyk.io/test/github/bitranox/lip_ip/badge.svg
-   :target: https://snyk.io/test/github/bitranox/lip_ip
-.. |code climate| image:: https://api.codeclimate.com/v1/badges/c6240eb04bae9dfed5ac/maintainability
-   :target: https://codeclimate.com/github/bitranox/lip_ip/maintainability
+.. |Pypi Status| image:: https://badge.fury.io/py/lib-csv.svg
+   :target: https://badge.fury.io/py/lib_csv
+.. |Codecov Status| image:: https://codecov.io/gh/bitranox/lib_csv/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/bitranox/lib_csv
+.. |Better Code| image:: https://bettercodehub.com/edge/badge/bitranox/lib_csv?branch=master
+   :target: https://bettercodehub.com/results/bitranox/lib_csv
+.. |snyk security| image:: https://snyk.io/test/github/bitranox/lib_csv/badge.svg
+   :target: https://snyk.io/test/github/bitranox/lib_csv
+.. |code climate| image:: https://api.codeclimate.com/v1/badges/7fa21a0ced3820c5faa9/maintainability
+   :target: https://codeclimate.com/github/bitranox/lib_csv/maintainability
    :alt: Maintainability
 
 some convenience functions for encoding detection
 
 supports python 3.7 and possibly other dialects.
 
-`100% code coverage <https://codecov.io/gh/bitranox/lip_ip>`_, mypy static type checking, tested under `Linux, OsX, Windows and Wine <https://travis-ci.org/bitranox/lip_ip>`_, automatic daily builds  and monitoring
+`100% code coverage <https://codecov.io/gh/bitranox/lib_csv>`_, mypy static type checking, tested under `Linux, OsX, Windows and Wine <https://travis-ci.org/bitranox/lib_csv>`_, automatic daily builds  and monitoring
 
 ----
 
@@ -36,9 +36,9 @@ supports python 3.7 and possibly other dialects.
 - `Requirements`_
 - `Acknowledgements`_
 - `Contribute`_
-- `Report Issues <https://github.com/bitranox/lip_ip/blob/master/ISSUE_TEMPLATE.md>`_
-- `Pull Request <https://github.com/bitranox/lip_ip/blob/master/PULL_REQUEST_TEMPLATE.md>`_
-- `Code of Conduct <https://github.com/bitranox/lip_ip/blob/master/CODE_OF_CONDUCT.md>`_
+- `Report Issues <https://github.com/bitranox/lib_csv/blob/master/ISSUE_TEMPLATE.md>`_
+- `Pull Request <https://github.com/bitranox/lib_csv/blob/master/PULL_REQUEST_TEMPLATE.md>`_
+- `Code of Conduct <https://github.com/bitranox/lib_csv/blob/master/CODE_OF_CONDUCT.md>`_
 - `License`_
 - `Changelog`_
 
@@ -61,21 +61,21 @@ via pip latest Release:
 .. code-block:: bash
 
     # latest Release from pypi
-    pip install lip_ip
+    pip install lib_csv
 
     # test without installing
-    pip install lip_ip --install-option test
+    pip install lib_csv --install-option test
 
 via pip latest Development Version:
 
 .. code-block:: bash
 
     # upgrade all dependencies regardless of version number (PREFERRED)
-    pip install --upgrade git+https://github.com/bitranox/lip_ip.git --upgrade-strategy eager
+    pip install --upgrade git+https://github.com/bitranox/lib_csv.git --upgrade-strategy eager
     # normal install
-    pip install --upgrade git+https://github.com/bitranox/lip_ip.git
+    pip install --upgrade git+https://github.com/bitranox/lib_csv.git
     # test without installing
-    pip install git+https://github.com/bitranox/lip_ip.git --install-option test
+    pip install git+https://github.com/bitranox/lib_csv.git --install-option test
 
 via requirements.txt:
 
@@ -83,9 +83,9 @@ via requirements.txt:
 
     # Insert following line in Your requirements.txt:
     # for the latest Release:
-    lip_ip
+    lib_csv
     # for the latest Development Version :
-    git+https://github.com/bitranox/lip_ip.git
+    git+https://github.com/bitranox/lib_csv.git
 
     # to install and upgrade all modules mentioned in requirements.txt:
     pip install --upgrade -r /<path>/requirements.txt
@@ -95,10 +95,10 @@ via python:
 .. code-block:: python
 
     # for the latest Release
-    python -m pip install upgrade lip_ip
+    python -m pip install upgrade lib_csv
 
     # for the latest Development Version
-    python -m pip install upgrade git+https://github.com/bitranox/lip_ip.git
+    python -m pip install upgrade git+https://github.com/bitranox/lib_csv.git
 
 Basic Usage
 -----------
@@ -114,12 +114,13 @@ following modules will be automatically installed :
     ## Test Requirements
     ## following Requirements will be installed temporarily for
     ## "setup.py install test" or "pip install <package> --install-option test"
+    docopt
     typing ; python_version < "3.5"
     pathlib; python_version < "3.4"
     mypy ; platform_python_implementation != "PyPy" and python_version >= "3.5"
     pytest
     pytest-pep8 ; python_version < "3.5"
-    pytest-codestyle ; python_version >= "3.5"
+    pytest-pycodestyle ; python_version >= "3.5"
     pytest-mypy ; platform_python_implementation != "PyPy" and python_version >= "3.5"
     pytest-runner
 
@@ -136,7 +137,7 @@ Contribute
 ----------
 
 I would love for you to fork and send me pull request for this project.
-- `please Contribute <https://github.com/bitranox/lip_ip/blob/master/CONTRIBUTING.md>`_
+- `please Contribute <https://github.com/bitranox/lib_csv/blob/master/CONTRIBUTING.md>`_
 
 License
 -------
@@ -150,5 +151,5 @@ Changelog
 
 0.0.1
 -----
-2019-07-22: Initial public release
+2020-05-06: Initial public release
 
