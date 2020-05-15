@@ -9,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-package_name = 'lib_ip'                                                             # type: str
+package_name = 'lib_csv'                                                            # type: str
 required = ['lib_ping @ git+https://github.com/bitranox/lib_ping.git',
             'lib_platform @ git+https://github.com/bitranox/lib_platform.git',
             ]                                                                       # type: List[str]
