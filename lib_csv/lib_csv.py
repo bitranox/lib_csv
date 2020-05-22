@@ -14,11 +14,11 @@ class CWriterObject(object):
     creates a file like object to write on
     """
 
-    def __init__(self):
+    def __init__(self) -> None:
         self.Buffer = ''
         pass
 
-    def write(self, text):
+    def write(self, text) -> None:
         self.Buffer = self.Buffer + text
 
 
@@ -27,7 +27,7 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath: pathlib.P
                                                         encoding: str = "ISO-8859-1",
                                                         delimiter: str = ";",
                                                         quotechar: str = '"',
-                                                        quoting: int = csv.QUOTE_MINIMAL) -> OrderedDict:
+                                                        quoting: int = csv.QUOTE_MINIMAL) -> 'OrderedDict[str, OrderedDict[str, str]]':
     """
     reads the csv file into an ordered dict of ordered dicts
     returns: {'indexfield':{fieldname1:value, fieldname2:value}, 'indexfield2':{fieldname1:value, fieldname2:value}}
@@ -37,27 +37,29 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath: pathlib.P
     >>> testfile1 = test_directory / '2018-04-26_alle_Navision_Artikel.csv'
     >>> testfile2 = test_directory / '0001_aktive_preis_qty.csv'
     >>> testfile3 = test_directory / '2018-06-06_active_qty_broken.csv'
+    >>> r_csv = read_csv_file_with_header_to_hashed_odict_of_odicts
 
     >>> # Test Fieldname for hashing not existent in the header
-    >>> read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath=testfile1, hash_by_fieldname='not_existing') # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> r_csv(file_fullpath=testfile1, hash_by_fieldname='not_existing') # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     ...
     ValueError: Field "not_existing" is not available, or the csv file does not have header information
 
     >>> # Test OK, Fieldname for hashing is unique
-    >>> read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath=testfile1, hash_by_fieldname='Nr.') # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> r_csv(file_fullpath=testfile1, hash_by_fieldname='Nr.') # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     OrderedDict([('HUB025', OrderedDict([('HTMLpublish', 'Nein'), ('Artikel Nicht Verfügbar', 'Nein'), ('Sperre Angebot', 'Nein'), ...
 
     >>> # Test Fieldname for hashing is not unique
-    >>> read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath=testfile2, hash_by_fieldname='CustomLabel')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> r_csv(file_fullpath=testfile2, hash_by_fieldname='CustomLabel')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     ...
     ValueError: Index is not unique, field: "CustomLabel", value: "HUB179"
 
-    >>> read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath=testfile3, hash_by_fieldname='CustomLabel')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> r_csv(file_fullpath=testfile3, hash_by_fieldname='CustomLabel')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     ...
-    ValueError: Row "[...]" has not the correct length
+    ValueError: Row has length ... instead of ... : "[...]"
+
 
 
     """
@@ -81,7 +83,7 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath: pathlib.P
                 continue
 
             if len(row) != number_of_rows:
-                raise ValueError('Row "{}" has not the correct length'.format(row))
+                raise ValueError('Row has length {} instead of {} : "{}"'.format(len(row), number_of_rows, row))
 
             dict_row = OrderedDict()
 
@@ -103,7 +105,7 @@ def read_csv_file_with_header_to_list_of_odicts(file_fullpath: str,
                                                 quotechar: str = '"',
                                                 quoting: int = csv.QUOTE_MINIMAL,
                                                 doublequote: bool = True,
-                                                check_row_length: bool = True) -> [OrderedDict]:
+                                                check_row_length: bool = True) -> List[OrderedDict]:
     """
     reads the csv file into a list of ordered dicts
 
@@ -153,7 +155,13 @@ def read_csv_file_with_header_to_list_of_odicts(file_fullpath: str,
         return l_dict_result
 
 
-def write_hashed_odict_of_odicts_to_csv_file(dict_data: OrderedDict, file_fullpath: str, encoding: str = "ISO-8859-1", delimiter: str = ";", quotechar: str = '"', quoting: str = csv.QUOTE_MINIMAL):
+def write_hashed_odict_of_odicts_to_csv_file(dict_data: OrderedDict,
+                                             file_fullpath: str,
+                                             encoding: str = "ISO-8859-1",
+                                             delimiter: str = ";",
+                                             quotechar: str = '"',
+                                             quoting: int = csv.QUOTE_MINIMAL):
+
     with open(file_fullpath, 'w', encoding=encoding, newline='\n') as csvfile:
         my_csv_writer = csv.writer(csvfile, delimiter=delimiter, quotechar=quotechar, quoting=quoting)
         b_first_line = True
@@ -179,15 +187,9 @@ def write_hashed_odict_of_odicts_to_csv_file(dict_data: OrderedDict, file_fullpa
                 raise ValueError('Row "{}" has not the correct length'.format(row))
 
 
-def write_ll_data_to_csv_file(ll_data: List[List[str]],
-                              file_fullpath: str,
-                              encoding: str = "ISO-8859-1",
-                              delimiter: str = ";",
-                              quotechar: str = '"',
-                              quoting: int = csv.QUOTE_MINIMAL,
-                              lineterminator: str = '\n',
-                              escapechar: str = '"',
-                              doublequote: bool = True):
+def write_ll_data_to_csv_file(ll_data: List[List[str]], file_fullpath: str, encoding: str = "ISO-8859-1",
+                              delimiter: str = ";", quotechar: str = '"', quoting: int = csv.QUOTE_MINIMAL, lineterminator: str = '\n',
+                              escapechar: str = '"', doublequote: bool = True):
     """
 
     >>> # setup
@@ -223,7 +225,8 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
 
 
     """
-    csv.register_dialect('MyDialect', delimiter=delimiter, quotechar=quotechar, quoting=quoting, doublequote=doublequote, lineterminator=lineterminator, escapechar=escapechar)
+    csv.register_dialect('MyDialect', delimiter=delimiter, quotechar=quotechar, quoting=quoting,
+                         doublequote=doublequote, lineterminator=lineterminator, escapechar=escapechar)
 
     with open(file_fullpath, 'w', encoding=encoding, newline='\n') as csvfile:
         my_csv_writer = csv.writer(csvfile, dialect='MyDialect', quoting=quoting)
@@ -239,13 +242,13 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
                 raise ValueError('row "{}" has a different length as the header line'.format(l_data))
 
 
-def write_ll_data_to_csv_file_ebay(ll_data: [[]],
+def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
                                    file_fullpath: str,
                                    encoding: str = "ISO-8859-1",
                                    delimiter: str = ";",
                                    quotechar: str = '"',
                                    lineterminator: str = '\n',
-                                   escapechar: str = '"'):
+                                   escapechar: str = '"') -> None:
     """
     :return:    number of lines exported, including header line
 
@@ -258,8 +261,10 @@ def write_ll_data_to_csv_file_ebay(ll_data: [[]],
     >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
     >>> ll_data =[['a','b','c'],[1,2]]
+
+    >>> # issue warning: row [1, 2] has a different length as the header line
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    row [1, 2] has a different length as the header line
+
     >>> ll_data =[]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
@@ -267,22 +272,22 @@ def write_ll_data_to_csv_file_ebay(ll_data: [[]],
     RuntimeError: Nothing to export
 
     >>> # EBAY benötigt " als Escape Character - aber escape character beim CVS LESEN ist broken in python !!!
-    >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">'],[2,3,'das ist 	„ein” "TE;STöäüÖÄÜ">']]
+    >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">']]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath,escapechar='"')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    #[OrderedDict([...)]
+    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
 
-    >>> ll_data =[['a','b','c'],[None,2,'das ist ein "TE;ST">'],[2,3,'das ist 	„ein” "TE;STöäüÖÄÜ">']]
+    >>> ll_data =[['a','b','c'],[None,2,'das ist ein "TE;ST">']]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath,escapechar='"')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-
+    [OrderedDict([('a', ''), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
 
     """
 
-    delimiter = delimiter.encode(encoding)
-    quotechar = quotechar.encode(encoding)
-    lineterminator = lineterminator.encode(encoding)
-    escapechar = escapechar.encode(encoding)
+    b_delimiter = delimiter.encode(encoding)
+    b_quotechar = quotechar.encode(encoding)
+    b_lineterminator = lineterminator.encode(encoding)
+    b_escapechar = escapechar.encode(encoding)
 
     # with open(file_fullpath, 'w', encoding=encoding, newline='\n', errors='xmlcharrefreplace') as csvfile:
     with open(file_fullpath, 'wb') as csvfile:
@@ -292,12 +297,12 @@ def write_ll_data_to_csv_file_ebay(ll_data: [[]],
         number_of_fields = len(ll_data[0])
 
         for l_data in ll_data:
-            csvfile.write(get_ebay_csv_row(l_data, delimiter=delimiter, quotechar=quotechar, escapechar=escapechar) + lineterminator)
+            csvfile.write(get_ebay_csv_row(l_data, delimiter=b_delimiter, quotechar=b_quotechar, escapechar=b_escapechar) + b_lineterminator)
             if len(l_data) != number_of_fields:
                 logger.warning('row {} has a different length as the header line'.format(l_data))
 
 
-def get_ebay_csv_row(l_data: [str], delimiter: bytes, quotechar: bytes, escapechar: bytes) -> bytes:
+def get_ebay_csv_row(l_data: List[str], delimiter: bytes, quotechar: bytes, escapechar: bytes) -> bytes:
     """
     >>> get_ebay_csv_row(['test','teφst','te"st','te;st'], delimiter=b';', quotechar=b'"', escapechar=b'"')
     b'test;"te&#966;st";"te""st";"te;st"'
@@ -345,7 +350,7 @@ def quote_field_if_needed(field_data: bytes, quotechar: bytes, delimiter: bytes)
     return field_data
 
 
-def cast_list_2_csv(ls_values: [str], s_value_delimiter: str = ',', s_quotechar: str = '"', n_quoting: int = csv.QUOTE_MINIMAL):
+def cast_list_2_csv(ls_values: List[str], s_value_delimiter: str = ',', s_quotechar: str = '"', n_quoting: int = csv.QUOTE_MINIMAL) -> str:
     """
     konvertiere eine Liste von Strings in einen csv String
 
@@ -366,7 +371,7 @@ def cast_list_2_csv(ls_values: [str], s_value_delimiter: str = ',', s_quotechar:
     return my_buffer.Buffer[:-2]                                         # hier \r\n entfernen, weil csv_writer eine ganze line mit linefeed schreibt
 
 
-def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: str = '"', n_quoting: int = csv.QUOTE_MINIMAL) -> [str]:
+def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: str = '"', n_quoting: int = csv.QUOTE_MINIMAL) -> List[str]:
     """
     konvertiere einen csv String in eine Liste von Strings. Ist s_csvstr nicht vom typ string, so wird der Wert unverändert zurückgegeben
 
@@ -396,18 +401,26 @@ def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: st
     ['a', 'b , c ', 'b']
     >>> cast_csv_2_list('a,"b,c",b')
     ['a', 'b,c', 'b']
+    >>> cast_csv_2_list('a')
+    ['a']
+    >>> cast_csv_2_list(1)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    Traceback (most recent call last):
+        ...
+    _csv.Error: ...
+
+    >>> cast_csv_2_list(None)   # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    Traceback (most recent call last):
+        ...
+    _csv.Error: ...
+
 
     """
 
-
-    if type(s_csvstr) == str:
-        myreader = csv.reader([s_csvstr], delimiter=str(s_value_delimiter), quotechar=str(s_quotechar), quoting=n_quoting, skipinitialspace=True)
-        #
-        # verwende csvreader im
-        # den string zu parsen, str() wegen python2
-        ls_returnlist = []
-        for ls_lines in myreader:       # es wird immer nur eine Zeile geben
-            ls_returnlist = ls_lines    # diese erste Zeile sind unsere neuen Commands
-        return ls_returnlist
-    else:
-        return s_csvstr
+    myreader = csv.reader([s_csvstr], delimiter=str(s_value_delimiter), quotechar=str(s_quotechar), quoting=n_quoting, skipinitialspace=True)
+    #
+    # verwende csvreader im
+    # den string zu parsen, str() wegen python2
+    ls_returnlist = []
+    for ls_lines in myreader:       # es wird immer nur eine Zeile geben
+        ls_returnlist = ls_lines    # diese erste Zeile sind unsere neuen Commands
+    return ls_returnlist
