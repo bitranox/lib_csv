@@ -18,7 +18,7 @@ class CWriterObject(object):
         self.Buffer = ''
         pass
 
-    def write(self, text) -> None:
+    def write(self, text: str) -> None:
         self.Buffer = self.Buffer + text
 
 
@@ -106,7 +106,7 @@ def read_csv_file_with_header_to_list_of_odicts(file_fullpath: str,
                                                 quotechar: str = '"',
                                                 quoting: int = csv.QUOTE_MINIMAL,
                                                 doublequote: bool = True,
-                                                check_row_length: bool = True) -> List[OrderedDict]:
+                                                check_row_length: bool = True) -> 'List[OrderedDict[str, str]]':
     """
     reads the csv file into a list of ordered dicts
 
@@ -123,7 +123,6 @@ def read_csv_file_with_header_to_list_of_odicts(file_fullpath: str,
     Traceback (most recent call last):
         ...
     ValueError: Row "[...]" has not the correct length
-
 
     """
 
@@ -156,12 +155,12 @@ def read_csv_file_with_header_to_list_of_odicts(file_fullpath: str,
         return l_dict_result
 
 
-def write_hashed_odict_of_odicts_to_csv_file(dict_data: OrderedDict,
+def write_hashed_odict_of_odicts_to_csv_file(dict_data: 'OrderedDict[str, OrderedDict[str, str]]',
                                              file_fullpath: str,
                                              encoding: str = "ISO-8859-1",
                                              delimiter: str = ";",
                                              quotechar: str = '"',
-                                             quoting: int = csv.QUOTE_MINIMAL):
+                                             quoting: int = csv.QUOTE_MINIMAL) -> None:
 
     with open(file_fullpath, 'w', encoding=encoding, newline='\n') as csvfile:
         my_csv_writer = csv.writer(csvfile, delimiter=delimiter, quotechar=quotechar, quoting=quoting)
@@ -190,7 +189,7 @@ def write_hashed_odict_of_odicts_to_csv_file(dict_data: OrderedDict,
 
 def write_ll_data_to_csv_file(ll_data: List[List[str]], file_fullpath: str, encoding: str = "ISO-8859-1",
                               delimiter: str = ";", quotechar: str = '"', quoting: int = csv.QUOTE_MINIMAL, lineterminator: str = '\n',
-                              escapechar: str = '"', doublequote: bool = True):
+                              escapechar: str = '"', doublequote: bool = True) -> None:
     """
 
     >>> # setup
