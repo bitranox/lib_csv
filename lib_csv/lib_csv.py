@@ -55,6 +55,7 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(file_fullpath: pathlib.P
     ...
     ValueError: Index is not unique, field: "CustomLabel", value: "HUB179"
 
+    >>> # Test Number of Fields does not match
     >>> r_csv(file_fullpath=testfile3, hash_by_fieldname='CustomLabel')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     ...
