@@ -372,21 +372,10 @@ def cast_list_2_csv(ls_values: List[str], s_value_delimiter: str = ',', s_quotec
     return my_buffer.Buffer[:-2]                                         # hier \r\n entfernen, weil csv_writer eine ganze line mit linefeed schreibt
 
 
-def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: str = '"', n_quoting: int = csv.QUOTE_MINIMAL) -> List[str]:
+def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: str = '"',
+                    n_quoting: int = csv.QUOTE_MINIMAL, skipinitialspace: bool = True) -> List[str]:
     """
     konvertiere einen csv String in eine Liste von Strings. Ist s_csvstr nicht vom typ string, so wird der Wert unverändert zurückgegeben
-
-    Args:
-        :param s_csvstr:                ein CSV String. Ist s_csvstr nicht vom typ string, so wird der Wert unverändert zurückgegeben
-        :param s_value_delimiter:       der Delimiter, Default=','
-        :param s_quotechar:             der Character für Quoting, default='"'
-        :param n_quoting:               Quoting Type, default=csv.QUOTE_MINIMAL
-
-    Returns:
-        :return:    ls_returnlist
-        :rtype:     [str]
-
-    Exceptions           :    Exception bei Fehler
 
     >>> cast_csv_2_list('a,b,c')
     ['a', 'b', 'c']
@@ -400,6 +389,10 @@ def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: st
     >>> # UNERWARTETES verhalten wenn blank vor dem quotechar wenn nicht skipinitialspace=True gesetzt wird
     >>> cast_csv_2_list('a, "b , c" , b')
     ['a', 'b , c ', 'b']
+    >>> # UNERWARTETES verhalten wenn blank vor dem quotechar wenn nicht skipinitialspace=True gesetzt wird
+    >>> cast_csv_2_list('a, "b , c" , b', skipinitialspace=False)
+    ['a', ' "b ', ' c" ', ' b']
+
     >>> cast_csv_2_list('a,"b,c",b')
     ['a', 'b,c', 'b']
     >>> cast_csv_2_list('a')
@@ -417,7 +410,7 @@ def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: st
 
     """
 
-    myreader = csv.reader([s_csvstr], delimiter=str(s_value_delimiter), quotechar=str(s_quotechar), quoting=n_quoting, skipinitialspace=True)
+    myreader = csv.reader([s_csvstr], delimiter=str(s_value_delimiter), quotechar=str(s_quotechar), quoting=n_quoting, skipinitialspace=skipinitialspace)
     #
     # verwende csvreader im
     # den string zu parsen, str() wegen python2
