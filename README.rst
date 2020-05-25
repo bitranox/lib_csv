@@ -23,6 +23,7 @@ lib_csv
    :target: https://codeclimate.com/github/bitranox/lib_csv/maintainability
    :alt: Maintainability
 
+
 some convenience functions for encoding detection
 
 supports python 3.7 and possibly other dialects.
