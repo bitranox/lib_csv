@@ -1,9 +1,29 @@
+"""
+Usage:  lib_csv (-h | -v | -i)
+
+    -h, --help          show help
+    -v, --version       show version
+    -i, --info          show Info
+
+this module exposes no other useful functions to the commandline
+
+"""
+# docopt syntax see : http://docopt.org/
+
 # STDLIB
 import csv
 from collections import OrderedDict
+from docopt import docopt           # type: ignore
 import logging
 import pathlib
-from typing import List
+from typing import Dict, List, Union
+
+# PROJ
+try:
+    from . import __init__conf__
+except ImportError:                 # pragma: no cover
+    # imports for doctest
+    import __init__conf__           # type: ignore  # pragma: no cover
 
 
 logger = logging.getLogger()
@@ -252,35 +272,43 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     """
     :return:    number of lines exported, including header line
 
+    >>> # setup
     >>> logger.setLevel(logging.INFO)
-    >>> import lib_path
-    >>> import minilib
-    >>> file_fullpath = lib_path.path_join_posix(minilib.path_rotek_apps,'/test/ebay_test/export_test.csv')
-    >>> ll_data =[['a','b','c'],[1,2,True]]
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
-    >>> ll_data =[['a','b','c'],[1,2]]
+    >>> test_directory = pathlib.Path(__file__).absolute().parent.parent / 'tests'
+    >>> test_file = test_directory / 'export_test.csv'
+    >>> if test_file.is_file(): test_file.unlink()
 
-    >>> # issue warning: row [1, 2] has a different length as the header line
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> # Test OK
+    >>> ll_data =[['a','b','c'],[1,2,True]]
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=test_file)
+    >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=test_file)
+    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
+
+
+    >>> # Test issue warning: row [1, 2] has a different length as the header line
+    >>> ll_data =[['a','b','c'],[1,2]]
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=test_file)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
 
     >>> ll_data =[]
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=test_file)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
         ...
     RuntimeError: Nothing to export
 
     >>> # EBAY benötigt " als Escape Character - aber escape character beim CVS LESEN ist broken in python !!!
     >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">']]
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath,escapechar='"')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=test_file,escapechar='"')
+    >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=test_file)
     [OrderedDict([('a', '1'), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
 
     >>> ll_data =[['a','b','c'],[None,2,'das ist ein "TE;ST">']]
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=file_fullpath,escapechar='"')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=file_fullpath)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,file_fullpath=test_file,escapechar='"')
+    >>> read_csv_file_with_header_to_list_of_odicts(file_fullpath=test_file)
     [OrderedDict([('a', ''), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
+
+    >>> # Teardown
+    >>> if test_file.is_file(): test_file.unlink()
+
 
     """
 
@@ -417,3 +445,48 @@ def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: st
     for ls_lines in myreader:       # es wird immer nur eine Zeile geben
         ls_returnlist = ls_lines    # diese erste Zeile sind unsere neuen Commands
     return ls_returnlist
+
+
+# we might import this module and call main from another program and pass docopt args manually
+def main(docopt_args: Dict[str, Union[bool, str]]) -> None:
+    """
+    >>> docopt_args = dict()
+    >>> docopt_args['--version'] = True
+    >>> docopt_args['--info'] = False
+    >>> main(docopt_args)   # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    version: ...
+
+
+    >>> docopt_args['--version'] = False
+    >>> docopt_args['--info'] = True
+    >>> main(docopt_args)   # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    information for ...
+
+    >>> docopt_args['--version'] = False
+    >>> docopt_args['--info'] = False
+    >>> main(docopt_args)
+
+
+    """
+    if docopt_args['--version']:
+        __init__conf__.print_version()
+    elif docopt_args['--info']:
+        __init__conf__.print_info()
+
+
+# entry point via commandline
+def main_commandline() -> None:
+    """
+    >>> main_commandline()  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    Traceback (most recent call last):
+        ...
+    docopt.DocoptExit: ...
+
+    """
+    docopt_args = docopt(__doc__)
+    main(docopt_args)       # pragma: no cover
+
+
+# entry point if main
+if __name__ == '__main__':
+    main_commandline()

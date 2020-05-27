@@ -1,11 +1,14 @@
-lib_ip
-======
+{repository}
+{double_underline_repository}
 
-.. include:: ./badges_without_jupyter.rst
+.. include:: ./badges_project.rst
 
-some convenience functions for encoding detection
+.. include:: ./description.rst
 
-supports python 3.7 and possibly other dialects.
+
+
+
+this is for bitranox internal use, so there is no detailed documentation.
 
 
 .. include:: ./tested_under.rst
@@ -13,7 +16,7 @@ supports python 3.7 and possibly other dialects.
 ----
 
 - `Installation and Upgrade`_
-- `Basic Usage`_
+- `Usage`_
 - `Requirements`_
 - `Acknowledgements`_
 - `Contribute`_
@@ -30,9 +33,9 @@ Installation and Upgrade
 .. include:: ./installation.rst
 
 
-Basic Usage
+Usage
 -----------
-.. include:: ./basic_usage.rst
+.. include:: ./usage.rst
 
 Requirements
 ------------

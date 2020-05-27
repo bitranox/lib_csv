@@ -1,6 +1,8 @@
+# see: https://coverage.readthedocs.io/en/v4.5.x/config.html
+
 [run]
-source  = lib_csv
-include = lib_csv/*
+
+# see: https://coverage.readthedocs.io/en/v4.5.x/source.html#source
 
 # (boolean, default False): whether to measure branch coverage in addition to statement coverage
 branch  = True
@@ -27,3 +29,9 @@ exclude_lines=
 
 ignore_errors = True
 
+omit =
+    venv/*
+    tests/*
+    setup.py
+    project_conf.py
+    project_conf_module.py

@@ -1,13 +1,10 @@
-import pathlib
-from .lib_csv import *
+from . import __init__conf__
 
+__title__ = __init__conf__.title
+__version__ = __init__conf__.version
+__name__ = __init__conf__.name
+__url__ = __init__conf__.url
+__author__ = __init__conf__.author
+__author_email__ = __init__conf__.author_email
 
-def get_version() -> str:
-    with open(str(pathlib.Path(__file__).parent / 'version.txt'), mode='r') as version_file:
-        version = version_file.readline()
-    return version
-
-
-__title__ = 'lib_csv'
-__version__ = get_version()
-__name__ = 'lib_csv'
+from . import *
