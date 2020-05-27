@@ -207,7 +207,7 @@ def write_hashed_odict_of_odicts_to_csv_file(dict_data: 'OrderedDict[str, Ordere
                 raise ValueError('Row "{}" has not the correct length'.format(row))
 
 
-def write_ll_data_to_csv_file(ll_data: List[List[str]], file_fullpath: str, encoding: str = "ISO-8859-1",
+def write_ll_data_to_csv_file(ll_data: List[List[str]], file_fullpath: pathlib.Path, encoding: str = "ISO-8859-1",
                               delimiter: str = ";", quotechar: str = '"', quoting: int = csv.QUOTE_MINIMAL, lineterminator: str = '\n',
                               escapechar: str = '"', doublequote: bool = True) -> None:
     """
@@ -248,7 +248,7 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]], file_fullpath: str, enco
     csv.register_dialect('MyDialect', delimiter=delimiter, quotechar=quotechar, quoting=quoting,
                          doublequote=doublequote, lineterminator=lineterminator, escapechar=escapechar)
 
-    with open(file_fullpath, 'w', encoding=encoding, newline='\n') as csvfile:
+    with open(str(file_fullpath), 'w', encoding=encoding, newline='\n') as csvfile:
         my_csv_writer = csv.writer(csvfile, dialect='MyDialect', quoting=quoting)
 
         if not len(ll_data):
