@@ -263,7 +263,7 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]], file_fullpath: pathlib.P
 
 
 def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
-                                   file_fullpath: str,
+                                   file_fullpath: pathlib.Path,
                                    encoding: str = "ISO-8859-1",
                                    delimiter: str = ";",
                                    quotechar: str = '"',
@@ -318,7 +318,7 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     b_escapechar = escapechar.encode(encoding)
 
     # with open(file_fullpath, 'w', encoding=encoding, newline='\n', errors='xmlcharrefreplace') as csvfile:
-    with open(file_fullpath, 'wb') as csvfile:
+    with open(str(file_fullpath), 'wb') as csvfile:
         if not len(ll_data):
             raise RuntimeError('Nothing to export')
 
