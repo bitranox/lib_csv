@@ -399,11 +399,12 @@ def cast_list_2_csv(ls_values: List[str], s_value_delimiter: str = ',', s_quotec
     return my_buffer.Buffer[:-2]                                         # hier \r\n entfernen, weil csv_writer eine ganze line mit linefeed schreibt
 
 
-def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: str = '"',
-                    n_quoting: int = csv.QUOTE_MINIMAL, skipinitialspace: bool = True) -> List[str]:
+def cast_csv_2_list(csv_str: str, delimiter: str = ',', quote_char: str = '"',
+                    csv_quoting: int = csv.QUOTE_MINIMAL, skipinitialspace: bool = True) -> List[str]:
     """
-    konvertiere einen csv String in eine Liste von Strings. Ist s_csvstr nicht vom typ string, so wird der Wert unverändert zurückgegeben
+    konvertiere einen csv String in eine Liste von Strings. Ist csv_str nicht vom typ string, so wird der Wert unverändert zurückgegeben
 
+    >>> import unittest
     >>> cast_csv_2_list('a,b,c')
     ['a', 'b', 'c']
     >>> cast_csv_2_list('a,"b,c",d')
@@ -424,20 +425,17 @@ def cast_csv_2_list(s_csvstr: str, s_value_delimiter: str = ',', s_quotechar: st
     ['a', 'b,c', 'b']
     >>> cast_csv_2_list('a')
     ['a']
-    >>> cast_csv_2_list(1)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    Traceback (most recent call last):
-        ...
-    _csv.Error: ...
 
-    >>> cast_csv_2_list(None)   # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    Traceback (most recent call last):
-        ...
-    _csv.Error: ...
+    >>> # raise Error if csv_string is None
+    >>> unittest.TestCase().assertRaises(Exception, cast_csv_2_list, csv_str=None)
+
+    >>> # raise Error if csv_string is wrong type
+    >>> unittest.TestCase().assertRaises(Exception, cast_csv_2_list, csv_str=1)
 
 
     """
 
-    myreader = csv.reader([s_csvstr], delimiter=str(s_value_delimiter), quotechar=str(s_quotechar), quoting=n_quoting, skipinitialspace=skipinitialspace)
+    myreader = csv.reader([csv_str], delimiter=str(delimiter), quotechar=str(quote_char), quoting=csv_quoting, skipinitialspace=skipinitialspace)
     #
     # verwende csvreader im
     # den string zu parsen, str() wegen python2
