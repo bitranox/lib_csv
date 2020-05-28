@@ -28,7 +28,8 @@ lib_csv
 
 functions to read and write csv files
 
-this is for bitranox internal use, so there is no detailed documentation.
+automated tests, Travis Matrix, Documentation, Badges for this Project are managed with `lib_travis_template <https://github
+.com/bitranox/lib_travis_template>`_ - check it out
 
 supports python 3.5-3.8, pypy3 and possibly other dialects.
 
