@@ -53,37 +53,46 @@ supports python 3.5-3.8, pypy3 and possibly other dialects.
 Installation and Upgrade
 ------------------------
 
-From source code:
+Before You start, its highly recommended to update pip and setup tools:
+
 
 .. code-block:: bash
 
-    # normal install
-    python3 setup.py install
-    # test without installing
-    python3 setup.py test
+    python3 -m pip --upgrade pip
+    python3 -m pip --upgrade setuptools
+    python3 -m pip --upgrade wheel
 
-via pip latest Release:
+
+install latest version with pip (recommended):
+
+.. code-block:: bash
+
+    # upgrade all dependencies regardless of version number (PREFERRED)
+    python3 -m pip install --upgrade git+https://github.com/bitranox/lib_csv.git --upgrade-strategy eager
+
+    # test without installing (can be skipped)
+    python3 -m pip install git+https://github.com/bitranox/lib_csv.git --install-option test
+
+    # normal install
+    python3 -m pip install --upgrade git+https://github.com/bitranox/lib_csv.git
+
+
+install latest pypi Release (if there is any):
 
 .. code-block:: bash
 
     # latest Release from pypi
     python3 -m pip install --upgrade lib_csv
 
-    # test without installing
+    # test without installing (can be skipped)
     python3 -m pip install lib_csv --install-option test
 
-via pip latest Development Version:
-
-.. code-block:: bash
-
-    # upgrade all dependencies regardless of version number (PREFERRED)
-    python3 -m pip install --upgrade git+https://github.com/bitranox/lib_csv.git --upgrade-strategy eager
     # normal install
-    python3 -m pip install --upgrade git+https://github.com/bitranox/lib_csv.git
-    # test without installing
-    python3 -m pip install git+https://github.com/bitranox/lib_csv.git --install-option test
+    python3 -m pip install --upgrade lib_csv
 
-via requirements.txt:
+
+
+include it into Your requirements.txt:
 
 .. code-block:: bash
 
@@ -93,22 +102,29 @@ via requirements.txt:
     # for the latest Development Version :
     lib_csv @ git+https://github.com/bitranox/lib_csv.git
 
-
     # to install and upgrade all modules mentioned in requirements.txt:
     python3 -m pip install --upgrade -r /<path>/requirements.txt
 
-via python:
 
-.. code-block:: python
+Install from source code:
 
-    # for the latest Release
-    python3 -m pip install --upgrade lib_csv
+.. code-block:: bash
 
-    # for the latest Development Version
-    python3 -m pip install --upgrade git+https://github.com/bitranox/lib_csv.git
+    # cd ~
+    $ git clone https://github.com/bitranox/lib_csv.git
+    $ cd lib_csv
+
+    # test without installing (can be skipped)
+    python3 setup.py test
+
+    # normal install
+    python3 setup.py install
 
 
 via makefile:
+
+if You are on linux, makefiles are a very convenient way to install. Here we can do much more, like installing virtual environment, clean caches and so on.
+This is still in development and not recommended / working at the moment:
 
 .. code-block:: shell
 
@@ -127,9 +143,6 @@ via makefile:
 
     # uninstall the package
     $ make uninstall
-
-    # ti install development environment
-    $ make develop
 
 Usage
 -----------

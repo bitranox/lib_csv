@@ -62,8 +62,11 @@ function install_virtualenv_debian() {
 function install_requirements() {
   # this should be already installed, but it happens that pycharm ide venv does not have it
   clr_green "install_requirements"
-
   sudo chmod -R 0777 ~/.eggs    # make already installed eggs accessible, just in case they were installed as root
+
+  python3 -m pip install --upgrade pip
+  python3 -m pip install --upgrade setuptools
+  python3 -m pip install --upgrade wheel
 
   if test -f "${project_root_dir}/requirements.txt"; then
     python3 -m pip install --upgrade -r "${project_root_dir}/requirements.txt"
