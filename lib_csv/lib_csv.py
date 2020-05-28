@@ -36,7 +36,6 @@ class CWriterObject(object):
 
     def __init__(self) -> None:
         self.Buffer = ''
-        pass
 
     def write(self, text: str) -> None:
         self.Buffer = self.Buffer + text
@@ -56,7 +55,7 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(path_csv_file: pathlib.P
     >>> test_directory = pathlib.Path(__file__).absolute().parent.parent / 'tests'
     >>> testfile1 = test_directory / '2018-04-26_alle_Navision_Artikel.csv'
     >>> testfile2 = test_directory / '0001_aktive_preis_qty.csv'
-    >>> testfile3 = test_directory / '2018-06-06_active_qty_broken.csv'
+    >>> csv_file_broken_less_fields_than_header = test_directory / 'csv_file_broken_less_fields_than_header.csv'
     >>> r_csv = read_csv_file_with_header_to_hashed_odict_of_odicts
 
     >>> # Test Fieldname for hashing not existent in the header
@@ -75,11 +74,11 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(path_csv_file: pathlib.P
     ...
     ValueError: Index is not unique, field: "CustomLabel", value: "HUB179"
 
-    >>> # Test Number of Fields does not match
-    >>> r_csv(path_csv_file=testfile3, hash_by_fieldname='CustomLabel')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> # Test Number of Fields is smaller than the header
+    >>> r_csv(path_csv_file=csv_file_broken_less_fields_than_header, hash_by_fieldname='a')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     ...
-    ValueError: Row has length ... instead of ... : "[...]"
+    ValueError: Row has length 3 instead of 4 : "['1', '2', '3']"
 
 
 
@@ -134,15 +133,34 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
     >>> logger.setLevel(logging.INFO)
     >>> test_directory = pathlib.Path(__file__).absolute().parent.parent / 'tests'
     >>> testfile1 = test_directory / '2018-06-06_active_qty.csv'
-    >>> testfile2 = test_directory / '2018-06-06_active_qty_broken.csv'
+    >>> path_csv_file_broken_less_fields_than_header = test_directory / 'csv_file_broken_less_fields_than_header.csv'
+    >>> path_csv_file_broken_more_fields_than_header = test_directory / 'csv_file_broken_more_fields_than_header.csv'
     >>> # Test Ok
     >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=testfile1)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     [OrderedDict(...), OrderedDict(...), ...]
-    >>> # Test Number of Fields not the same as in Header
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=testfile2)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> # Test Number of Fields less as in Header - check length
+    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_less_fields_than_header)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
         ...
     ValueError: Row "[...]" has not the correct length
+
+    >>> # Test Number of Fields less as in Header - not check length
+    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_less_fields_than_header, check_row_length=False)
+    [OrderedDict([('a', '1'), ('b', '2'), ('c', '3')])]
+
+    >>> # Test Number of Fields more as in Header - check length
+    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_more_fields_than_header)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    Traceback (most recent call last):
+    ...
+    ValueError: Row "['1', '2', '3', '4', '5']" has not the correct length
+
+    >>> # Test Number of Fields more as in Header - not check length
+    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_more_fields_than_header,
+    ...                                             check_row_length=False )  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    Traceback (most recent call last):
+    ...
+    ValueError: Row "['1', '2', '3', '4', '5']" has more fields than the header
+
 
     """
 
@@ -169,6 +187,8 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
             for index, value in enumerate(row):
                 if index < number_of_rows:
                     dict_data[fieldnames[index]] = value
+                else:
+                    raise ValueError('Row "{}" has more fields than the header'.format(row))
 
             l_dict_result.append(dict_data)
 
@@ -385,25 +405,26 @@ def quote_field_if_needed(field_data: bytes, quotechar: bytes, delimiter: bytes)
 
 
 def cast_list_2_csv(ls_values: List[str],
-                    delimiter: str = ',',
+                    delimiter: str = ';',
                     quotechar: str = '"',
-                    quoting: int = csv.QUOTE_MINIMAL) -> str:
+                    escapechar: str = '"',
+                    quoting: int = csv.QUOTE_MINIMAL,
+                    doublequote: bool = True) -> str:
     """
     konvertiere eine Liste von Strings in einen csv String
 
-    Args:
-    ls_values            : Liste von Strings
-    s_value_delimiter    : der Delimiter, Default=','
-    s_quotechar          : der Character für Quoting, default='"'
-    n_quoting            : Quoting Type, default=csv.QUOTE_MINIMAL
+    >>> l_test = ['a', 'b', 'c;d', 'e"f']
+    >>> cast_list_2_csv(l_test)
+    'a;b;"c;d";"e""f"'
+    >>> cast_list_2_csv(l_test, doublequote=False)
+    'a;b;"c;d";e""f'
 
-    Returns:
 
-    Exceptions           :    Exception bei Fehler
     """
     my_buffer = CWriterObject()
-    my_csv_writer = csv.writer(my_buffer, delimiter=str(delimiter), quotechar=str(quotechar), quoting=quoting)       # str() für python2
 
+    my_csv_writer = csv.writer(my_buffer, delimiter=str(delimiter), quotechar=str(quotechar), quoting=quoting,
+                               doublequote=doublequote, escapechar=escapechar)
     my_csv_writer.writerow(ls_values)
     return my_buffer.Buffer[:-2]                                         # hier \r\n entfernen, weil csv_writer eine ganze line mit linefeed schreibt
 
