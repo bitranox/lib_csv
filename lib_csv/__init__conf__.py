@@ -4,6 +4,7 @@ version = '0.1.0'
 url = 'https://github.com/bitranox/lib_csv'
 author = 'Robert Nowotny'
 author_email = 'rnowotny1966@gmail.com'
+shell_command = 'lib_csv'
 
 
 def print_version() -> None:

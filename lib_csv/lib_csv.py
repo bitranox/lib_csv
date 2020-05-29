@@ -1,15 +1,3 @@
-"""
-Usage:  lib_csv (-h | -v | -i)
-
-    -h, --help          show help
-    -v, --version       show version
-    -i, --info          show Info
-
-this module exposes no other useful functions to the commandline
-
-"""
-# docopt syntax see : http://docopt.org/
-
 # STDLIB
 import csv
 from collections import OrderedDict
@@ -20,9 +8,11 @@ from typing import Dict, List, Union
 
 # PROJ
 try:
+    from .__doc__ import __doc__
     from . import __init__conf__
 except ImportError:                 # pragma: no cover
     # imports for doctest
+    from __doc__ import __doc__
     import __init__conf__           # type: ignore  # pragma: no cover
 
 

@@ -31,7 +31,7 @@ functions to read and write csv files
 automated tests, Travis Matrix, Documentation, Badges for this Project are managed with `lib_travis_template <https://github
 .com/bitranox/lib_travis_template>`_ - check it out
 
-supports python 3.5-3.8, pypy3 and possibly other dialects.
+supports python 3.6-3.8, pypy3 and possibly other dialects.
 
 `100% code coverage <https://codecov.io/gh/bitranox/lib_csv>`_, mypy static type checking, tested under `Linux, macOS, Windows and Wine <https://travis-ci
 .org/bitranox/lib_csv>`_, automatic daily builds  and monitoring
@@ -40,6 +40,7 @@ supports python 3.5-3.8, pypy3 and possibly other dialects.
 
 - `Installation and Upgrade`_
 - `Usage`_
+- `Usage from Commandline`_
 - `Requirements`_
 - `Acknowledgements`_
 - `Contribute`_
@@ -153,6 +154,21 @@ Usage
     import the module and check the code - its easy and documented there, including doctest examples.
     in case of any questions the usage section might be expanded at a later time
 
+Usage from Commandline
+------------------------
+
+.. code-block:: bash
+
+   Usage:
+       lib_csv (-h | -v | -i)
+
+   Options:
+       -h, --help          show help
+       -v, --version       show version
+       -i, --info          show Info
+
+   this module exposes no other useful functions to the commandline
+
 Requirements
 ------------
 following modules will be automatically installed :
@@ -166,7 +182,6 @@ Acknowledgements
 ----------------
 
 - special thanks to "uncle bob" Robert C. Martin, especially for his books on "clean code" and "clean architecture"
-- more test
 
 Contribute
 ----------

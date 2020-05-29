@@ -7,6 +7,38 @@ from typing import List
 import project_conf
 
 
+def format_commandline_help_file() -> None:
+    source_file = pathlib.Path(__file__).parent / '.docs/commandline_help.txt'
+    if source_file.is_file():
+        with open(source_file, 'r') as f_sourcefile:
+            commandline_help_txt_lines = f_sourcefile.readlines()
+        with open(source_file, 'w') as f_targetfile:
+            target_lines = list()
+            target_lines.append('.. code-block:: bash\n\n')
+            target_lines.append('')
+            for commandline_help_txt_line in commandline_help_txt_lines:
+                target_lines.append('   ' + commandline_help_txt_line)
+            f_targetfile.writelines(target_lines)
+    else:
+        with open(str(source_file), 'w') as f_targetfile:
+            f_targetfile.write('.. code-block:: bash\n\n    there are no commandline options\n')
+
+
+def create_commandline_help_file() -> None:
+    """
+    >>> create_commandline_help_file()
+
+    """
+    import subprocess
+    import sys
+    module_path = pathlib.Path('./{src_dir}/{module_name}.py'.format(src_dir=project_conf.src_dir, module_name=project_conf.module_name))
+    if module_path.is_file():
+        module_path = module_path.resolve()
+        command = '{sys_executable} {module_path} -h > ./.docs/commandline_help.txt'.format(sys_executable=sys.executable, module_path=module_path)
+        subprocess.run(command, shell=True)
+    format_commandline_help_file()
+
+
 def create_init_config_file() -> None:
     path_source_dir = get_path_template_dir_local() / 'templates'
     path_target_dir = pathlib.Path(__file__).parent.resolve() / project_conf.src_dir
@@ -27,7 +59,8 @@ def create_init_config_file() -> None:
     text = text.replace('{url}', project_conf.url)
     text = text.replace('{author}', project_conf.author)
     text = text.replace('{author_email}', project_conf.author_email)
-    with open(str(path_targetfile), 'w') as f_targetfile:
+    text = text.replace('{shell_command}', project_conf.shell_command)
+    with open(path_targetfile, 'w') as f_targetfile:
         f_targetfile.write(text)
 
     # copy __init__.py if not there from template
@@ -40,6 +73,12 @@ def create_init_config_file() -> None:
     path_targetfile = path_target_dir / (project_conf.module_name + '.py')
     if not path_targetfile.is_file():
         path_sourcefile = path_source_dir / 'main.py'
+        shutil.copy(str(path_sourcefile), str(path_targetfile))
+
+    # copy __doc__.py if not there from template
+    path_targetfile = path_target_dir / '__doc__.py'
+    if not path_targetfile.is_file():
+        path_sourcefile = path_source_dir / '__doc__.py'
         shutil.copy(str(path_sourcefile), str(path_targetfile))
 
 
@@ -63,7 +102,8 @@ def get_path_template_dir_local() -> pathlib.Path:
 def is_ok_to_copy(path_source_file: pathlib.Path) -> bool:
     """ its ok when a file and not in the list """
     files_not_to_copy = ['requirements.txt', 'project_conf.py', '.travis.yml', 'README.rst',
-                         'CHANGES.rst', 'badges_project.rst', 'description.rst', 'usage.rst', 'installation.rst']
+                         'CHANGES.rst', 'description.rst', 'usage.rst', 'installation.rst', 'acknowledgment.rst',
+                         'badges_project.rst', 'badges_with_jupyter.rst', 'badges_without_jupyter.rst', '__doc__.py']
     if path_source_file.is_file():
         if path_source_file.name in files_not_to_copy:
             return False
@@ -115,23 +155,31 @@ def copy_template_files() -> None:
         path_sourcefile = path_source_dir / 'templates/CHANGES.rst'
         shutil.copy(str(path_sourcefile), str(path_targetfile))
 
-    # copy badges template
+    # copy usage.rst template if not there
+    path_targetfile = path_target_dir / '.docs/usage.rst'
+    if not path_targetfile.is_file():
+        path_sourcefile = path_source_dir / 'templates/usage.rst'
+        shutil.copy(str(path_sourcefile), str(path_targetfile))
+
+    # copy description.rst template if not there
+    path_targetfile = path_target_dir / '.docs/description.rst'
+    if not path_targetfile.is_file():
+        path_sourcefile = path_source_dir / 'templates/description.rst'
+        shutil.copy(str(path_sourcefile), str(path_targetfile))
+
+    # copy acknowledgment.rst template if not there
+    path_targetfile = path_target_dir / '.docs/acknowledgment.rst'
+    if not path_targetfile.is_file():
+        path_sourcefile = path_source_dir / 'templates/acknowledgment.rst'
+        shutil.copy(str(path_sourcefile), str(path_targetfile))
+
+    # overwrite badges template
     if project_conf.badges_with_jupiter:
         path_sourcefile = path_source_dir / '.docs/badges_with_jupyter.rst'
     else:
         path_sourcefile = path_source_dir / '.docs/badges_without_jupyter.rst'
     path_targetfile = path_target_dir / '.docs/badges_project.rst'
     shutil.copy(str(path_sourcefile), str(path_targetfile))
-    # copy usage.rst template if not there
-    path_targetfile = path_target_dir / '.docs/usage.rst'
-    if not path_targetfile.is_file():
-        path_sourcefile = path_source_dir / 'templates/usage.rst'
-        shutil.copy(str(path_sourcefile), str(path_targetfile))
-    # copy description.rst template if not there
-    path_targetfile = path_target_dir / '.docs/description.rst'
-    if not path_targetfile.is_file():
-        path_sourcefile = path_source_dir / 'templates/description.rst'
-        shutil.copy(str(path_sourcefile), str(path_targetfile))
     # overwrite installation.rst template
     path_targetfile = path_target_dir / '.docs/installation.rst'
     path_sourcefile = path_source_dir / 'templates/installation.rst'
@@ -143,7 +191,7 @@ def replace_marker(text: str, marker: str, src_filename: str, replace_marker_wit
     if replace_marker_with_src_file:
         path_base_dir = pathlib.Path(__file__).parent
         path_src_filename = path_base_dir / src_filename
-        with open(path_src_filename, 'r') as f_src_filename:
+        with open(str(path_src_filename), 'r') as f_src_filename:
             s_src = f_src_filename.read()
             text = text.replace(marker, s_src)
     else:
@@ -177,7 +225,7 @@ def create_travis_file() -> None:
     text = text.replace('{travis_repo_slug}', project_conf.travis_repo_slug)
     text = text.replace('{github_master}', project_conf.github_master)
     target_file = path_base_dir / '.travis.yml'
-    with open(str(target_file), 'w') as f_target_file:
+    with open(target_file, 'w') as f_target_file:
         f_target_file.write(text)
 
     if not is_in_own_project_folder():
@@ -202,6 +250,7 @@ if __name__ == '__main__':
     create_travis_file()
 
     # create readme.rst
+    create_commandline_help_file()
     import build_docs
     build_docs_args = dict()
     build_docs_args['<TRAVIS_REPO_SLUG>'] = '{}/{}'.format(project_conf.github_account, project_conf.package_name)
