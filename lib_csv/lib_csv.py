@@ -83,7 +83,7 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(path_csv_file: pathlib.P
 
 
     """
-    with open(str(path_csv_file), 'r', encoding=encoding) as f_csv_file:
+    with open(path_csv_file, 'r', encoding=encoding) as f_csv_file:
         is_first_row = True
         fieldnames = []
         index_of_hash_field = 0
@@ -202,7 +202,7 @@ def write_hashed_odict_of_odicts_to_csv_file(dict_data: 'OrderedDict[str, Ordere
                                              quotechar: str = '"',
                                              quoting: int = csv.QUOTE_MINIMAL) -> None:
 
-    with open(str(path_csv_file), 'w', encoding=encoding, newline='\n') as csvfile:
+    with open(path_csv_file, 'w', encoding=encoding, newline='\n') as csvfile:
         my_csv_writer = csv.writer(csvfile, delimiter=delimiter, quotechar=quotechar, quoting=quoting)
         b_first_line = True
         n_number_of_fields = 0
@@ -344,7 +344,7 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     b_escapechar = escapechar.encode(encoding)
 
     # with open(file_fullpath, 'w', encoding=encoding, newline='\n', errors='xmlcharrefreplace') as csvfile:
-    with open(str(path_csv_file), 'wb') as csvfile:
+    with open(path_csv_file, 'wb') as csvfile:
         if not len(ll_data):
             raise RuntimeError('Nothing to export')
 

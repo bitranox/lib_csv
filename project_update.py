@@ -19,7 +19,7 @@ def create_init_config_file() -> None:
     shutil.copy(str(path_sourcefile), str(path_targetfile))
 
     # replace the markers
-    with open(str(path_targetfile), 'r') as f_targetfile:
+    with open(path_targetfile, 'r') as f_targetfile:
         text = f_targetfile.read()
     text = text.replace('{version}', project_conf.version)
     text = text.replace('{title}', project_conf.init_config_title)
@@ -143,7 +143,7 @@ def replace_marker(text: str, marker: str, src_filename: str, replace_marker_wit
     if replace_marker_with_src_file:
         path_base_dir = pathlib.Path(__file__).parent
         path_src_filename = path_base_dir / src_filename
-        with open(str(path_src_filename), 'r') as f_src_filename:
+        with open(path_src_filename, 'r') as f_src_filename:
             s_src = f_src_filename.read()
             text = text.replace(marker, s_src)
     else:
