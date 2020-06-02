@@ -132,7 +132,7 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
     >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_less_fields_than_header)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
         ...
-    ValueError: Row "[...]" has not the correct length
+    ValueError: csv file "...": Row has not the correct length: ['1', '2', '3']
 
     >>> # Test Number of Fields less as in Header - not check length
     >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_less_fields_than_header, check_row_length=False)
@@ -142,14 +142,12 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
     >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_more_fields_than_header)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     Traceback (most recent call last):
     ...
-    ValueError: Row "['1', '2', '3', '4', '5']" has not the correct length
+    ValueError: csv file "...": Row has not the correct length: ['1', '2', '3', '4', '5']
 
     >>> # Test Number of Fields more as in Header - not check length
     >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_more_fields_than_header,
     ...                                             check_row_length=False )  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    Traceback (most recent call last):
-    ...
-    ValueError: Row "['1', '2', '3', '4', '5']" has more fields than the header
+    [OrderedDict([('a', '1'), ('b', '2'), ('c', '3'), ('d', '4')])]
 
 
     """
@@ -170,7 +168,7 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
                 continue
 
             if check_row_length and (len(row) != number_of_rows):
-                raise ValueError('Row "{}" has not the correct length'.format(row))
+                raise ValueError('csv file "{path_csv_file}": Row has not the correct length: {row}'.format(path_csv_file=path_csv_file, row=row))
 
             dict_data = OrderedDict()
 
@@ -178,7 +176,10 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
                 if index < number_of_rows:
                     dict_data[fieldnames[index]] = value
                 else:
-                    raise ValueError('Row "{}" has more fields than the header'.format(row))
+                    if check_row_length:
+                        raise ValueError('csv file "{path_csv_file}": Row has more fields than the header: {row}'.format(path_csv_file=path_csv_file, row=row))
+                    else:
+                        logger.warning('csv file "{path_csv_file}": Row has more fields than the header: {row}'.format(path_csv_file=path_csv_file, row=row))
 
             l_dict_result.append(dict_data)
 
