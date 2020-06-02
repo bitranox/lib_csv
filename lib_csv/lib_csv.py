@@ -178,8 +178,6 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
                 else:
                     if check_row_length:
                         raise ValueError('csv file "{path_csv_file}": Row has more fields than the header: {row}'.format(path_csv_file=path_csv_file, row=row))
-                    else:
-                        logger.warning('csv file "{path_csv_file}": Row has more fields than the header: {row}'.format(path_csv_file=path_csv_file, row=row))
 
             l_dict_result.append(dict_data)
 
