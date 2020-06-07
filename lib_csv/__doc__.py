@@ -1,7 +1,7 @@
 # PROJ
 try:
     from . import __init__conf__
-except ImportError:                 # pragma: no cover
+except (ImportError, ModuleNotFoundError):                 # pragma: no cover
     # imports for doctest
     import __init__conf__           # type: ignore  # pragma: no cover
 

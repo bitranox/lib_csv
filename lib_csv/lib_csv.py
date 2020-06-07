@@ -10,7 +10,7 @@ from typing import Dict, List, Union
 try:
     from .__doc__ import __doc__
     from . import __init__conf__
-except ImportError:                 # pragma: no cover
+except (ImportError, ModuleNotFoundError):                 # pragma: no cover
     # imports for doctest
     from __doc__ import __doc__     # type: ignore  # pragma: no cover
     import __init__conf__           # type: ignore  # pragma: no cover
