@@ -73,7 +73,7 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(path_csv_file: pathlib.P
 
 
     """
-    with open(path_csv_file, 'r', encoding=encoding) as f_csv_file:
+    with open(str(path_csv_file), 'r', encoding=encoding) as f_csv_file:
         is_first_row = True
         fieldnames = []
         index_of_hash_field = 0
