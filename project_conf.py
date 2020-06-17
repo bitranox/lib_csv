@@ -26,7 +26,7 @@ travis_pypi_secure_code = ''             # pypi secure password
 package_data = dict()       # type: Dict[str, List[str]]
 
 author = 'Robert Nowotny'
-author_email = 'rnowotny1966@gmail.com'
+author_email = 'bitranox@gmail.com'
 github_account = 'bitranox'
 
 linux_tests = True
