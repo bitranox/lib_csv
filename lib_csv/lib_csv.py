@@ -109,15 +109,16 @@ def read_csv_file_with_header_to_hashed_odict_of_odicts(path_csv_file: pathlib.P
         return dict_result
 
 
-def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
-                                                encoding: str = "ISO-8859-1",
-                                                delimiter: str = ";",
-                                                quotechar: str = '"',
-                                                quoting: int = csv.QUOTE_MINIMAL,
-                                                doublequote: bool = True,
-                                                check_row_length: bool = True) -> 'List[OrderedDict[str, str]]':
+def read_csv_file_with_header_to_list_of_dicts(path_csv_file: pathlib.Path,
+                                               encoding: str = "ISO-8859-1",
+                                               delimiter: str = ";",
+                                               quotechar: str = '"',
+                                               quoting: int = csv.QUOTE_MINIMAL,
+                                               doublequote: bool = True,
+                                               check_row_length: bool = True) -> 'List[Dict[str, str]]':
     """
-    reads the csv file into a list of ordered dicts
+    reads the csv file into a list of dicts
+    the keys of the dict corresponds to the Fieldnames in the Header
 
     >>> # setup
     >>> logger.setLevel(logging.INFO)
@@ -126,36 +127,35 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
     >>> path_csv_file_broken_less_fields_than_header = test_directory / 'csv_file_broken_less_fields_than_header.csv'
     >>> path_csv_file_broken_more_fields_than_header = test_directory / 'csv_file_broken_more_fields_than_header.csv'
     >>> # Test Ok
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=testfile1)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    [OrderedDict(...), OrderedDict(...), ...]
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=testfile1)
+    [{...}, {...}, ...]
     >>> # Test Number of Fields less as in Header - check length
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_less_fields_than_header)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=path_csv_file_broken_less_fields_than_header)
     Traceback (most recent call last):
         ...
-    ValueError: csv file "...": Row has not the correct length: ['1', '2', '3']
+    ValueError: csv file "...": header has 4 rows, current row has 3 rows: Header: ['a', 'b', 'c', 'd'], current Row: ['1', '2', '3']
 
     >>> # Test Number of Fields less as in Header - not check length
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_less_fields_than_header, check_row_length=False)
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', '3')])]
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=path_csv_file_broken_less_fields_than_header, check_row_length=False)
+    [{'a': '1', 'b': '2', 'c': '3'}]
 
     >>> # Test Number of Fields more as in Header - check length
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_more_fields_than_header)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=path_csv_file_broken_more_fields_than_header)
     Traceback (most recent call last):
     ...
-    ValueError: csv file "...": Row has not the correct length: ['1', '2', '3', '4', '5']
+    ValueError: csv file "...": header has 4 rows, current row has 5 rows: Header: ['a', 'b', 'c', 'd'], current Row: ['1', '2', '3', '4', '5']
 
     >>> # Test Number of Fields more as in Header - not check length
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=path_csv_file_broken_more_fields_than_header,
-    ...                                             check_row_length=False )  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', '3'), ('d', '4')])]
-
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=path_csv_file_broken_more_fields_than_header,
+    ...                                             check_row_length=False )
+    [{'a': '1', 'b': '2', 'c': '3', 'd': '4'}]
 
     """
 
     with open(str(path_csv_file), 'r', encoding=encoding) as f_csv_file:
         is_first_row = True
         fieldnames = []
-        number_of_rows = 0
+        len_of_header_rows = 0
         l_dict_result = list()
 
         my_csv_reader = csv.reader(f_csv_file, delimiter=delimiter, quotechar=quotechar, quoting=quoting, doublequote=doublequote)
@@ -164,20 +164,25 @@ def read_csv_file_with_header_to_list_of_odicts(path_csv_file: pathlib.Path,
             if is_first_row:
                 is_first_row = False
                 fieldnames = row
-                number_of_rows = len(fieldnames)
+                # there must not be empty header fields - we had this problem on ebay files,
+                # were we had a trailing ";" in the header line
+                fieldnames = ls_rstrip_list(fieldnames)
+                len_of_header_rows = len(fieldnames)
                 continue
 
-            if check_row_length and (len(row) != number_of_rows):
-                raise ValueError('csv file "{path_csv_file}": Row has not the correct length: {row}'.format(path_csv_file=path_csv_file, row=row))
+            len_current_row = len(row)
+            if check_row_length and (len_current_row != len_of_header_rows):
+                raise ValueError(f'csv file "{path_csv_file}": header has {len_of_header_rows} rows,'
+                                 f' current row has {len_current_row} rows: Header: {fieldnames}, current Row: {row}')
 
-            dict_data = OrderedDict()
+            dict_data = dict()
 
             for index, value in enumerate(row):
-                if index < number_of_rows:
+                if index < len_of_header_rows:
                     dict_data[fieldnames[index]] = value
                 else:
                     if check_row_length:
-                        raise ValueError('csv file "{path_csv_file}": Row has more fields than the header: {row}'.format(path_csv_file=path_csv_file, row=row))
+                        raise ValueError(f'csv file "{path_csv_file}": Row has more fields than the header: {row}')
 
             l_dict_result.append(dict_data)
 
@@ -235,7 +240,7 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
     >>> # export ok
     >>> ll_data =[['a','b','c'],[1,2,True]]
     >>> write_ll_data_to_csv_file(ll_data=ll_data,path_csv_file=testfile)
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=testfile)
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=testfile)
     [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
 
     >>> # Number of Rows does not match Header
@@ -255,7 +260,7 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
     >>> # EBAY needs '"' as escape character und double escape
     >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">'],[2,3,'das ist ein TE;ST']]
     >>> write_ll_data_to_csv_file(ll_data=ll_data,path_csv_file=testfile,escapechar='"')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=testfile)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=testfile)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     [OrderedDict([('a', '1'), ('b', '2'), ('c', 'das ist ein "TE;ST">')]), OrderedDict([('a', '2'), ('b', '3'), ('c', 'das ist ein TE;ST')])]
 
 
@@ -296,7 +301,7 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     >>> # Test OK
     >>> ll_data =[['a','b','c'],[1,2,True]]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file)
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=test_file)
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file)
     [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
 
 
@@ -313,12 +318,12 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     >>> # EBAY benötigt " als Escape Character - aber escape character beim CVS LESEN ist broken in python !!!
     >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">']]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file,escapechar='"')
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=test_file)
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file)
     [OrderedDict([('a', '1'), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
 
     >>> ll_data =[['a','b','c'],[None,2,'das ist ein "TE;ST">']]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file,escapechar='"')
-    >>> read_csv_file_with_header_to_list_of_odicts(path_csv_file=test_file)
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file)
     [OrderedDict([('a', ''), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
 
     >>> # Teardown
@@ -462,6 +467,22 @@ def cast_csv_2_list(csv_str: str, delimiter: str = ',', quote_char: str = '"',
     for ls_lines in myreader:       # es wird immer nur eine Zeile geben
         ls_returnlist = ls_lines    # diese erste Zeile sind unsere neuen Commands
     return ls_returnlist
+
+
+def ls_rstrip_list(list_of_strings: List[str], chars: str = '') -> List[str]:
+    """
+    strips list elements on the end of a list, were the value is chars
+    >>> testlist = ['','','a','b','c','','']
+    >>> ls_rstrip_list(testlist)
+    ['', '', 'a', 'b', 'c']
+    >>> testlist = []
+    >>> ls_rstrip_list(testlist)
+    []
+
+    """
+    while list_of_strings and list_of_strings[-1] == chars:
+        list_of_strings = list_of_strings[:-1]
+    return list_of_strings
 
 
 # we might import this module and call main from another program and pass docopt args manually
