@@ -4,7 +4,7 @@ from collections import OrderedDict
 from docopt import docopt           # type: ignore
 import logging
 import pathlib
-from typing import Dict, List, Union
+from typing import Dict, List, Optional, Union
 
 # PROJ
 try:
@@ -115,7 +115,8 @@ def read_csv_file_with_header_to_list_of_dicts(path_csv_file: pathlib.Path,
                                                quotechar: str = '"',
                                                quoting: int = csv.QUOTE_MINIMAL,
                                                doublequote: bool = True,
-                                               check_row_length: bool = True) -> 'List[Dict[str, str]]':
+                                               check_row_length: bool = True,
+                                               escapechar: Optional[str] = None) -> 'List[Dict[str, str]]':
     """
     reads the csv file into a list of dicts
     the keys of the dict corresponds to the Fieldnames in the Header
@@ -126,6 +127,7 @@ def read_csv_file_with_header_to_list_of_dicts(path_csv_file: pathlib.Path,
     >>> testfile1 = test_directory / '2018-06-06_active_qty.csv'
     >>> path_csv_file_broken_less_fields_than_header = test_directory / 'csv_file_broken_less_fields_than_header.csv'
     >>> path_csv_file_broken_more_fields_than_header = test_directory / 'csv_file_broken_more_fields_than_header.csv'
+
     >>> # Test Ok
     >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=testfile1)
     [{...}, {...}, ...]
@@ -150,6 +152,7 @@ def read_csv_file_with_header_to_list_of_dicts(path_csv_file: pathlib.Path,
     ...                                             check_row_length=False )
     [{'a': '1', 'b': '2', 'c': '3', 'd': '4'}]
 
+
     """
 
     with open(str(path_csv_file), 'r', encoding=encoding) as f_csv_file:
@@ -157,8 +160,8 @@ def read_csv_file_with_header_to_list_of_dicts(path_csv_file: pathlib.Path,
         fieldnames = []
         len_of_header_rows = 0
         l_dict_result = list()
+        my_csv_reader = csv.reader(f_csv_file, delimiter=delimiter, quotechar=quotechar, quoting=quoting, doublequote=doublequote, escapechar=escapechar)
 
-        my_csv_reader = csv.reader(f_csv_file, delimiter=delimiter, quotechar=quotechar, quoting=quoting, doublequote=doublequote)
         for row in my_csv_reader:
 
             if is_first_row:
@@ -171,7 +174,8 @@ def read_csv_file_with_header_to_list_of_dicts(path_csv_file: pathlib.Path,
                 continue
 
             len_current_row = len(row)
-            if check_row_length and (len_current_row != len_of_header_rows):
+            is_number_of_rows_equal = len_current_row == len_of_header_rows
+            if check_row_length and not is_number_of_rows_equal:
                 raise ValueError(f'csv file "{path_csv_file}": header has {len_of_header_rows} rows,'
                                  f' current row has {len_current_row} rows: Header: {fieldnames}, current Row: {row}')
 
