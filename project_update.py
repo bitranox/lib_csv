@@ -25,14 +25,14 @@ def format_commandline_help_file() -> None:
             commandline_help_txt_lines = f_sourcefile.readlines()
         with open(source_file, 'w') as f_targetfile:
             target_lines = list()
-            target_lines.append('.. code-block:: bash\n\n')
+            target_lines.append('.. code-block::\n\n')
             target_lines.append('')
             for commandline_help_txt_line in commandline_help_txt_lines:
                 target_lines.append('   ' + commandline_help_txt_line)
             f_targetfile.writelines(target_lines)
     else:
         with open(str(source_file), 'w') as f_targetfile:
-            f_targetfile.write('.. code-block:: bash\n\n    there are no commandline options\n')
+            f_targetfile.write('.. code-block::\n\n    there are no commandline options\n')
 
 
 def create_commandline_help_file() -> None:
