@@ -245,7 +245,7 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
     >>> ll_data =[['a','b','c'],[1,2,True]]
     >>> write_ll_data_to_csv_file(ll_data=ll_data,path_csv_file=testfile)
     >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=testfile)
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
+    [{'a': '1', 'b': '2', 'c': 'True'}]
 
     >>> # Number of Rows does not match Header
     >>> ll_data =[['a','b','c'],[1,2]]
@@ -265,7 +265,7 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
     >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">'],[2,3,'das ist ein TE;ST']]
     >>> write_ll_data_to_csv_file(ll_data=ll_data,path_csv_file=testfile,escapechar='"')  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
     >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=testfile)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'das ist ein "TE;ST">')]), OrderedDict([('a', '2'), ('b', '3'), ('c', 'das ist ein TE;ST')])]
+    [{'a': '1', 'b': '2', 'c': 'das ist ein "TE;ST">'}, {'a': '2', 'b': '3', 'c': 'das ist ein TE;ST'}]
 
 
     """
@@ -283,17 +283,20 @@ def write_ll_data_to_csv_file(ll_data: List[List[str]],
         for l_data in ll_data:
             my_csv_writer.writerow(l_data)
             if len(l_data) != number_of_fields:
-                raise ValueError('row "{}" has a different length as the header line'.format(l_data))
+                raise ValueError(f'row "{l_data}" has a different length as the header line')
 
 
 def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
                                    path_csv_file: pathlib.Path,
-                                   encoding: str = "ISO-8859-1",
+                                   encoding: str = "utf-8",
                                    delimiter: str = ";",
                                    quotechar: str = '"',
                                    lineterminator: str = '\n',
                                    escapechar: str = '"') -> None:
     """
+    bevor :  encoding: str = "ISO-8859-1",
+
+
     :return:    number of lines exported, including header line
 
     >>> # setup
@@ -306,15 +309,15 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     >>> ll_data =[['a','b','c'],[1,2,True]]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file)
     >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file)
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'True')])]
+    [{'a': '1', 'b': '2', 'c': 'True'}]
 
 
     >>> # Test issue warning: row [1, 2] has a different length as the header line
     >>> ll_data =[['a','b','c'],[1,2]]
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file)
 
     >>> ll_data =[]
-    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file)  # doctest: +ELLIPSIS +NORMALIZE_WHITESPACE
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file)
     Traceback (most recent call last):
         ...
     RuntimeError: Nothing to export
@@ -323,12 +326,19 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
     >>> ll_data =[['a','b','c'],[1,2,'das ist ein "TE;ST">']]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file,escapechar='"')
     >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file)
-    [OrderedDict([('a', '1'), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
+    [{'a': '1', 'b': '2', 'c': 'das ist ein "TE;ST">'}]
 
     >>> ll_data =[['a','b','c'],[None,2,'das ist ein "TE;ST">']]
     >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file,escapechar='"')
     >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file)
-    [OrderedDict([('a', ''), ('b', '2'), ('c', 'das ist ein "TE;ST">')])]
+    [{'a': '', 'b': '2', 'c': 'das ist ein "TE;ST">'}]
+
+    >>> # Test utf-8 encoding
+    >>> ll_data =[['ö','ä','ü'],[None,2,'das ist ein "TE;ST">']]
+    >>> write_ll_data_to_csv_file_ebay(ll_data=ll_data,path_csv_file=test_file,escapechar='"')
+    >>> read_csv_file_with_header_to_list_of_dicts(path_csv_file=test_file, encoding='utf-8')
+    [{'ö': '', 'ä': '2', 'ü': 'das ist ein "TE;ST">'}]
+
 
     >>> # Teardown
     >>> if test_file.is_file(): test_file.unlink()
@@ -349,14 +359,16 @@ def write_ll_data_to_csv_file_ebay(ll_data: List[List[str]],
         number_of_fields = len(ll_data[0])
 
         for l_data in ll_data:
-            csvfile.write(get_ebay_csv_row(l_data, delimiter=b_delimiter, quotechar=b_quotechar, escapechar=b_escapechar) + b_lineterminator)
+            csvfile.write(get_ebay_csv_row(l_data, delimiter=b_delimiter, quotechar=b_quotechar, escapechar=b_escapechar, encoding='utf-8') + b_lineterminator)
             if len(l_data) != number_of_fields:
-                logger.warning('row {} has a different length as the header line'.format(l_data))
+                logger.warning(f'row {l_data} has a different length as the header line')
 
 
-def get_ebay_csv_row(l_data: List[str], delimiter: bytes, quotechar: bytes, escapechar: bytes) -> bytes:
+def get_ebay_csv_row(l_data: List[str], delimiter: bytes, quotechar: bytes, escapechar: bytes, encoding: str = 'utf-8') -> bytes:
     """
-    >>> get_ebay_csv_row(['test','teφst','te"st','te;st'], delimiter=b';', quotechar=b'"', escapechar=b'"')
+    >>> get_ebay_csv_row(['test','teφst','te"st','te;st'], delimiter=b';', quotechar=b'"', escapechar=b'"', encoding='utf-8')
+    b'test;te\xcf\x86st;"te""st";"te;st"'
+    >>> get_ebay_csv_row(['test','teφst','te"st','te;st'], delimiter=b';', quotechar=b'"', escapechar=b'"', encoding='ISO-8859-1')
     b'test;"te&#966;st";"te""st";"te;st"'
     """
     l_str_data = []
@@ -364,7 +376,7 @@ def get_ebay_csv_row(l_data: List[str], delimiter: bytes, quotechar: bytes, esca
         if str_data is None:
             byte_data = b''
         else:
-            byte_data = str(str_data).encode('ISO-8859-1', errors='xmlcharrefreplace')
+            byte_data = str(str_data).encode(encoding, errors='xmlcharrefreplace')
         byte_data = escape_quote_character_in_field(field_data=byte_data, quotechar=quotechar, escapechar=escapechar)
         byte_data = quote_field_if_needed(field_data=byte_data, quotechar=quotechar, delimiter=delimiter)
         l_str_data.append(byte_data)
